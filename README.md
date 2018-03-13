@@ -23,7 +23,7 @@ The program can be compiled using
 
     sbt compile
 
-## Running Tests (TODO: REMOVE IF TEST DATA IS "ILLEGAL")
+## Running Tests
 
 To run all tests, run:
 
