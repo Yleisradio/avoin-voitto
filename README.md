@@ -133,7 +133,7 @@ All code must conform to the code guidelines listed in the following chapter.
 
 Contact lassi.seppala@yle.fi or jarkko.ryynanen@yle.fi if you have ideas to pitch to Yle concerning Voitto-robot.
 
-## License (TODO Check)
+## License
 
-Liiga-voitto is [MIT Licensed](LICENSE)
+Liiga-Voitto is [MIT Licensed](LICENSE)
 
