@@ -135,5 +135,5 @@ Contact lassi.seppala@yle.fi or jarkko.ryynanen@yle.fi if you have ideas to pitc
 
 ## License (TODO Check)
 
-MIT TODO MORE TEXT
+Liiga-voitto is [MIT Licensed](LICENSE)
 
