@@ -1,0 +1,271 @@
+{
+ :penalty-shot
+ {:fi
+  (["Rangaistuslaukaus"])
+  :sv
+  (["Penaltyshot"])}
+ :boarding
+ {:fi
+  (["Laitataklaus"])
+  :sv
+  (["Boarding"])}
+ :boarding-gm
+ {:fi
+  (["Laitataklaus - Pelirangaistus"])
+  :sv
+  (["Boarding - matchstraff"])}
+ :unsportsmanlike-behaviour
+ {:fi
+  (["Epäurheilijamainen käytös"])
+  :sv
+  (["Osportsligt uppträdande"])}
+ :unsportsmanlike-behaviour-gm
+ {:fi
+  (["Epäurheilijamainen käytös - Pelirangaistus"])
+  :sv
+  (["Osportsligt uppträdande - matchstraff"])}
+ :unsportsmanlike-behaviour-m
+ {:fi
+  (["Epäurheilijamainen käytös - Käytösrangaistus"])
+  :sv
+  (["Osportsligt uppträdande"])}
+ :roughing
+ {:fi
+  (["Väkivaltaisuus"])
+  :sv
+  (["Roughing"])}
+ :roughing-gm
+ {:fi
+  (["Väkivaltaisuus - Pelirangaistus"])
+  :sv
+  (["Roughing - matchstraff"])}
+ :holding
+ {:fi
+  (["Kiinnipitäminen"])
+  :sv
+  (["Holding"])}
+ :holding-m
+ {:fi
+  (["Kiinnipitäminen - Käytösrangaistus"])
+  :sv
+  (["Holding"])}
+ :holding-the-stick
+ {:fi
+  (["Mailasta kiinnipitäminen"])
+  :sv
+  (["Holding the stick"])}
+ :cross-checking
+ {:fi
+  (["Poikittainen maila"])
+  :sv
+  (["Crosschecking"])}
+ :delay-of-game
+ {:fi
+  (["Pelin viivyttäminen - kiekko katsomoon"])
+  :sv
+  (["Delay of game"])}
+ :delay-of-game-closing-hand-on-puck
+ {:fi
+  (["Pelin viivyttäminen - kiekon sulkeminen"])
+  :sv
+  (["Delay of game - döljande av puck"])}
+ :delay-of-game-foul-in-start-event
+ {:fi
+  (["Pelin viivyttäminen - rike aloitustapahtumassa"])
+  :sv
+  (["Delay of game - vid nedsläpp"])}
+ :delay-of-game-moving-goal
+ {:fi
+  (["Pelin viivyttäminen - maalin siirtäminen"])
+  :sv
+  (["Delay of game - flyttad målbur"])}
+ :slashing
+ {:fi
+  (["Huitominen"])
+  :sv
+  (["Slashing"])}
+ :check-to-the-head
+ {:fi
+  (["Pään tai niskan alueelle kohdistuva taklaus"])
+  :sv
+  (["Check to the head"])}
+ :check-to-the-head-gm
+ {:fi
+  (["Pään tai niskan alueelle kohdistuva taklaus - Pelirangaistus"])
+  :sv
+  (["Check to the head - matchstraff"])}
+ :check-to-the-head-m
+ {:fi
+  (["Pään tai niskan alueelle kohdistuva taklaus - Käytösrangaistus"])
+  :sv
+  (["Check to the head"])}
+ :too-many-men-on-the-ice
+ {:fi
+  (["Liian monta pelaajaa jäällä"])
+  :sv
+  (["För många spelare på isen"])}
+ :interference
+ {:fi
+  (["Estäminen"])
+  :sv
+  (["Interference"])}
+ :interference-gm
+ {:fi
+  (["Estäminen - Pelirangaistus"])
+  :sv
+  (["Interference - matchstraff"])}
+ :goalie-interference
+ {:fi
+  (["Maalivahdin estäminen"])
+  :sv
+  (["Goalie interference"])}
+ :high-sticking
+ {:fi
+  (["Korkea maila"])
+  :sv
+  (["Highsticking"])}
+ :high-sticking-gm
+ {:fi
+  (["Korkea maila - Pelirangaistus"])
+  :sv
+  (["Highsticking - matchstraff"])}
+ :checking-from-behind
+ {:fi
+  (["Selästä taklaaminen"])
+  :sv
+  (["Checking from behind"])}
+ :checking-from-behind-m
+ {:fi
+  (["Selästä taklaaminen - Käytösrangaistus"])
+  :sv
+  (["Checking from behind"])}
+ :checking-from-behind-gm
+ {:fi
+  (["Selästä taklaaminen - Pelirangaistus"])
+  :sv
+  (["Checking from behind - matchstraff"])}
+ :tripping
+ {:fi
+  (["Kampitus"])
+  :sv
+  (["Tripping"])}
+ :tripping-gm
+ {:fi
+  (["Kampitus - Pelirangaistus"])
+  :sv
+  (["Tripping - matchstraff"])}
+ :hooking
+ {:fi
+  (["Koukkaaminen"])
+  :sv
+  (["Hooking"])}
+ :spearing
+ {:fi
+  (["Keihästäminen"])
+  :sv
+  (["Spearing"])}
+ :spearing-gm
+ {:fi
+  (["Keihästäminen - Pelirangaistus"])
+  :sv
+  (["Spearing - matchstraff"])}
+ :fighting
+ {:fi
+  (["Tappelu"])
+  :sv
+  (["Fighting"])}
+ :throwing-the-stick
+ {:fi
+  (["Mailan heitto"])
+  :sv
+  (["Throwing the stick"])}
+ :diving
+ {:fi
+  (["Sukeltaminen"])
+  :sv
+  (["Diving"])}
+ :elbowing
+ {:fi
+  (["Kyynärpäätaklaus"])
+  :sv
+  (["Elbowing"])}
+ :closing-hand-on-puck
+ {:fi
+  (["Kiekon sulkeminen"])
+  :sv
+  (["Closing hand on puck"])}
+ :kneeing
+ {:fi
+  (["Polvitaklaus"])
+  :sv
+  (["Kneeing"])}
+ :kneeing-gm
+ {:fi
+  (["Polvitaklaus - Pelirangaistus"])
+  :sv
+  (["Kneeing - matchstraff"])}
+ :clipping
+ {:fi
+  (["Leikkaaminen"])
+  :sv
+  (["Clipping"])}
+ :spearing-stick-end
+ {:fi
+  (["Mailan päällä lyöminen"])
+  :sv
+  (["Spearing stick end"])}
+ :broken-stick
+ {:fi
+  (["Rikkoutunut maila"])
+  :sv
+  (["Broken stick"])}
+ :illegal-equipment
+ {:fi
+  (["Väärä varuste"])
+  :sv
+  (["Illegal equipment"])}
+ :head-butting
+ {:fi
+  (["Päällä iskeminen"])
+  :sv
+  (["Headbutting"])}
+ :slew-footing
+ {:fi
+  (["Jalkapyyhkäisy"])
+  :sv
+  (["Slewfooting"])}
+ :charging
+ {:fi
+  (["Ryntäys"])
+  :sv
+  (["Charging"])}
+ :charging-gm
+ {:fi
+  (["Ryntäys - Pelirangaistus"])
+  :sv
+  (["Charging - matchstraff"])}
+ :kicking
+ {:fi
+  (["Potkaiseminen"])
+  :sv
+  (["Kicking"])}
+ :throwing-stick-or-object
+ {:fi
+  (["Mailan tai muun esineen heitto"])
+  :sv
+  (["Throwing stick/object"])}
+ :throwing-stick-or-object-gm
+ {:fi
+  (["Mailan tai muun esineen heitto - Pelirangaistus"])
+  :sv
+  (["Throwing stick/object - matchstraff"])}
+ :unsportsmanlike-behaviour-arguing-with-referee-m
+ {:fi
+  (["Sopimaton käytös tuomaristoa kohtaan - Käytösrangaistus"])
+  :sv
+  (["Osportsligt uppträdande mot domare"])}
+ :unsportsmanlike-behaviour-arguing-with-referee-gm
+ {:fi
+  (["Sopimaton käytös tuomaristoa kohtaan - Pelirangaistus"])
+  :sv
+  (["Osportsligt uppträdande mot domare - matchstraff"])}}

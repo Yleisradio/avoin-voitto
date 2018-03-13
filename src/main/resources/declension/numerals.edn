@@ -1,0 +1,441 @@
+{:number-1
+ {:fi
+  {:nominative "yksi"
+   :ordinal "ensimmäinen"
+   :ordinalInessive "ensimmäisessä"
+   :genitive "yhden"
+   :ordinalGenitive "ensimmäisen"
+   :adessive "yhdellä"}
+  :sv
+  {:nominative "ett"
+   :ordinal "första"}}
+ :number-2
+ {:fi
+  {:nominative "kaksi"
+   :ordinal "toinen"
+   :ordinalInessive "toisessa"
+   :genitive "kahden"
+   :ordinalGenitive "toisen"
+   :adessive "kahdella"}
+  :sv
+  {:nominative "två"
+   :ordinal "andra"}}
+ :number-3
+ {:fi
+  {:nominative "kolme"
+   :ordinal "kolmas"
+   :ordinalInessive "kolmannessa"
+   :genitive "kolmen"
+   :ordinalGenitive "kolmannen"
+   :adessive "kolmella"}
+  :sv
+  {:nominative "tre"
+   :ordinal "tredje"}}
+ :number-4
+ {:fi
+  {:nominative "neljä"
+   :ordinal "neljäs"
+   :ordinalInessive "neljännessä"
+   :genitive "neljän"
+   :ordinalGenitive "neljännen"
+   :adessive "neljällä"}
+  :sv
+  {:nominative "fyra"
+   :ordinal "fjärde"}}
+ :number-5
+ {:fi
+  {:nominative "viisi"
+   :ordinal "viides"
+   :ordinalInessive "viidennessä"
+   :genitive "viiden"
+   :ordinalGenitive "viidennen"
+   :adessive "viidellä"}
+  :sv
+  {:nominative "fem"
+   :ordinal "femte"}}
+ :number-6
+ {:fi
+  {:nominative "kuusi"
+   :ordinal "kuudes"
+   :ordinalInessive "kuudennessa"
+   :genitive "kuuden"
+   :ordinalGenitive "kuudennen"
+   :adessive "kuudella"}
+  :sv
+  {:nominative "sex"
+   :ordinal "sjätte"}}
+ :number-7
+ {:fi
+  {:nominative "seitsemän"
+   :ordinal "seitsemäs"
+   :ordinalInessive "seitsemännessä"
+   :genitive "seitsemän"
+   :ordinalGenitive "seitsemännen"
+   :adessive "seitsemällä"}
+  :sv
+  {:nominative "sju"
+   :ordinal "sjunde"}}
+ :number-8
+ {:fi
+  {:nominative "kahdeksan"
+   :ordinal "kahdeksas"
+   :ordinalInessive "kahdeksannessa"
+   :genitive "kahdeksan"
+   :ordinalGenitive "kahdeksannen"
+   :adessive "kahdeksalla"}
+  :sv
+  {:nominative "åtta"
+   :ordinal "åttonde"}}
+ :number-9
+ {:fi
+  {:nominative "yhdeksän"
+   :ordinal "yhdeksäs"
+   :ordinalInessive "yhdeksännessä"
+   :genitive "yhdeksän"
+   :ordinalGenitive "yhdeksännen"
+   :adessive "yhdeksällä"}
+  :sv
+  {:nominative "nio"
+   :ordinal "nionde"}}
+ :number-10
+ {:fi
+  {:nominative "kymmenen"
+   :ordinal "kymmenes"
+   :ordinalInessive "kymmenennessä"
+   :genitive "kymmenen"
+   :ordinalGenitive "kymmenennen"
+   :adessive "kymmenellä"}
+  :sv
+  {:nominative "tio"
+   :ordinal "tionde"}}
+ :number-11
+ {:fi
+  {:nominative "yksitoista"
+   :ordinal "yhdestoista"
+   :ordinalInessive "yhdennessätoista"
+   :genitive "yhdentoista"
+   :ordinalGenitive "yhdennentoista"
+   :adessive "yhdellä­toista"}
+  :sv
+  {:nominative "elva"
+   :ordinal "elfte"}}
+ :number-12
+ {:fi
+  {:nominative "kaksitoista"
+   :ordinal "kahdestoista"
+   :ordinalInessive "kahdennessatoista"
+   :genitive "kahdentoista"
+   :ordinalGenitive "kahdennen­toista"
+   :adessive "kahdella­toista"}
+  :sv
+  {:nominative "tolv"
+   :ordinal "tolfte"}}
+ :number-13
+ {:fi
+  {:nominative "kolmetoista"
+   :ordinal "kolmastoista"
+   :ordinalInessive "kolmannessatoista"
+   :genitive "kolmentoista"
+   :ordinalGenitive "kolmannen­toista"
+   :adessive "kolmella­toista"}
+  :sv
+  {:nominative "tretton"
+   :ordinal "trettonde"}}
+ :number-14
+ {:fi
+  {:nominative "neljätoista"
+   :ordinal "neljästoista"
+   :ordinalInessive "neljännessätoista"
+   :genitive "neljäntoista"
+   :ordinalGenitive "neljännen­toista"
+   :adessive "neljällä­toista"}
+  :sv
+  {:nominative "fjorton"
+   :ordinal "fjortonde"}}
+ :number-15
+ {:fi
+  {:nominative "viisitoista"
+   :ordinal "viidestoista"
+   :ordinalInessive "viidennessätoista"
+   :genitive "viidentoista"
+   :ordinalGenitive "viidennen­toista"
+   :adessive "viidellä­toista"}
+  :sv
+  {:nominative "femton"
+   :ordinal "femtonde"}}
+ :number-16
+ {:fi
+  {:nominative "kuusitoista"
+   :ordinal "kuudestoista"
+   :ordinalInessive "kuudennessatoista"
+   :genitive "kuudentoista"
+   :ordinalGenitive "kuudennen­toista"
+   :adessive "kuudella­toista"}
+  :sv
+  {:nominative "sexton"
+   :ordinal "sextonde"}}
+ :number-17
+ {:fi
+  {:nominative "seitsemäntoista"
+   :ordinal "seitsemästoista"
+   :ordinalInessive "seitsemännessätoista"
+   :genitive "seitsemäntoista"
+   :ordinalGenitive "seitsemännen­toista"
+   :adessive "seitsemällä­toista"}
+  :sv
+  {:nominative "sjutton"
+   :ordinal "sjuttonde"}}
+ :number-18
+ {:fi
+  {:nominative "kahdeksantoista"
+   :ordinal "kahdeksastoista"
+   :ordinalInessive "kahdeksannessatoista"
+   :genitive "kahdeksantoista"
+   :ordinalGenitive "kahdeksannen­toista"
+   :adessive "kahdeksalla­toista"}
+  :sv
+  {:nominative "arton"
+   :ordinal "artonde"}}
+ :number-19
+ {:fi
+  {:nominative "yhdeksäntoista"
+   :ordinal "yhdeksästoista"
+   :ordinalInessive "yhdeksännessätoista"
+   :genitive "yhdeksäntoista"
+   :ordinalGenitive "yhdeksännen­toista"
+   :adessive "yhdeksällä­toista"}
+  :sv
+  {:nominative "nitton"
+   :ordinal "nittonde"}}
+ :number-20
+ {:fi
+  {:nominative "kaksikymmentä"
+   :ordinal "kahdeskymmenes"
+   :ordinalInessive "kahdennessakymmennessä"
+   :genitive "kahdenkymmenen"
+   :ordinalGenitive "kahdennen­kymmenennen"
+   :adessive "kahdella­kymmenellä"}
+  :sv
+  {:nominative "tjugo"
+   :ordinal "tjugonde"}}
+ :number-21
+ {:fi
+  {:nominative "kaksikymmentäyksi"
+   :ordinal "21:s"
+   :ordinalInessive "21:nnessä"
+   :genitive "21:n"
+   :ordinalGenitive "21:nnen"
+   :adessive "21:llä"}
+  :sv
+  {:nominative "tjugoett"
+   :ordinal "21:a"}}
+ :number-22
+ {:fi
+  {:nominative "kaksikymmentäkaksi"
+   :ordinal "22:s"
+   :ordinalInessive "22:nnessa"
+   :genitive "22:n"
+   :ordinalGenitive "22:nnen"
+   :adessive "22:lla"}
+  :sv
+  {:nominative "tjugotvå"
+   :ordinal "22:a"}}
+ :number-23
+ {:fi
+  {:nominative "kaksikymmentäkolme"
+   :ordinal "23:s"
+   :ordinalInessive "23:nnessa"
+   :genitive "23:n"
+   :ordinalGenitive "23:nnen"
+   :adessive "23:lla"}
+  :sv
+  {:nominative "tjugotre"
+   :ordinal "23:e"}}
+ :number-24
+ {:fi
+  {:nominative "kaksikymmentäneljä"
+   :ordinal "24:s"
+   :ordinalInessive "24:nnessä"
+   :genitive "24:n"
+   :ordinalGenitive "24:nnen"
+   :adessive "24:llä"}
+  :sv
+  {:nominative "tjugofyra"
+   :ordinal "24:e"}}
+ :number-25
+ {:fi
+  {:nominative "kaksikymmentäviisi"
+   :ordinal "25:s"
+   :ordinalInessive "25:nnessä"
+   :genitive "25:n"
+   :ordinalGenitive "25:nnen"
+   :adessive "25:llä"}
+  :sv
+  {:nominative "tjugofem"
+   :ordinal "25:e"}}
+ :number-26
+ {:fi
+  {:nominative "kaksikymmentäkuusi"
+   :ordinal "26:s"
+   :ordinalInessive "26:nnessa"
+   :genitive "26:n"
+   :ordinalGenitive "26:nnen"
+   :adessive "26:lla"}
+  :sv
+  {:nominative "tjugosex"
+   :ordinal "26:e"}}
+ :number-27
+ {:fi
+  {:nominative "kaksikymmentäseitsemän"
+   :ordinal "27:s"
+   :ordinalInessive "27:nnessä"
+   :genitive "27:n"
+   :ordinalGenitive "27:nnen"
+   :adessive "27:llä"}
+  :sv
+  {:nominative "tjugosju"
+   :ordinal "27:e"}}
+ :number-28
+ {:fi
+  {:nominative "kaksikymmentäkahdeksan"
+   :ordinal "28:s"
+   :ordinalInessive "28:nnessa"
+   :genitive "28:n"
+   :ordinalGenitive "28:nnen"
+   :adessive "28:lla"}
+  :sv
+  {:nominative "tjugoåtta"
+   :ordinal "28:e"}}
+ :number-29
+ {:fi
+  {:nominative "kaksikymmentäyhdeksän"
+   :ordinal "29:s"
+   :ordinalInessive "29:nnessä"
+   :genitive "29:n"
+   :ordinalGenitive "29:nnen"
+   :adessive "29:llä"}
+  :sv
+  {:nominative "tjugonio"
+   :ordinal "29:e"}}
+ :number-30
+ {:fi
+  {:nominative "kolmekymmentä"
+   :ordinal "30:s"
+   :ordinalInessive "30:nnessä"
+   :genitive "30:n"
+   :ordinalGenitive "30:nnen"
+   :adessive "30:llä"}
+  :sv
+  {:nominative "trettio"
+   :ordinal "30:e"}}
+ :number-31
+ {:fi
+  {:nominative "kolmekymmentäyksi"
+   :ordinal "31:s"
+   :ordinalInessive "31:nnessä"
+   :genitive "31:n"
+   :ordinalGenitive "31:nnen"
+   :adessive "31:llä"}
+  :sv
+  {:nominative "trettioett"
+   :ordinal "31:a"}}
+ :number-32
+ {:fi
+  {:nominative "kolmekymmentäkaksi"
+   :ordinal "32:s"
+   :ordinalInessive "32:nnessa"
+   :genitive "32:n"
+   :ordinalGenitive "32:nnen"
+   :adessive "32:llä"}
+  :sv
+  {:nominative "trettiotvå"
+   :ordinal "32:a"}}
+ :number-33
+ {:fi
+  {:nominative "kolmekymmentäkolme"
+   :ordinal "33:s"
+   :ordinalInessive "33:nnessä"
+   :genitive "33:n"
+   :ordinalGenitive "33:nnen"
+   :adessive "33:llä"}
+  :sv
+  {:nominative "trettiotre"
+   :ordinal "33:e"}}
+ :number-34
+ {:fi
+  {:nominative "kolmekymmentäneljä"
+   :ordinal "34:s"
+   :ordinalInessive "34:nnessä"
+   :genitive "34:n"
+   :ordinalGenitive "34:nnen"
+   :adessive "34:llä"}
+  :sv
+  {:nominative "trettiofyra"
+   :ordinal "34:e"}}
+ :number-35
+ {:fi
+  {:nominative "kolmekymmentäviisi"
+   :ordinal "35:s"
+   :ordinalInessive "35:nnessä"
+   :genitive "35:n"
+   :ordinalGenitive "35:nnen"
+   :adessive "35:llä"}
+  :sv
+  {:nominative "trettiofem"
+   :ordinal "35:e"}}
+ :number-36
+ {:fi
+  {:nominative "kolmekymmentäkuusi"
+   :ordinal "36:s"
+   :ordinalInessive "36:nnessa"
+   :genitive "36:n"
+   :ordinalGenitive "36:nnen"
+   :adessive "36:lla"}
+  :sv
+  {:nominative "trettiosex"
+   :ordinal "36:e"}}
+ :number-37
+ {:fi
+  {:nominative "kolmekymmentäseitsemän"
+   :ordinal "37:s"
+   :ordinalInessive "37:nnessä"
+   :genitive "37:n"
+   :ordinalGenitive "37:nnen"
+   :adessive "37:llä"}
+  :sv
+  {:nominative "trettiosju"
+   :ordinal "37:e"}}
+ :number-38
+ {:fi
+  {:nominative "kolmekymmentäkahdeksan"
+   :ordinal "38:s"
+   :ordinalInessive "38:nnessa"
+   :genitive "38:n"
+   :ordinalGenitive "38:nnen"
+   :adessive "38:lla"}
+  :sv
+  {:nominative "trettioåtta"
+   :ordinal "38:e"}
+  :number-39
+  {:fi
+   {:nominative "kolmekymmentäyhdeksän"
+    :ordinal "39:s"
+    :ordinalInessive "39:nnessä"
+    :genitive "39:n"
+    :ordinalGenitive "39:nnen"
+    :adessive "39:llä"}
+   :sv
+   {:nominative "trettionio"
+    :ordinal "39:e"}}
+  :number-40
+  {:fi
+   {:nominative "neljäkymmentä"
+    :ordinal "40:s"
+    :ordinalInessive "40:nnessä"
+    :genitive "40:n"
+    :ordinalGenitive "40:nnen"
+    :adessive "40:llä"}
+   :sv
+   {:nominative "fyrtio"
+    :ordinal "40:e"}}}
+ }

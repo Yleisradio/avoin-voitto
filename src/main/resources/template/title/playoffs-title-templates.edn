@@ -1,0 +1,61 @@
+{
+ :winner-won
+ {:fi
+  (["{{winner}} kaatoi {{loser:accusative}} {{seriesMatchCount:ordinalInessive}} osaottelussa"]
+   ["{{winner}} löi {{loser:accusative}} {{seriesMatchCount:ordinalInessive}} osaottelussa"]
+   ["{{winner}} voitti {{loser:accusative}} {{seriesMatchCount:ordinalInessive}} osaottelussa"]
+   ["{{winner}} voitti {{seriesMatchCount:ordinalInessive}} osaottelussa, {{loser}} hävisi" {:weight 0.01}])
+  :sv
+  (["{{winner}} vann {{loser}} i {{seriesMatchCount:ordinal}} matchen"]
+   ["{{winner}} slog {{loser}} i {{seriesMatchCount:ordinal}} matchen"])}
+
+ :winner-won-third-place
+ {:fi
+  (["{{winner}} kaatoi {{loser:accusative}} ja nappasi pronssia"]
+   ["{{winner}} kaatoi {{loser:accusative}} pronssiottelussa"]
+   ["{{winner}} löi {{loser:accusative}} pronssiottelussa"]
+   ["{{winner}} voitti pronssia, {{loser}} jäi neljänneksi" {:weight 0.01}])
+  :sv
+  (["{{winner}} vann brons mot {{loser}}"]
+   ["{{winner}} slog {{loser}} i bronsmatch"])}
+
+ :winner-won-championship
+ {:fi
+  (["{{winner}} kaatoi {{loser:accusative}} ja vei mestaruuden!"]
+   ["{{winner}} päihitti {{loser:accusative}} ja valloitti mestaruuden!"]
+   ["{{winner}} voitti mestaruuden, {{loser}} hävisi {{loserHomeOrAway:possuf}}" {:weight 0.01}])
+  :sv
+  (["{{winner}} slog {{loser}} och tog mästerskapet!"])}
+
+ :winner-one-win-away
+ {:fi
+  (["{{winner}} enää voiton päässä jatkopaikasta {{loser:partitive}} vastaan"]
+   ["{{winner}} voiton päässä jatkopaikasta, {{loser}} putoamaisillaan"])
+  :sv
+  (["{{winner}} en seger från att fälla {{loser}}"]
+   ["{{loser}} på fallrepet, {{winner}} en seger från avancemang"])}
+
+ :winner-equalised
+ {:fi
+  (["{{winner}} tasoitti voitot {{loser:partitive}} vastaan"]
+   ["{{winner}} tasoitti voitot, {{loser}} hävisi {{loserHomeOrAway:possuf}}"])
+  :sv
+  (["{{winner}} kvitterade matchserien mot {{loser}}"]
+   ["{{winner}} utjämnade matchserien mot {{loser}}"])}
+
+ :winner-took-the-lead
+ {:fi
+  (["{{winner}} nappasi johtoaseman {{loser:partitive}} vastaan"]
+   ["{{winner}} otti johdon {{loser:partitive}} vastaan"]
+   ["{{winner}} nappasi johtoaseman, {{loser}} hävisi {{loserHomeOrAway:possuf}}"])
+  :sv
+  (["{{winner}} tog ledningen mot {{loser}}"]
+   ["{{winner}} tog ledningen i matchserien mot {{loser}}"])}
+
+ :winner-won-series
+ {:fi
+  (["{{winner}} voitti {{loser:accusative}} ja siirtyi jatkoon"]
+   ["{{winner}} passitti {{loser:accusative}} lomille"]
+   ["{{winner}} nappasi voiton, {{loser}} putosi {{loserHomeOrAway:possuf}}" {:weight 0.01}])
+  :sv
+  (["{{winner}} vidare efter seger mot {{loser}}"])}}

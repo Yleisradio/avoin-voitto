@@ -1,0 +1,25 @@
+{
+ :winner-many-wins
+ {:fi
+  (["{{winner:allative}} voitto oli jo kauden {{winnerWins:ordinal}}, kun kautta on takana {{winnerTotalMatches}} ottelua."]
+   ["Voitto oli {{winner:allative}} jo kauden {{winnerWins:ordinal}}, kun kautta on takana {{winnerTotalMatches}} ottelua."]
+   ["{{winner}} otti jo kauden {{winnerWins:ordinalGenitive}} voittonsa, kun kautta on takana {{winnerTotalMatches}} ottelua."])
+  :sv
+  (["{{winner}} tog säsongens {{winnerWins:ordinal}} vinst, efter totalt {{winnerTotalMatches}} spelade matcher."]
+   ["Efter totalt {{winnerTotalMatches}} spelade matcher tog {{winner}} redan sin {{winnerWins:ordinal}} vinst."])}
+
+ :winner-few-wins
+ {:fi
+  (["{{winner:allative}} voitto oli vasta kauden {{winnerWins:ordinal}}, kun kautta on takana {{winnerTotalMatches}} ottelua."]
+   ["Voitto oli {{winner:allative}} vasta kauden {{winnerWins:ordinal}}, kun kautta on takana {{winnerTotalMatches}} ottelua."]
+   ["{{winner}} otti vasta kauden {{winnerWins:ordinalGenitive}} voittonsa, kun kautta on takana {{winnerTotalMatches}} ottelua."])
+  :sv
+  (["Då det spelats {{winnerTotalMatches}} matcher i säsongen lyckades {{winner}} ta sin {{winnerWins:ordinal}} vinst."])}
+
+ :fallback
+ {:fi
+  (["{{winner:allative}} voitto oli kauden {{winnerWins:ordinal}}, kun kautta on takana {{winnerTotalMatches}} ottelua."]
+   ["Voitto oli {{winner:allative}} kauden {{winnerWins:ordinal}}, kun kautta on takana {{winnerTotalMatches}} ottelua."]
+   ["{{winner}} otti kauden {{winnerWins:ordinalGenitive}} voittonsa, kun kautta on takana {{winnerTotalMatches}} ottelua."])
+  :sv
+  (["Vinsten var den {{winnerWins:ordinal}} för {{winner}} efter {{winnerTotalMatches}} spelade matcher denna säsong."])}}

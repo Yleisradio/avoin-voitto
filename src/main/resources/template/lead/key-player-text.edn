@@ -1,0 +1,178 @@
+{
+ ; Best player scores a hattrick
+ :winning-goal-hattrick
+ {:fi
+  (["{{winningTeamBestPlayer}} oli huimassa vedossa ja takoi hattutempun."]
+   ["{{winningTeamBestPlayer}} oli huimassa vireessä ja iski hattutempun."]
+   ["{{winningTeamBestPlayer}} onnistui hattutempun arvoisesti."]
+   ["{{winningTeamBestPlayer}} loisti ottelun tähtenä ja takoi hattutempun."]
+   ["{{winningTeamBestPlayer}} varmisti hattutempullaan joukkueensa voiton."]
+   ["{{winningTeamBestPlayer}} oli huimassa vedossa ja takoi kolme maalia."]
+   ["{{winningTeamBestPlayer}} oli huimassa vireessä ja iski kolme maalia."]
+   ["{{winningTeamBestPlayer}} varmisti kolmella maalillaan joukkueensa voiton."]
+   ["{{winner:genitive}} ykkössankarina kunnostautui hattutempullaan {{winningTeamBestPlayer}}."]
+   ["{{winner:genitive}} ykkössankarina oli hattutempun viimeistellyt {{winningTeamBestPlayer}}."]
+   ["{{winningTeamBestPlayer}} upotti {{loser:accusative}} hattutempullaan."])
+  :sv
+  (["{{winningTeamBestPlayer}} gjorde hattrick och säkerställde segern."]
+   ["{{winningTeamBestPlayer}} knep segern med hattrick."]
+   ["{{winner:genitive}} bästa spelare {{winningTeamBestPlayer}} gjorde hattrick och avgörde matchen."])}
+
+ ; Best player scores hattrick for home team
+ :winning-goal-hattrick-home
+ {:fi
+  (["Isäntien ilotulitusta johti hattutempun iskenyt {{winningTeamBestPlayer}}."]
+   ["Isäntien ykkössankarina kunnostautui hattutempullaan {{winningTeamBestPlayer}}."]
+   ["{{winningTeamBestPlayer}} kuritti vieraita hattutempullaan."]
+   ["{{winningTeamBestPlayer}} kuritti vieraita kolmella maalillaan."])
+  :sv
+  (["Hemmalagets {{winningTeamBestPlayer}} körde över motståndet och gjorde hattrick."]
+   ["{{winningTeamBestPlayer}} var i hård form på hemmaplan och gjorde tre mål."])}
+
+ ; Best player scores hattrick for away team
+ :winning-goal-hattrick-away
+ {:fi
+  (["{{winningTeamBestPlayer}} kuritti isäntiä hattutempullaan."]
+   ["{{winningTeamBestPlayer}} kuritti isäntiä kolmella maalillaan."]
+   ["Vieraiden ilotulitusta johti hattutempun iskenyt {{winningTeamBestPlayer}}."]
+   ["Vieraiden ykkössankarina kunnostautui hattutempullaan {{winningTeamBestPlayer}}."])
+  :sv
+  (["{{winningTeamBestPlayer}} var i hård form på bortaplan och gjorde hattrick."])}
+
+ ; Winning goal scores has no assists
+ :winning-goal-no-assists
+ {:fi
+  (["Sinetin upotti {{winningTeamBestPlayer.goals:genitive}} maalin iltaa viettänyt {{winningTeamBestPlayer}}, joka johdatti joukkueensa komeasti voittoon." {:weight 0.5}]
+   ["Ratkaisun iski {{winningTeamBestPlayer.goals:genitive}} maalin iltaa viettänyt {{winningTeamBestPlayer}}, joka johdatti joukkueensa komeasti voittoon."]
+   ["Ratkaisumaalin iski {{winningTeamBestPlayer.goals:genitive}} maalin iltaa viettänyt {{winningTeamBestPlayer}}."])
+  :sv
+  (["{{winningTeamBestPlayer}} avgjorde genom att skjuta matchens {{winningTeamBestPlayer.goals:ordinal}} mål och säkerställde därmed {{winner:genitive}} seger."])}
+
+ ; Winning goal scorer scores only one goal but has assists
+ :winning-goal-only-with-assists
+ {:fi
+  (["Sinetin upotti {{winningTeamBestPlayer.points:genitive}} tehopisteen iltaa viettänyt {{winningTeamBestPlayer}}. Ratkaisumaalin lisäksi hän sai tililleen {{winningTeamBestPlayer.assists:nominative}} syöttöpistettä." {:weight 0.5}]
+   ["Ratkaisun iski {{winningTeamBestPlayer.points:genitive}} tehopisteen iltaa viettänyt {{winningTeamBestPlayer}}. Ratkaisumaalin lisäksi hän sai tililleen {{winningTeamBestPlayer.assists:nominative}} syöttöpistettä."]
+   ["{{winningTeamBestPlayer}} oli tehokkaalla pelipäällä. Ratkaisumaalin lisäksi hän sai tililleen {{winningTeamBestPlayer.assists:nominative}} syöttöpistettä."])
+  :sv
+  (["{{winningTeamBestPlayer}} gjorde en stark match. Förrutom det avgörande målet assisterade han också till {{winningTeamBestPlayer.assists}} mål."])}
+
+ ; Winning goal scorer has many points
+ :winning-goal-with-good-points
+ {:fi
+  (["Sinetin upotti {{winningTeamBestPlayer.points:genitive}} tehopisteen iltaa viettänyt {{winningTeamBestPlayer}}. {{winningTeamBestPlayer.goals:genitive:capitalize}} maalin lisäksi hän sai tililleen {{winningTeamBestPlayer.assists:nominative}} syöttöpistettä." {:weight 0.5}]
+   ["Ratkaisun iski {{winningTeamBestPlayer.points:genitive}} tehopisteen iltaa viettänyt {{winningTeamBestPlayer}}. {{winningTeamBestPlayer.goals:genitive:capitalize}} maalin lisäksi hän sai tililleen {{winningTeamBestPlayer.assists:nominative}} syöttöpistettä."]
+   ["{{winningTeamBestPlayer}} oli tehokkaalla pelipäällä. {{winningTeamBestPlayer.goals:genitive:capitalize}} maalin lisäksi hän sai tililleen {{winningTeamBestPlayer.assists:nominative}} syöttöpistettä."])
+  :sv
+  (["{{winningTeamBestPlayer}} var i toppform. Förrutom sina {{winningTeamBestPlayer.goals}} mål så tog han också {{winningTeamBestPlayer.assists:nominative}} poäng för assistans."])}
+
+ :winning-goal-one-assist
+ {:fi
+  (["Sinetin upotti {{winningTeamBestPlayer.points:genitive}} tehopisteen iltaa viettänyt {{winningTeamBestPlayer}}. {{winningTeamBestPlayer.goals:genitive:capitalize}} maalin lisäksi hän sai tililleen yhden syöttöpisteen." {:weight 0.5}]
+   ["Ratkaisun iski {{winningTeamBestPlayer.points:genitive}} tehopisteen iltaa viettänyt {{winningTeamBestPlayer}}. {{winningTeamBestPlayer.goals:genitive:capitalize}} maalin lisäksi hän sai tililleen yhden syöttöpisteen."]
+   ["Ratkaisumaalin iski {{winningTeamBestPlayer.goals:genitive}} maalin iltaa viettänyt {{winningTeamBestPlayer}}. {{winningTeamBestPlayer.goals:genitive:capitalize}} maalin lisäksi hän sai tililleen yhden syöttöpisteen."])
+  :sv
+  (["{{winningTeamBestPlayer}} skjöt in det avgörande {{winningTeamBestPlayer.goals:ordinal}} målet och tog dessutom ett poäng för assistans."])}
+
+
+ :key-player-no-assists
+ {:fi
+  (["{{winner:genitive}} ratkaisijana hääri {{winningTeamBestPlayer}}, joka johdatti joukkueensa komeasti voittoon {{winningTeamBestPlayer.goals:adessive}} maalillaan."]
+   ["{{winner:genitive}} ratkaisijana hääri {{winningTeamBestPlayer}}, joka teki {{winningTeamBestPlayer.goals:nominative}} osumaa."]
+   ["{{winningTeamBestPlayer}} johdatti {{winner:accusative}} voittoon {{winningTeamBestPlayer.goals:adessive}} maalillaan."]
+   ["{{winner:genitive}} {{winningTeamBestPlayer}} oli hyvässä vireessä tehden {{winningTeamBestPlayer.goals:nominative}} osumaa."]
+   ["{{winningTeamBestPlayer}} oli tehokkaalla pelipäällä iskien {{winningTeamBestPlayer.goals:nominative}} osumaa."])
+  :sv
+  (["{{winningTeamBestPlayer}} var avgörande för {{winner}} seger med {{winningTeamBestPlayer.goals}} skott i mål."])}
+
+ :key-player-one-assist
+ {:fi
+  (["{{winner:genitive}} ratkaisijana hääri {{winningTeamBestPlayer}}. {{winningTeamBestPlayer.goals:genitive:capitalize}} maalin lisäksi hän sai tililleen yhden syöttöpisteen."]
+   ["{{winner:genitive}} {{winningTeamBestPlayer}} oli hyvässä vireessä. {{winningTeamBestPlayer.goals:genitive:capitalize}} maalin lisäksi hän sai tililleen yhden syöttöpisteen."]
+   ["{{winner:genitive}} {{winningTeamBestPlayer}} oli tehokkaalla pelipäällä. {{winningTeamBestPlayer.goals:genitive:capitalize}} maalin lisäksi hän sai tililleen yhden syöttöpisteen."]
+   ["{{winnerTeamHomeOrAway:genitive}} {{winningTeamBestPlayer}} oli tehokkaalla pelipäällä. {{winningTeamBestPlayer.goals:genitive:capitalize}} maalin lisäksi hän sai tililleen yhden syöttöpisteen."])
+  :sv
+  (["{{winner:genitive}} {{winningTeamBestPlayer}} gjorde en fantastisk match med {{winningTeamBestPlayer.goals}} mål och assisterade dessutom till ytterligare ett mål."])}
+
+ :key-player-many-assists
+ {:fi
+  (["{{winner:genitive}} ratkaisijana hääri {{winningTeamBestPlayer}}. {{winningTeamBestPlayer.goals:genitive:capitalize}} maalin lisäksi hän sai tililleen {{winningTeamBestPlayer.assists:nominative}} syöttöpistettä."]
+   ["{{winner:genitive}} {{winningTeamBestPlayer}} oli hyvässä vireessä. {{winningTeamBestPlayer.goals:genitive:capitalize}} maalin lisäksi hän sai tililleen {{winningTeamBestPlayer.assists:nominative}} syöttöpistettä."]
+   ["{{winner:genitive}} {{winningTeamBestPlayer}} oli tehokkaalla pelipäällä. {{winningTeamBestPlayer.goals:genitive:capitalize}} maalin lisäksi hän sai tililleen {{winningTeamBestPlayer.assists:nominative}} syöttöpistettä."]
+   ["{{winnerTeamHomeOrAway:genitive}} {{winningTeamBestPlayer}} oli tehokkaalla pelipäällä. {{winningTeamBestPlayer.goals:genitive:capitalize}} maalin lisäksi hän sai tililleen {{winningTeamBestPlayer.assists:nominative}} syöttöpistettä."])
+  :sv
+  (["{{winner:genitive}} {{winningTeamBestPlayer}} gjorde en fantastisk match med {{winningTeamBestPlayer.goals}} mål och på det ännu assistans till ytterligare {{winningTeamBestPlayer.assists}} mål."])}
+
+ :losing-key-player-three-or-more-goals
+ {:fi
+  (["{{loser:genitive}} {{losingTeamBestPlayer}} oli ottelun hahmo, mutta {{losingTeamBestPlayer:genitive}} {{losingTeamBestPlayer.goals:nominative}} maalia eivät kuitenkaan riittäneet voittoon."]
+   ["{{loser:genitive}} {{losingTeamBestPlayer}} iski ottelussa {{losingTeamBestPlayer.goals:nominative}} maalia, mutta ne eivät kuitenkaan riittäneet voittoon."]
+   ["{{loserTeamHomeOrAway:genitive}} {{losingTeamBestPlayer}} iski ottelussa {{losingTeamBestPlayer.goals:nominative}} maalia, mutta ne eivät kuitenkaan riittäneet voittoon." {:weight 0.5}])
+  :sv
+  (["{{loser:genitive}} {{losingTeamBestPlayer}} gjorde en stenhård insats men inte ens hans {{losingTeamBestPlayer.goals}} mål räckte till vinst den här gången."])}
+
+ :losing-key-player-two-goals
+ {:fi
+  (["{{losingTeamBestPlayer:genitive}} {{losingTeamBestPlayer.goals:nominative}} maalia ei auttanut {{loser:partitive}} voittoon."]
+   ["{{loserTeamHomeOrAway:genitive}} {{losingTeamBestPlayer}} teki {{losingTeamBestPlayer.goals:nominative}} maalia, mutta ne eivät riittäneet voittoon." {:weight 0.5}])
+  :sv
+  (["{{losingTeamBestPlayer}} gjorde {{losingTeamBestPlayer.goals:nominative}} mål, men det räckte inte till för att ta {{loser}} till seger."])}
+
+ :key-player-points
+ {:fi
+  (["{{winner:genitive}} ratkaisijana hääri {{winningTeamBestPlayer}} tehoin {{winningTeamBestPlayer.statsText}}."]
+   ["{{winner:genitive}} {{winningTeamBestPlayer}} oli hyvässä vireessä tehoilla {{winningTeamBestPlayer.statsText}}."]
+   ["{{winner:genitive}} {{winningTeamBestPlayer}} oli tehokkaalla pelipäällä tehoin {{winningTeamBestPlayer.statsText}}."]
+   ["{{winnerTeamHomeOrAway:genitive}} {{winningTeamBestPlayer}} oli tehokkaalla pelipäällä tehoin {{winningTeamBestPlayer.statsText}}."])
+  :sv
+  (["{{winner:genitive}} {{winningTeamBestPlayer}} gjorde en utmärkt match och tog {{winningTeamBestPlayer.statsText}} poäng."])}
+
+ :losing-key-player-two-goals
+ {:fi
+  (["{{losingTeamBestPlayer:genitive}} {{losingTeamBestPlayer.goals:nominative}} maalia ei auttanut {{loser:partitive}} voittoon."]
+   ["{{losingTeamBestPlayer}} iski ottelussa {{losingTeamBestPlayer.goals:nominative}} maalia, mutta se ei riittänyt siivittämään {{loser:partitive}} voittoon."]
+   ["{{losingTeamBestPlayer}} iski ottelussa {{losingTeamBestPlayer.goals:nominative}} maalia, mutta se ei riittänyt siivittämään {{loserTeamHomeOrAway:partitive}} voittoon." {:weight 0.01}])
+  :sv
+  (["{{losingTeamBestPlayer}} gjorde en stark insats och sköt in {{losingTeamBestPlayer.goals}} mål, men det räckte inte hela vägen för att ta {{loser}} till vinst."])}
+
+ :goalie-shutout
+ {:fi
+  (["{{winningTeamBestGoalie}} varmisti {{winner:allative}} voiton {{winningTeamBestGoalie.saves}} torjunnallaan."]
+   ["{{winningTeamBestGoalie}} pysäytti {{loser:accusative}} {{winningTeamBestGoalie.saves}} torjunnallaan."]
+   ["{{winningTeamBestGoalie}} loisti maalillaan ja nappasi tililleen {{winningTeamBestGoalie.saves}} torjuntaa."])
+  :sv
+  (["{{winningTeamBestGoalie}} stod som en mur vid målet och blockerade {{winningTeamBestGoalie.saves}} skott och säkerställde därmed segern för {{winner}}."])}
+
+ :shootout
+ {:fi
+  (["Ottelun voittomaalin iski {{winningGoalPlayer}} voittomaalikilpailussa."]
+   ["{{winningGoalPlayer}} ratkaisi ottelun voittomaalikilpailussa."]
+   ["Voittomaalikilpailuun venyneen ottelun ratkaisi {{winningGoalPlayer}}."]
+   ["{{winningGoalPlayer}} johdatti joukkueensa voittoon voittomaalikilpailussa."]
+   ["Ottelun ratkaisijaksi nousi voittomaalikilpailussa {{winningGoalPlayer}}."])
+  :sv
+  (["{{winningGoalPlayer}} avgjorde matchen först med straffskott i förlängning."])}
+
+ :overtime
+ {:fi
+  (["Ottelun voittomaalin iski {{winningGoalPlayer}} jatkoajalla."]
+   ["{{winningGoalPlayer}} iski ottelun voittomaalin jatkoajalla."]
+   ["{{winningGoalPlayer}} ratkaisi ottelun jatkoajalla."]
+   ["{{winningGoalPlayer}} johdatti joukkueensa voittoon jatkoajalla."])
+  :sv
+  (["{{winningGoalPlayer}} avgjorde i förlängning."])}
+
+ :regulation
+ {:fi
+  (["Ottelun voittomaalin iski {{winningGoalPlayer}} ajassa {{winningGoalTime}}."]
+   ["Ottelun voittomaalista vastasi {{winningGoalPlayer}} ajassa {{winningGoalTime}}."]
+   ["Ottelun ratkaisijaksi nousi {{winningGoalPlayer}}, joka teki voittomaaliksi jääneen osuman ajassa {{winningGoalTime}}."])
+  :sv
+  (["{{winningGoalPlayer}} sköt in det vinnande målet då klockan stod på {{winningGoalTime}}."])}
+
+ :playoff-additional-periods
+ {:fi
+  (["Ottelun voittomaalin iski {{winningGoalPlayer}} {{lastAdditionalPeriodNumber:ordinalInessive}} jatkoerässä ajassa {{winningGoalTime}}."])
+  :sv
+  (["{{winningGoalPlayer}} avgjorde i {{lastAdditionalPeriodNumber:ordinal}} förlängning."])}}
+

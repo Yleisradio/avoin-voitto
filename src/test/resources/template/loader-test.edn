@@ -1,0 +1,17 @@
+{
+ ; When the winning team's best player scores 4 or more goals
+ :score-over-three-goals 
+  {:fi 
+   (["{{bestPlayer}} tykitti {{bestPlayer.goals:text}} maalia"]
+    ["{{bestPlayer:n}} tykki lauloi {{bestPlayer.goals}} kertaa" {:weight 0.5}])
+   :sv
+   (["?"]
+    ["?" {:weight 0.5}])}
+ :score-hatrick
+  {:fi
+   (["{{bestPlayer}} tykitti hattutempun" {:weight 0.5}])
+   :sv
+   (["?"]
+    ["?" {:weight 0.5}])}}
+ 
+ 

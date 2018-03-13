@@ -1,0 +1,21 @@
+{
+ :even
+ {:fi
+  (["{{winner}} tasoitti kauden keskinäiset kohtaamiset lukemiin {{headToHeadResult}}."]
+   ["Kauden keskinäiset kohtaamiset ovat {{winner:genitive}} voiton myötä tasan {{headToHeadResult}}."])
+  :sv
+  (["{{winner}} jämnade ut siffrorna mellan lagen till {{headToHeadResult}}."])}
+
+ :more-wins-for-home
+ {:fi
+  (["Kauden keskinäiset kohtaamiset ovat nyt {{homeTeam:allative}} {{headToHeadResult}}."]
+   ["{{homeTeam}} johtaa kauden keskinäisiä kohtaamisia lukemin {{headToHeadResult}}."])
+  :sv
+  (["{{homeTeam}} leder nu statistiken mellan lagen med {{headToHeadResult}}."])}
+
+ :more-wins-for-away
+ {:fi
+  (["Kauden keskinäiset kohtaamiset ovat nyt {{awayTeam:allative}} {{headToHeadResult}}."]
+   ["{{awayTeam}} johtaa kauden keskinäisiä kohtaamisia lukemin {{headToHeadResult}}."])
+  :sv
+  (["Resultatet för lagens möten står nu till {{awayTeam:genitive}} fördel {{headToHeadResult}}."])}}

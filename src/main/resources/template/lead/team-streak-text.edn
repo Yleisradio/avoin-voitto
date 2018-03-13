@@ -1,0 +1,98 @@
+{
+ ; Winner is on a winning streak
+ :winning-streak-continues
+ {:fi
+  (["{{winner}} otti jo {{winnerWinStreakCurrent:ordinalGenitive}} perättäisen voittonsa {{winnerResult}} {{homeOrAwayWin:adessive}} {{loser:elative}}."]
+   ["{{winner}} nappasi jo {{winnerWinStreakCurrent:ordinalGenitive}} perättäisen voittonsa {{winnerResult}} {{homeOrAwayWin:adessive}} {{loser:elative}}."]
+   ["{{winner:genitive}} {{winnerWinStreakPrevious:genitive}} ottelun voittoputki sai jatkoa joukkueen voittaessa {{loser:accusative}} maalein {{winnerResult}}."]
+   ["{{winner}} jatkoi hyviä otteitaan ja nappasi jo {{winnerWinStreakCurrent:ordinalGenitive}} perättäisen voittonsa kaataessaan {{loser:accusative}} maalein {{winnerResult}}."]
+   ["{{winner}} otti jo {{winnerWinStreakCurrent:ordinalGenitive}} perättäisen voittonsa, kun {{loser}} kaatui maalein {{winnerResult}}." {:weight 0.01}])
+  :sv
+  (["{{winner}} fortsatte sin vinstsvit på {{winnerWinStreakCurrent}} matcher med {{homeOrAwayWin:nominative}} över {{loser}} med resultatet {{winnerResult}}."])}
+
+ ; Winner has a lot of points in recent games
+ :pointstreak-continues
+ {:fi
+  (["{{winner:genitive}} hyvä vire sai jatkoa {{winnerResult}}-{{homeOrAwayWin:adessive}} {{loser:elative}}."]
+   ["{{winner}} jatkoi viimeaikaisia hyviä otteitaan {{winnerResult}}-{{homeOrAwayWin:adessive}} {{loser:elative}}."]
+   ["{{winner:genitive}} pisteputki sai jatkoa {{winnerResult}}-{{homeOrAwayWin:adessive}} {{loser:elative}}."]
+   ["{{winner:genitive}} pisteputki jatkui {{winnerResult}}-{{homeOrAwayWin:adessive}} {{loser:elative}}."]
+   ["{{winner}} jatkoi viimeaikaisia hyviä otteitaan, {{loser}} kaatui {{winnerResult}}." {:weight 0.01}])
+  :sv
+  (["{{winner:genitive}} goda form fick fortsättning med en {{winnerResult}} {{homeOrAwayWin:nominative}} över {{loser}}."])}
+
+ ; Loser has a losing streak
+ :losing-streak-continues
+ {:fi
+  (["{{winner}} lisäsi {{loser:genitive}} ahdinkoa viemällä ottelun maalein {{winnerResult}}. {{loser:genitive}} tappioputki on nyt {{loserLossStreakCurrent:genitive}} ottelun mittainen."]
+   ["{{winner}} vei voiton maalein {{winnerResult}}. {{loser:genitive}} tappioputki on venähtänyt jo {{loserLossStreakCurrent:genitive}} ottelun mittaiseksi."]
+   ["{{winner}} voitti ottelun maalein {{winnerResult}}. {{loser:genitive}} tappioputki on jo {{loserLossStreakCurrent:genitive}} ottelun mittainen."]
+   ["{{winner}} otti voiton maalein {{winnerResult}}. Tappio oli {{loser:allative}} jo {{loserLossStreakCurrent:ordinal}} perättäinen."]
+   ["{{winner}} otti voiton maalein {{winnerResult}}. {{loser}} kärsi jo {{loserLossStreakCurrent:genitive}} perättäisen tappionsa." {:weight 0.01}])
+  :sv
+  (["{{winner}} förvärrade {{loser:genitive}} läge genom att slå dem med resultatet {{winnerResult}}. {{loser}} har nu {{loserLossStreakCurrent}} förluster på raken bakom sig."])}
+
+ ; Winner has had a losing streak before this match
+ :losing-streak-ended
+ {:fi
+  (["{{winner}} onnistui katkaisemaan jo {{winnerLossStreakPrevious:genitive}} ottelun mittaisen tappioputken voittamalla {{loser:accusative}} {{winnerHomeOrAway:possuf}} {{winnerResult}}."]
+   ["{{winner}} voitti {{winnerHomeOrAway:possuf}} {{loser:accusative}} {{winnerResult}} ja päätti {{winnerLossStreakPrevious:genitive}} ottelun mittaisen tappioputkensa."]
+   ["{{winner}} katkaisi vihdoin tappioputkensa voittamalla {{loser:accusative}} {{winnerHomeOrAway:possuf}} luvuin {{winnerResult}}."]
+   ["{{winner}} sai vihdoin kaivatun voiton kaatamalla {{loser:accusative}} {{winnerHomeOrAway:possuf}} {{winnerResult}}. {{winner:genitive}} tappioputki oli jo {{winnerLossStreakPrevious:genitive}} ottelun mittainen."]
+   ["{{winner}} onnistui katkaisemaan jo {{winnerLossStreakPrevious:genitive}} ottelun mittaisen tappioputken. {{loser}} kaatui lukemin {{winnerResult}}."])
+  :sv
+  (["{{winner}} lyckades bryta sin förlustsvit på {{winnerLossStreakPrevious}} matcher genom att besegra {{loser}} {{winnerHomeOrAway:nominative}} med siffrorna {{winnerResult}}."])}
+
+ ; Loser has had a winning streak before this match
+ :winning-streak-ended
+ {:fi
+  (["{{winner}} onnistui katkaisemaan {{loser:genitive}} jo {{loserWinStreakPrevious:genitive}} ottelun mittaisen voittoputken voittamalla kamppailun {{winnerResult}}."]
+   ["Viime aikoina voittoja tahkonnut {{loser}} kärsi {{loserResult}}-tappion {{winner:genitive}} käsittelyssä."]
+   ["Viime aikoina kovassa vireessä ollut {{loser}} hävisi {{loserHomeOrAway:possuf}} {{winner:allative}} luvuin {{loserResult}}."]
+   ["{{loser:genitive}} {{loserWinStreakPrevious:genitive}} ottelun mittainen voittoputki katkesi {{loserResult}}-häviöön {{winner:allative}}."]
+   ["Viime aikoina kovassa vireessä ollut {{loser}} hävisi {{loserHomeOrAway:possuf}}, kun {{winner}} voitti luvuin {{winnerResult}}. {:weight 0.01}"])
+  :sv
+  (["{{winner}} bröt {{loser:genitive}} vinstsvit på {{loserWinStreakPrevious}} matcher med resultatet {{winnerResult}}."])}
+
+ ; No streak, just tell the result (home - away)
+ :no-streak
+ {:fi
+  (["{{home:genitive}} ja {{away:genitive}} välinen ottelu päättyi lukemin {{result}}."]
+   ["{{home:genitive}} ja {{away:genitive}} välinen ottelu päättyi {{result}}-tulokseen."]
+   ["{{home:genitive}} ja {{away:genitive}} välinen kamppailu päättyi lukemin {{result}}."]
+   ["{{home}} ja {{away}} päätyivät {{result}}-tulokseen." {:weight 0.01}])
+  :sv
+  (["Matchen mellan {{home}} och {{away}} avgjordes med siffrorna {{result}}."])}
+
+ :no-streak-and-win-in-shootout-after-no-goals
+ {:fi
+  (["{{home:genitive}} ja {{away:genitive}} välinen ottelu päättyi jatkoajankin jälkeen 0-0 ja ratkaisu nähtiin vasta voittomaalikilpailussa."])
+  :sv
+  ([""])}
+
+
+ ; Used in "pointstreak-continues-rise-in-standings" in variable "riseToPosition"
+ :rise-in-standings
+ {:fi
+  (["sarjataulukossa sijalle {{standingsPosition}}"])
+  :sv
+  (["i serietabellen till plats {{standingsPosition}}"])}
+
+ :rise-to-leader
+ {:fi
+  (["sarjakärkeen"])
+  :sv
+  (["till toppen av serietabellen"])}
+
+ :rise-over-playoff-line
+ {:fi
+  (["pudotuspeliviivan yläpuolelle"])
+  :sv
+  (["tog slutspelsplats"])}
+
+ :rise-to-points-to-leader
+ {:fi
+  (["{{pointsToFirst}} pisteen päähän sarjaa johtavasta {{leagueLeader:elative}}"])
+  :sv
+  (["{{pointsToFirst}} poäng ifrån {{leagueLeader}} som leder serietabellen"])}}
+

@@ -1,0 +1,102 @@
+{
+ :home-team-first-place-win
+ {:fi
+  (["Voiton myötä {{home}} vankisti asemiaan sarjan kärjessä"])
+  :sv
+  (["I och med segern stärkte {{home}} sin ställning i ledning av ligan"])}
+
+ :home-team-first-place-loss
+ {:fi
+  (["Tappiosta huolimatta {{home}} jatkaa sarjan kärjessä"])
+  :sv
+  (["Trots förlusten höll {{home}} sin ställning i ledning av ligan"])}
+
+ :home-team-top-win
+ {:fi
+  (["Voiton myötä {{home}} jatkaa sarjan kärjen tuntumassa"])
+  :sv
+  (["Med vinsten håller sig {{home}} bland topplagen i ligan"])}
+
+ :home-team-top-loss
+ {:fi
+  (["Tappiosta huolimatta {{home}} jatkaa sarjan kärjen tuntumassa"])
+  :sv
+  (["Trots förlusten hålls {{home}} bland topplagen i ligan"])}
+
+ :home-team-mid-placement
+ {:fi
+  (["{{home}} jatkaa sarjan keskivaiheilla"])
+  :sv
+  (["{{home}} fortsätter att kämpa om mittenplaceringarna i ligan"])}
+
+ :home-team-low-placement-win
+ {:fi
+  (["Voitosta huolimatta {{home}} majailee sarjan häntäpäässä"])
+  :sv
+  (["Trots vinsten kämpar {{home}} fortfarande för att ta sig upp från bottenplacerigarna i ligan"])}
+
+ :home-team-low-placement-loss
+ {:fi
+  (["Tappio lisää {{home:genitive}} ahdinkoa sarjan häntäpäässä"])
+  :sv
+  (["Förlusten förvärrar {{home:genitive}} läge bland jumbolagen i ligan"])}
+
+ :away-team-first-place-win
+ {:fi
+  (["ja {{away}} vankisti asemiaan piikkipaikalla."])
+  :sv
+  (["och {{away}} cementerade sin ledning."])}
+
+ :away-team-first-place-loss
+ {:fi
+  (["ja {{away}} pitää piikkipaikkaa hallussaan."])
+  :sv
+  (["medan {{away}} ännu håller fast vid topplaceringen."])}
+
+ :away-team-top-win
+ {:fi
+  (["ja {{away}} vankisti asemiaan kärkikahinoissa."])
+  :sv
+  (["och {{away}} stärkte ytterligare sin position bland topplagen."])}
+
+ :away-team-top-loss
+ {:fi
+  (["ja {{away}} taistelee kärkisijoista."])
+  :sv
+  (["och {{away}} är med i kampen om topplaceringarna."])}
+
+ :away-team-mid-placement
+ {:fi
+  (["ja {{away}} taistelee keskikastissa."])
+  :sv
+  (["och {{away}} kämpar om mittenplaceringarna."])}
+
+ :away-team-low-placement-win
+ {:fi
+  (["ja {{away}} majailee sarjan hännillä."])
+  :sv
+  (["och {{away}} kämpar fortfarande för att ta sig upp från bottenplaceringarna."])}
+
+ :away-team-low-placement-loss
+ {:fi
+  (["ja {{away:genitive}} tuska sarjan hännillä kasvaa."])
+  :sv
+  (["och {{away:genitive}} svåra läge i bottenskiktet av ligan förvärras."])}
+
+ :both-team-top-placement
+ {:fi
+  (["Sekä {{home}} että {{away}} jatkavat kärjen tuntumassa."])
+  :sv
+  (["Både {{home}} och {{away}} fortsätter att kämpa om topplaceringarna."])}
+
+ :both-team-mid-placement
+ {:fi
+  (["Sekä {{home}} että {{away}} jatkavat sarjan keskivaiheilla."])
+  :sv
+  (["Både {{home}} och {{away}} fortsätter att kampen för att ta sig uppåt från ligans mellanskikt."])}
+
+ :both-team-low-placement
+ {:fi
+  (["Sekä {{home}} että {{away}} jatkavat sarjan häntäpäässä."])
+  :sv
+  (["Både {{home}} och {{away}} fortsätter att kämpa för att ta sig uppåt från jumboplaceringarna."])}}

@@ -1,0 +1,598 @@
+{
+  "data": [
+    {
+      "id": "icehockey",
+      "isIndividualSport": false,
+      "url": "/v0/sports/icehockey.json?lang=fi&include=all",
+      "name": "Jääkiekko",
+      "series": [
+        {
+          "id": "mestis",
+          "url": "/v0/sports/icehockey/series/mestis.json?lang=fi&include=all",
+          "name": "Mestis",
+          "tags": [
+            "finland",
+            "men",
+            "editorial-pick",
+            "tulospalvelu"
+          ],
+          "country": "",
+          "meta": {
+            "images": [
+              {
+                "id": "19-463-icehockey:mestis",
+                "imageType": "logo",
+                "width": "552",
+                "height": "582",
+                "url": "https://kuva-api-production-eu-cld-res.cloudinary.com/image/upload/v1449052249/19-463-icehockey:mestis.png"
+              }
+            ]
+          },
+          "pollingLevel": "Frequent",
+          "seasons": [
+            {
+              "id": "2017-2018",
+              "name": "2017-2018",
+              "url": "/v0/sports/icehockey/series/mestis/seasons/2017-2018.json?lang=fi&include=all",
+              "stages": [
+                {
+                  "id": "171",
+                  "name": "Mestis runkosarja",
+                  "leagueTableUrl": "/v0/sports/icehockey/series/mestis/seasons/2017-2018/league-table.json?stageId=171&lang=fi&include=all",
+                  "playerStatsUrl": "/v0/sports/icehockey/series/mestis/seasons/2017-2018/player-stats.json?stageId=171&lang=fi&include=all",
+                  "goalieStatsUrl": "/v0/sports/icehockey/series/mestis/seasons/2017-2018/goalie-stats.json?stageId=171&lang=fi&include=all",
+                  "source": {
+                    "extId": "171",
+                    "provider": "jkl"
+                  },
+                  "standing": [
+                    {
+                      "team": {
+                        "id": "jkl-405306364",
+                        "name": "KeuPa HT",
+                        "short": "KeuPa HT",
+                        "abbr": "KEU",
+                        "meta": {
+                          "tags": [],
+                          "images": [
+                            {
+                              "id": "19-790-jkl-405306364",
+                              "imageType": "logo",
+                              "width": "1121",
+                              "height": "1007",
+                              "url": "https://kuva-api-production-eu-cld-res.cloudinary.com/image/upload/v1477467489/19-790-jkl-405306364.png"
+                            }
+                          ],
+                          "directives": {
+                            "city": "Keuruu",
+                            "homeArena": "Keuruun jäähalli",
+                            "conceptId": "18-166481",
+                            "conceptIdTest": "18-222663"
+                          }
+                        }
+                      },
+                      "total": {
+                        "gamesPlayed": 42,
+                        "outcome": {
+                          "wins": 26,
+                          "draws": 0,
+                          "losses": 12,
+                          "otWins": 2,
+                          "otLosses": 2
+                        },
+                        "goals": {
+                          "score": 149,
+                          "conceded": 105,
+                          "goalDifference": 44
+                        },
+                        "points": 84,
+                        "specific": {
+                          "penaltyMinutes": 0
+                        }
+                      }
+                    },
+                    {
+                      "team": {
+                        "id": "jkl-69800122",
+                        "name": "SaPKo",
+                        "short": "SaPKo",
+                        "abbr": "SAP",
+                        "meta": {
+                          "tags": [],
+                          "images": [
+                            {
+                              "id": "19-500-jkl-69800122",
+                              "imageType": "logo",
+                              "width": "322",
+                              "height": "326",
+                              "url": "https://kuva-api-production-eu-cld-res.cloudinary.com/image/upload/v1477467200/19-500-jkl-69800122.png"
+                            }
+                          ],
+                          "directives": {
+                            "city": "Savonlinna",
+                            "homeArena": "Talvisalon jäähalli",
+                            "conceptId": "18-41885",
+                            "conceptIdTest": "18-42448"
+                          }
+                        }
+                      },
+                      "total": {
+                        "gamesPlayed": 42,
+                        "outcome": {
+                          "wins": 19,
+                          "draws": 0,
+                          "losses": 11,
+                          "otWins": 7,
+                          "otLosses": 5
+                        },
+                        "goals": {
+                          "score": 138,
+                          "conceded": 120,
+                          "goalDifference": 18
+                        },
+                        "points": 76,
+                        "specific": {
+                          "penaltyMinutes": 0
+                        }
+                      }
+                    },
+                    {
+                      "team": {
+                        "id": "jkl-862621741",
+                        "name": "Ketterä",
+                        "short": "Ketterä",
+                        "abbr": "KET",
+                        "meta": {
+                          "tags": [],
+                          "images": [
+                            {
+                              "id": "19-138-jkl-862621741",
+                              "imageType": "logo",
+                              "width": "500",
+                              "height": "591",
+                              "url": "https://kuva-api-production-eu-cld-res.cloudinary.com/image/upload/v1484916181/19-138-jkl-862621741.png"
+                            }
+                          ],
+                          "directives": {
+                            "city": "Imatra",
+                            "conceptId": "18-267184",
+                            "conceptIdTest": "18-312083",
+                            "homeArena": "Imatra Spa Areena"
+                          }
+                        }
+                      },
+                      "total": {
+                        "gamesPlayed": 42,
+                        "outcome": {
+                          "wins": 21,
+                          "draws": 0,
+                          "losses": 14,
+                          "otWins": 2,
+                          "otLosses": 5
+                        },
+                        "goals": {
+                          "score": 149,
+                          "conceded": 135,
+                          "goalDifference": 14
+                        },
+                        "points": 72,
+                        "specific": {
+                          "penaltyMinutes": 0
+                        }
+                      }
+                    },
+                    {
+                      "team": {
+                        "id": "jkl-928640177",
+                        "name": "K-Vantaa",
+                        "short": "K-Vantaa",
+                        "abbr": "KVA",
+                        "meta": {
+                          "tags": [],
+                          "images": [
+                            {
+                              "id": "19-861-jkl-928640177",
+                              "imageType": "logo",
+                              "width": "1279",
+                              "height": "953",
+                              "url": "https://kuva-api-production-eu-cld-res.cloudinary.com/image/upload/v1477467583/19-861-jkl-928640177.png"
+                            }
+                          ],
+                          "directives": {
+                            "city": "Vantaa",
+                            "conceptId": "18-141168",
+                            "conceptIdTest": "18-9651",
+                            "homeArena": "Trio Areena"
+                          }
+                        }
+                      },
+                      "total": {
+                        "gamesPlayed": 42,
+                        "outcome": {
+                          "wins": 18,
+                          "draws": 0,
+                          "losses": 15,
+                          "otWins": 5,
+                          "otLosses": 4
+                        },
+                        "goals": {
+                          "score": 130,
+                          "conceded": 128,
+                          "goalDifference": 2
+                        },
+                        "points": 68,
+                        "specific": {
+                          "penaltyMinutes": 0
+                        }
+                      }
+                    },
+                    {
+                      "team": {
+                        "id": "jkl-765635173",
+                        "name": "TUTO Hockey",
+                        "short": "TUTO",
+                        "abbr": "TUT",
+                        "meta": {
+                          "tags": [],
+                          "images": [
+                            {
+                              "id": "19-477-jkl-765635173",
+                              "imageType": "logo",
+                              "width": "906",
+                              "height": "1024",
+                              "url": "https://kuva-api-production-eu-cld-res.cloudinary.com/image/upload/v1477467314/19-477-jkl-765635173.png"
+                            }
+                          ],
+                          "directives": {
+                            "city": "Turku",
+                            "homeArena": "Kupittaan jäähalli",
+                            "conceptId": "18-140039",
+                            "conceptIdTest": "18-9650"
+                          }
+                        }
+                      },
+                      "total": {
+                        "gamesPlayed": 42,
+                        "outcome": {
+                          "wins": 17,
+                          "draws": 0,
+                          "losses": 15,
+                          "otWins": 3,
+                          "otLosses": 7
+                        },
+                        "goals": {
+                          "score": 141,
+                          "conceded": 107,
+                          "goalDifference": 34
+                        },
+                        "points": 64,
+                        "specific": {
+                          "penaltyMinutes": 0
+                        }
+                      }
+                    },
+                    {
+                      "team": {
+                        "id": "jkl-425114685",
+                        "name": "Jokipojat",
+                        "short": "Jokipojat",
+                        "abbr": "JOK",
+                        "meta": {
+                          "tags": [],
+                          "images": [
+                            {
+                              "id": "19-957-jkl-425114685",
+                              "imageType": "logo",
+                              "width": "930",
+                              "height": "1024",
+                              "url": "https://kuva-api-production-eu-cld-res.cloudinary.com/image/upload/v1477467226/19-957-jkl-425114685.png"
+                            }
+                          ],
+                          "directives": {
+                            "city": "Joensuu",
+                            "conceptId": "18-166479",
+                            "conceptIdTest": "18-43258",
+                            "homeArena": "PKS Areena"
+                          }
+                        }
+                      },
+                      "total": {
+                        "gamesPlayed": 42,
+                        "outcome": {
+                          "wins": 19,
+                          "draws": 0,
+                          "losses": 19,
+                          "otWins": 2,
+                          "otLosses": 2
+                        },
+                        "goals": {
+                          "score": 132,
+                          "conceded": 118,
+                          "goalDifference": 14
+                        },
+                        "points": 63,
+                        "specific": {
+                          "penaltyMinutes": 0
+                        }
+                      }
+                    },
+                    {
+                      "team": {
+                        "id": "jkl-657552820",
+                        "name": "LeKi",
+                        "short": "LeKi",
+                        "abbr": "LEK",
+                        "meta": {
+                          "tags": [],
+                          "images": [
+                            {
+                              "id": "19-0-jkl-657552820",
+                              "imageType": "logo",
+                              "width": "243",
+                              "height": "207",
+                              "url": "https://kuva-api-production-eu-cld-res.cloudinary.com/image/upload/v1477467639/19-0-jkl-657552820.png"
+                            }
+                          ],
+                          "directives": {
+                            "city": "Lempäälä",
+                            "homeArena": "Masku Areena",
+                            "conceptId": "18-45869",
+                            "conceptIdTest": "18-43567"
+                          }
+                        }
+                      },
+                      "total": {
+                        "gamesPlayed": 41,
+                        "outcome": {
+                          "wins": 13,
+                          "draws": 0,
+                          "losses": 15,
+                          "otWins": 8,
+                          "otLosses": 5
+                        },
+                        "goals": {
+                          "score": 118,
+                          "conceded": 122,
+                          "goalDifference": -4
+                        },
+                        "points": 60,
+                        "specific": {
+                          "penaltyMinutes": 0
+                        }
+                      }
+                    },
+                    {
+                      "team": {
+                        "id": "jkl-407724341",
+                        "name": "IPK",
+                        "short": "IPK",
+                        "abbr": "IPK",
+                        "meta": {
+                          "tags": [],
+                          "images": [
+                            {
+                              "id": "19-87-jkl-407724341",
+                              "imageType": "logo",
+                              "width": "699",
+                              "height": "389",
+                              "url": "https://kuva-api-production-eu-cld-res.cloudinary.com/image/upload/v1477467612/19-87-jkl-407724341.png"
+                            }
+                          ],
+                          "directives": {
+                            "city": "Iisalmi",
+                            "homeArena": "Kankaan jäähalli",
+                            "conceptId": "18-230617",
+                            "conceptIdTest": "18-248380"
+                          }
+                        }
+                      },
+                      "total": {
+                        "gamesPlayed": 42,
+                        "outcome": {
+                          "wins": 15,
+                          "draws": 0,
+                          "losses": 18,
+                          "otWins": 5,
+                          "otLosses": 4
+                        },
+                        "goals": {
+                          "score": 125,
+                          "conceded": 141,
+                          "goalDifference": -16
+                        },
+                        "points": 59,
+                        "specific": {
+                          "penaltyMinutes": 0
+                        }
+                      }
+                    },
+                    {
+                      "team": {
+                        "id": "jkl-1368623516",
+                        "name": "Espoo United",
+                        "short": "Espoo U",
+                        "abbr": "ESU",
+                        "meta": {
+                          "tags": [],
+                          "images": [
+                            {
+                              "id": "19-607-jkl-1368623516",
+                              "imageType": "logo",
+                              "width": "254",
+                              "height": "254",
+                              "url": "https://kuva-api-production-eu-cld-res.cloudinary.com/image/upload/v1477467692/19-607-jkl-1368623516.png"
+                            }
+                          ],
+                          "directives": {
+                            "conceptId": "18-256191",
+                            "conceptIdTest": "18-271738",
+                            "city": "Espoo",
+                            "homeArena": "Espoo Metro Areena"
+                          }
+                        }
+                      },
+                      "total": {
+                        "gamesPlayed": 42,
+                        "outcome": {
+                          "wins": 15,
+                          "draws": 0,
+                          "losses": 20,
+                          "otWins": 6,
+                          "otLosses": 1
+                        },
+                        "goals": {
+                          "score": 116,
+                          "conceded": 122,
+                          "goalDifference": -6
+                        },
+                        "points": 58,
+                        "specific": {
+                          "penaltyMinutes": 0
+                        }
+                      }
+                    },
+                    {
+                      "team": {
+                        "id": "jkl-253541164",
+                        "name": "RoKi",
+                        "short": "RoKi",
+                        "abbr": "ROK",
+                        "meta": {
+                          "tags": [],
+                          "images": [
+                            {
+                              "id": "19-284-jkl-253541164",
+                              "imageType": "logo",
+                              "width": "1500",
+                              "height": "798",
+                              "url": "https://kuva-api-production-eu-cld-res.cloudinary.com/image/upload/v1477467455/19-284-jkl-253541164.png"
+                            }
+                          ],
+                          "directives": {
+                            "city": "Rovaniemi",
+                            "homeArena": "Lappi Areena",
+                            "conceptId": "18-137864",
+                            "conceptIdTest": "18-93026"
+                          }
+                        }
+                      },
+                      "total": {
+                        "gamesPlayed": 42,
+                        "outcome": {
+                          "wins": 14,
+                          "draws": 0,
+                          "losses": 18,
+                          "otWins": 3,
+                          "otLosses": 7
+                        },
+                        "goals": {
+                          "score": 127,
+                          "conceded": 144,
+                          "goalDifference": -17
+                        },
+                        "points": 55,
+                        "specific": {
+                          "penaltyMinutes": 0
+                        }
+                      }
+                    },
+                    {
+                      "team": {
+                        "id": "jkl-1252754856",
+                        "name": "Hermes",
+                        "short": "Hermes",
+                        "abbr": "HER",
+                        "meta": {
+                          "tags": [],
+                          "images": [
+                            {
+                              "id": "19-153-jkl-1252754856",
+                              "imageType": "logo",
+                              "width": "1005",
+                              "height": "1024",
+                              "url": "https://kuva-api-production-eu-cld-res.cloudinary.com/image/upload/v1477467342/19-153-jkl-1252754856.png"
+                            }
+                          ],
+                          "directives": {
+                            "city": "Kokkola",
+                            "homeArena": "Kokkolan jäähalli",
+                            "conceptId": "18-230616",
+                            "conceptIdTest": "18-247016"
+                          }
+                        }
+                      },
+                      "total": {
+                        "gamesPlayed": 40,
+                        "outcome": {
+                          "wins": 13,
+                          "draws": 0,
+                          "losses": 17,
+                          "otWins": 3,
+                          "otLosses": 7
+                        },
+                        "goals": {
+                          "score": 118,
+                          "conceded": 148,
+                          "goalDifference": -30
+                        },
+                        "points": 52,
+                        "specific": {
+                          "penaltyMinutes": 0
+                        }
+                      }
+                    },
+                    {
+                      "team": {
+                        "id": "jkl-7568608",
+                        "name": "Peliitat",
+                        "short": "Peliitat",
+                        "abbr": "PEL",
+                        "meta": {
+                          "tags": [],
+                          "images": [
+                            {
+                              "id": "19-17-jkl-7568608",
+                              "imageType": "logo",
+                              "width": "860",
+                              "height": "1012",
+                              "url": "https://kuva-api-production-eu-cld-res.cloudinary.com/image/upload/v1477467414/19-17-jkl-7568608.png"
+                            }
+                          ],
+                          "directives": {
+                            "homeAreena": "Versowood Areena",
+                            "city": "Heinola",
+                            "conceptId": "18-166480",
+                            "conceptIdTest": "18-222662"
+                          }
+                        }
+                      },
+                      "total": {
+                        "gamesPlayed": 41,
+                        "outcome": {
+                          "wins": 8,
+                          "draws": 0,
+                          "losses": 24,
+                          "otWins": 6,
+                          "otLosses": 3
+                        },
+                        "goals": {
+                          "score": 121,
+                          "conceded": 174,
+                          "goalDifference": -53
+                        },
+                        "points": 39,
+                        "specific": {
+                          "penaltyMinutes": 0
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+ ; First win
+ :winner-series-opener-non-final
+ {:fi
+  (["{{winner}} avasi sarjan voitolla."]
+   ["{{winner}} avasi sarjan voitokkaasti."]
+   ["{{winner}} aloitti sarjan voitolla."])
+  :sv
+  (["{{winner}} inledde serien med seger."]
+   ["{{winner}} öppnade serien med seger."])}
+ ; First win in final series
+ :winner-series-opener-final
+ {:fi
+  (["{{winner}} avasi finaalisarjan voitolla."]
+   ["{{winner}} aloitti finaalisarjan voitolla."])
+  :sv
+  (["{{winner}} inledde finalserien med seger."]
+   ["{{winner}} öppnade finalserien med seger."])}
+ ; Leader widens lead
+ :leader-wins-non-final
+ {:fi
+  (["{{winner}} on voiton myötä askeleen lähempänä jatkopaikkaa, tilanne on nyt {{winnerCurrentSeriesWins}}-{{loserCurrentSeriesWins}}."]
+   ["Voitto vei {{winner:accusative}} askeleen lähemmäksi jatkopaikkaa, otteluvoitot ovat nyt {{winnerCurrentSeriesWins}}-{{loserCurrentSeriesWins}}."])
+  :sv
+  (["Segern tog {{winner}} ett steg närmare fortsättningsplats, matcherna står nu {{winnerCurrentSeriesWins}}-{{loserCurrentSeriesWins}}."])}
+ ; Leader widens lead in final series
+ :leader-wins-final
+ {:fi
+  (["{{winner}} on voiton myötä askeleen lähempänä mestaruutta, finaalisarjan tilanne on nyt {{winnerCurrentSeriesWins}}-{{loserCurrentSeriesWins}}."])
+  :sv
+  (["Segern tog {{winner}} ett steg närmare mästerskapet, finalseriens matcher står nu {{winnerCurrentSeriesWins}}-{{loserCurrentSeriesWins}}."]
+   ["{{winner}} kopplade grepp om mästerskapet och leder nu matchserien med {{winnerCurrentSeriesWins}}-{{loserCurrentSeriesWins}}."])}
+ ; Loser ties the series by winning
+ :non-leader-equalised-non-final
+ {:fi
+  (["{{winner}} tasoitti sarjan tilanteeseen {{winnerCurrentSeriesWins}}-{{loserCurrentSeriesWins}}."]
+   ["{{winner}} tasoitti sarjan otteluvoitot {{winnerCurrentSeriesWins}}-{{loserCurrentSeriesWins}}:een."])
+  :sv
+  (["{{winner}} kvitterade serien till {{winnerCurrentSeriesWins}}-{{loserCurrentSeriesWins}} i matcher."])}
+ ; Loser ties the final series by winning
+ :non-leader-equalised-final
+ {:fi
+  (["{{winner}} tasoitti finaalisarjan tilanteeseen {{winnerCurrentSeriesWins}}-{{loserCurrentSeriesWins}}."]
+   ["{{winner}} tasoitti finaalisarjan otteluvoitot {{winnerCurrentSeriesWins}}-{{loserCurrentSeriesWins}}:een."])
+  :sv
+  (["{{winner}} kvitterade finalserien till {{winnerCurrentSeriesWins}}-{{loserCurrentSeriesWins}} i matcher."])}
+ ; Loser narrows the lead by winning
+ :non-leader-wins-non-final
+ {:fi
+  (["{{winner}} kavensi sarjan tilanteeseen {{winnerCurrentSeriesWins}}-{{loserCurrentSeriesWins}}."]
+   ["{{winner}} kavensi sarjan otteluvoitot {{winnerCurrentSeriesWins}}-{{loserCurrentSeriesWins}}:een."])
+  :sv
+  (["{{winner}} reducerade serien till {{winnerCurrentSeriesWins}}-{{loserCurrentSeriesWins}} i matcher."])}
+ ; Loser narrows the lead in final series by winning
+ :non-leader-wins-final
+ {:fi
+  (["{{winner}} jatkaa taistelua mestaruudesta kaventamalla finaalisarjan tilanteeseen {{winnerCurrentSeriesWins}}-{{loserCurrentSeriesWins}}."]
+   ["{{winner}} kavensi finaalisarjan tilanteeseen {{winnerCurrentSeriesWins}}-{{loserCurrentSeriesWins}}."]
+   ["{{winner}} kavensi finaalisarjan otteluvoitot {{winnerCurrentSeriesWins}}-{{loserCurrentSeriesWins}}:een."])
+  :sv
+  (["{{winner}} reducerade finalserienserien till {{winnerCurrentSeriesWins}}-{{loserCurrentSeriesWins}} i matcher."])}
+ ; Winner continues to next round
+ :leader-wins-series
+ {:fi
+  (["{{winner}} jatkaa seuraavalle kierrokselle voitoin {{winnerCurrentSeriesWins}}-{{loserCurrentSeriesWins}}."])
+  :sv
+  (["{{winner}} fortsätter till nästa rond med matchvinsterna {{winnerCurrentSeriesWins}}-{{loserCurrentSeriesWins}}."])}
+ ; Winner wins championship
+ :leader-wins-championship
+ {:fi
+  (["{{winner}} saalisti mestaruuden voitoin {{winnerCurrentSeriesWins}}-{{loserCurrentSeriesWins}}."]
+   ["{{winner}} vei mestaruuden otteluvoitoin {{winnerCurrentSeriesWins}}-{{loserCurrentSeriesWins}}."])
+  :sv
+  (["{{winner}} vann mästerskapet med {{winnerCurrentSeriesWins}}-{{loserCurrentSeriesWins}} i segrar."]
+   ["{{winner}} tog mästerskapet med {{winnerCurrentSeriesWins}}-{{loserCurrentSeriesWins}} i segrar."])}
+ ; Winner wins third place
+ :winner-wins-third-place
+ {:fi
+  (["{{winner}} voitti pronssia {{winnerHomeOrAway:nominative}}yleisön edessä lukemin {{result}}."])
+  :sv
+  (["{{winner}} tog brons framför {{winnerHomeOrAway:nominative}}publik med siffrorna {{result}}."])}}

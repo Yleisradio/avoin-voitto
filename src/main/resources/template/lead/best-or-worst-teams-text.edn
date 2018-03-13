@@ -1,0 +1,15 @@
+{
+ ; When the top two teams in league have a match
+ :match-between-the-best
+ {:fi
+  (["{{day:capitalize}}-illan kärkikamppailussa kohtasivat {{home}} ja {{away}}."])
+  :sv
+  (["I {{day}}skvällens toppmatch möttes {{home}} och {{away}}."])}
+ 
+ ; When the bottom two teams in league have a match
+ :match-between-the-worst
+ {:fi
+  (["Liigan jumbo-ottelussa kohtasivat {{home}} ja {{away}}."])
+  :sv
+  (["{{home}} och {{away}} möttes i ligans jumbomatch."])}}
+ 

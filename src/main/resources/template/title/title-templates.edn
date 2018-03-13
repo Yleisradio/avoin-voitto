@@ -1,0 +1,120 @@
+{
+ ; Home team crushing victory
+ :home-team-win-over-3
+ {:fi
+  (["{{winner}} kaatoi {{loser:accusative}} selvin lukemin"]
+   ["{{winner:allative}} reilu voitto {{loser:elative}}"]
+   ["{{winner:allative}} selkeä voitto {{loser:elative}}"]
+   ["{{winner}} voitti selkein lukemin {{loser:accusative}}"]
+   ["{{winner}} laukoi tylyt voittolukemat {{loser:partitive}} vastaan"]
+   ["{{winner}} murskavoittoon {{loser:elative}}"]
+   ["{{winner}} murskasi {{loser:accusative}}"]
+   ["{{winner}} päihitti {{loser:accusative}} selkein lukemin"]
+   ["{{winner}} pelasi itselleen reilun voiton {{loser:elative}}"]
+   ["{{loser}} oli voimaton {{winner:partitive}} vastaan"]
+   ["{{winner}} voitti kotonaan, {{loser}} jäi jyrän alle" {:weight 0.5}])
+  :sv
+  (["{{winner}} tog en klar seger på hemmaplan över {{loser}}"]
+   ["Överlägsen seger på hemmaplan för {{winner}} över {{loser}}" {:weight 0.5}]
+   ["{{winner}} slog {{loser}} med klara siffror"])}
+
+ ; Away team crushing victory
+ :team-win-over-3
+ {:fi
+  (["{{winner}} kaatoi {{loser:accusative}} selvin lukemin"]
+   ["{{winner}} tyrmäsi {{loser:accusative}}"]
+   ["{{winner}} kylvetti {{loser:partitive}}"]
+   ["{{winner}} nöyryytti {{loser:partitive}}"]
+   ["{{winner}} kuritti {{loser:partitive}}"]
+   ["{{loser}} jäi {{winner:genitive}} jalkoihin"]
+   ["{{winner:allative}} murskavoitto {{loser:elative}}"]
+   ["{{winner}} murskasi {{loser:accusative}}"]
+   ["{{loser}} aseeton {{winner:genitive}} käsittelyssä"]
+   ["{{winner}} selvään voittoon {{loser:elative}}"]
+   ["{{winner}} ongelmitta voittoon {{loser:elative}}"]
+   ["{{winner}} voitti vieraissa, {{loser}} jäi sivustakatsojaksi"])
+  :sv
+  (["{{loser}} chanslösa på hemmaplan mot {{winner}}"]
+   ["{{winner}} tog en krossande seger i bortamatchen mot {{loser}}"])}
+
+ :home-team-win-under-4-in-regular
+ {:fi
+  (["{{winner}} voitti kotonaan {{loser:accusative}}"]
+   ["{{winner:allative}} kotivoitto {{loser:elative}}"]
+   ["{{winner}} päihitti {{loser:accusative}} kotikentällään"]
+   ["{{winner}} voitti kotonaan, vastustajana {{loser}}" {:weight 0.01}])
+  :sv
+  (["{{winner}} vann hemmamatchen mot {{loser}}" {:weight 0.5}]
+   ["{{winner}} segrade på hemmaplan mot {{loser}}"]
+   ["{{winner}} tog segern på hemmaplan mot {{loser}}"])}
+
+ :away-team-win-under-4-in-regular
+ {:fi
+  (["{{winner:allative}} vierasvoitto {{loser:elative}}"]
+   ["{{loser:allative}} kotitappio {{winner:elative}}"]
+   ["{{loser}} hävisi kotonaan {{winner:allative}}"]
+   ["{{loser}} hävisi kotonaan, kun {{winner}} vei voiton" {:weight 0.01}])
+  :sv
+  (["{{winner}} vann på bortaplan mot {{loser}}" {:weight 0.5}]
+   ["{{winner}} segrade på bortaplan mot {{loser}}"]
+   ["Förlust på hemmaplan för {{loser}} mot {{winner}}"])}
+
+ :team-win-only-1-goal
+ {:fi
+  (["{{winner}} niukkaan voittoon {{loser:elative}}"]
+   ["{{loser:allative}} niukka tappio {{winner:elative}}"]
+   ["{{loser:allative}} maalin tappio {{winner:elative}}"]
+   ["{{winner}} kaatoi {{loser:accusative}} maalin erolla"]
+   ["{{winner}} voitti niukasti, {{loser}} taipui yhdellä maalilla"])
+  :sv
+  (["{{winner}} tog en knapp seger mot {{loser}}"]
+   ["{{winner}} knep segern över {{loser}} med ett måls marginal"])}
+
+ :team-win-in-overtime
+ {:fi
+  (["{{winner:allative}} jatkoaikavoitto {{loser:elative}}"]
+   ["{{loser:allative}} jatkoaikatappio {{winner:elative}}"]
+   ["{{winner}} masensi {{loser:accusative}} jatkoajalla"]
+   ["{{winner}} päihitti {{loser:accusative}} jatkoajalla"]
+   ["{{winner}} voitti jatkoajalla, {{loser}} kärsi kirvelevän tappion" {:weight 0.5}])
+  :sv
+  (["{{winner}} vann över {{loser}} i förlängning" {:weight 0.5}]
+   ["{{winner}} slog {{loser}} i förlängning"]
+   ["{{winner}} besegrade {{loser}} i förlängning"]
+   ["{{loser}} fick se sig besgrade i förlängning mot {{winner}}"])}
+
+ :team-win-in-shootout
+ {:fi
+  (["{{loser}} taipui rankkareilla {{winner:allative}}"]
+   ["{{winner}} voitti {{loser:accusative}} rankkareilla"]
+   ["{{winner}} kaatoi {{loser:accusative}} voittomaalikilpailussa"]
+   ["{{winner}} voitti {{loser:accusative}} voittomaalikilpailussa"]
+   ["{{winner}} niukasti vahvempi, {{loser}} kaatui vasta voittomaalikilpailussa"])
+  :sv
+  (["Det krävdes straffskott innan {{winner}} knep segern över {{loser}}"]
+   ["{{winner}} vann på straffskott mot {{loser}}" {:weight 0.5}]
+   ["{{winner}} besegrade {{loser}} på straffskott"]
+   ["Matchen avgjordes först på straffskott då {{loser}} fick se sig besegrade av {{winner}}"])}
+
+ :home-team-win-with-shutout
+ {:fi
+  (["{{winner}} jätti {{loser:accusative}} nollille"]
+   ["{{winner}} jätti {{loser:accusative}} maaleitta"]
+   ["{{winner}} voitti kotonaan, {{loser}} jäi maaleitta" {:weight 0.01}])
+  :sv
+  (["Nollpoängare för {{loser}} i bortamatchen mot {{winner}}"]
+   ["{{winner}} dominerade på hemmaplan och lämnade {{loser}} på noll"]
+   ["{{loser}} blev utan mål i bortamatchen mot {{winner}}"])}
+
+ :team-win-with-shutout
+ {:fi
+  (["{{winner}} nollasi {{loser:accusative}}"]
+   ["{{winner}} jätti {{loser:accusative}} maaleitta"]
+   ["{{winner}} jätti {{loser:accusative}} tylysti nollille"]
+   ["{{loser}} jäi maaleitta {{winner:partitive}} vastaan"]
+   ["{{loser}} jäi maaleitta {{winner:genitive}} käsittelyssä"]
+   ["{{winner}} voitti, {{loser}} jäi maaleitta" {:weight 0.01}])
+  :sv
+  (["{{winner}} lämnade {{loser}} utan mål"]
+   ["Klar seger för {{winner}} mot {{loser}} som förblev utan mål"]
+   ["Inga mål för {{loser}} i mötet mot {{winner}}"])}}

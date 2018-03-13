@@ -1,0 +1,51 @@
+<configuration debug="false">
+
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender" >
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>${log.console.threshold:-INFO}</level>
+        </filter>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5p [%t] [%c] - %m%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="KIBANA" class="ch.qos.logback.core.FileAppender">
+        <file>logs/liiga-voitto.log</file>
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>${log.kibana.threshold:-DEBUG}</level>
+        </filter>
+        <append>true</append>
+        <encoder class="net.logstash.logback.encoder.LoggingEventCompositeJsonEncoder">
+            <providers>
+                <timestamp/>
+                <version/>
+                <message/>
+                <loggerName/>
+                <logLevel/>
+                <stackTrace/>
+                <threadName/>
+                <pattern>
+                    <pattern>
+                        {"container_id": "${log.ecs_container_id}"}
+                    </pattern>
+                </pattern>
+            </providers>
+        </encoder>
+    </appender>
+
+    <root level="${log.root.level:-DEBUG}">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="KIBANA"/>
+    </root>
+
+    <logger name="org.fusesource.scalate.util.ClassPathBuilder" additivity="false" level="ERROR">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="KIBANA"/>
+    </logger>
+
+    <logger name="org.mockserver.mockserver.MockServerHandler" additivity="false" level="WARN">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="KIBANA"/>
+    </logger>
+
+</configuration>

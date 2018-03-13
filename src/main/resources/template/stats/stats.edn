@@ -1,0 +1,31 @@
+{
+ :heading
+ {:fi
+  (["Ottelutilastot"])
+  :sv
+  (["Matchstatistik"])}
+ :shots
+ {:fi
+  (["Laukaukset"])
+  :sv
+  (["Skott mot mål"])}
+ :penalties
+ {:fi
+  (["Jäähyminuutit"])
+  :sv
+  (["Utvisningar i minuter"])}
+ :saves
+ {:fi
+  (["Torjunnat"])
+  :sv
+  (["Blockerade skott"])}
+ :faceoffs
+ {:fi
+  (["Aloitusvoitot"])
+  :sv
+  (["Vinster vid nedsläpp"])}
+ :attendance
+ {:fi
+  (["Yleisöä"])
+  :sv
+  (["Publik"])}}

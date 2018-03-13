@@ -1,0 +1,136 @@
+{"HIFK"
+   {:fi
+    {:accusative "HIFK:n"
+     :genitive "HIFK:n"
+     :allative "HIFK:lle"
+     :elative "HIFK:sta"
+     :partitive "HIFK:ta"}
+    :sv
+    {:genitive "HIFK:s"}}
+ "JYP"
+   {:fi
+    {:accusative "JYP:n"
+     :genitive "JYP:n"
+     :allative "JYP:lle"
+     :elative "JYP:stä"
+     :partitive "JYP:iä"}
+    :sv
+    {:genitive "JYP:s"}}
+ "Jukurit"
+   {:fi
+    {:accusative "Jukurit"
+     :genitive "Jukurien"
+     :allative "Jukureille"
+     :elative "Jukureista"
+     :partitive "Jukureita"}
+    :sv
+    {:genitive "Jukurits"}}
+ "Tappara"
+   {:fi
+    {:accusative "Tapparan"
+     :genitive "Tapparan"
+     :allative "Tapparalle"
+     :elative "Tapparasta"
+     :partitive "Tapparaa"}
+    :sv
+    {:genitive "Tapparas"}}
+ "KooKoo"
+   {:fi
+    {:accusative "KooKoon"
+     :genitive "KooKoon"
+     :allative "KooKoolle"
+     :elative "KooKoosta"
+     :partitive "KooKoota"}
+    :sv
+    {:genitive "KooKoos"}}
+ "Kärpät"
+   {:fi
+    {:accusative "Kärpät"
+     :genitive "Kärppien"
+     :allative "Kärpille"
+     :elative "Kärpistä"
+     :partitive "Kärppiä"}
+    :sv
+    {:genitive "Kärpäts"}}
+ "HPK"
+   {:fi
+    {:accusative "HPK:n"
+     :genitive "HPK:n"
+     :allative "HPK:lle"
+     :elative "HPK:sta"
+     :partitive "HPK:ta"}
+    :sv
+    {:genitive "HPK:s"}}
+ "Lukko"
+   {:fi
+    {:accusative "Lukon"
+     :genitive "Lukon"
+     :allative "Lukolle"
+     :elative "Lukosta"
+     :partitive "Lukkoa"}
+    :sv
+    {:genitive "Lukkos"}}
+ "Sport"
+   {:fi
+    {:accusative "Sportin"
+     :genitive "Sportin"
+     :allative "Sportille"
+     :elative "Sportista"
+     :partitive "Sporttia"}
+    :sv
+    {:genitive "Sports"}}
+ "TPS"
+   {:fi
+    {:accusative "TPS:n"
+     :genitive "TPS:n"
+     :allative "TPS:lle"
+     :elative "TPS:stä"
+     :partitive "TPS:ää"}
+    :sv
+    {:genitive "TPS:s"}}
+ "Ässät"
+   {:fi
+    {:accusative "Ässät"
+     :genitive "Ässien"
+     :allative "Ässille"
+     :elative "Ässistä"
+     :partitive "Ässiä"}
+    :sv
+    {:genitive "Ässäts"}}
+ "KalPa"
+   {:fi
+    {:accusative "KalPan"
+     :genitive "KalPan"
+     :allative "KalPalle"
+     :elative "KalPasta"
+     :partitive "KalPaa"}
+    :sv
+    {:genitive "KalPas"}}
+ "Pelicans"
+   {:fi
+    {:accusative "Pelicansin"
+     :genitive "Pelicansin"
+     :allative "Pelicansille"
+     :elative "Pelicansista"
+     :partitive "Pelicansia"}
+    :sv
+    {:genitive "Pelicans"}}
+ "SaiPa"
+   {:fi
+    {:accusative "SaiPan"
+     :genitive "SaiPan"
+     :allative "SaiPalle"
+     :elative "SaiPasta"
+     :partitive "SaiPaa"}
+    :sv
+    {:genitive "SaiPas"}}
+ "Ilves"
+   {:fi
+    {:accusative "Ilveksen"
+     :genitive "Ilveksen"
+     :allative "Ilvekselle"
+     :elative "Ilveksestä"
+     :partitive "Ilvestä"}
+    :sv
+    {:genitive "Ilves"}}}
+

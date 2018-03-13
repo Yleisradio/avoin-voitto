@@ -1,0 +1,358 @@
+{
+ ; When the away team has a 3 goal lead after the first period
+ :away-team-big-start
+ {:fi
+  (["Vierasjoukkue aloitti vahvasti ja iski ensimmäisessä erässä taululle tylyt {{firstPeriodResult}}-lukemat."]
+   ["Vierasjoukkue tuli ensimmäiseen erään vahvasti ja vei sen selvästi {{firstPeriodResult}}."]
+   ["{{away}} aiheutti kotiyleisölle pettymyksen ja takoi ensimmäisessä erässä taululle {{firstPeriodResult}}-lukemat."])
+  :sv
+  (["{{away}} gör en stark första period som slutar med klara siffror {{firstPeriodResult}}."])}
+
+ ; When the home team has a 3 goal lead after the first period
+ :home-team-big-start
+ {:fi
+  (["{{home}} aloitti vahvasti ja karkasi ensimmäisessä erässä jo {{homeFirstPeriodGoalDiff}} maalin johtoon."]
+   ["{{home}} otti ohjat ensimmäisessä erässä ja karkasi kotiyleisön riemuksi jo {{homeFirstPeriodGoalDiff}} maalin johtoon."]
+   ["Vahvasti aloittanut {{home}} paukutti ensimmäisen kaksikymppisen aikana tauluun peräti {{firstPeriodResult}}-lukemat."])
+  :sv
+  (["{{home}} bjöd på en fin matchstart till hemmapublikens förtjusning. Då första perioden tog slut hade de redan en klar ledning på {{homeFirstPeriodGoalDiff}} mål."])}
+
+ ; When there are 4 or more goals in total in the first period
+ :many-goals
+ {:fi
+  (["Ottelu alkoi vauhdikkaissa merkeissä ja ensimmäisessä erässä nähtiin {{firstPeriodTotalGoals:nominative}} maalia. Tauolle mentiin {{firstPeriodResult}}-tilanteessa."]
+   ["Ensimmäinen kaksikymppinen tarjosi yleisölle viihdettä {{firstPeriodTotalGoals:genitive}} maalin edestä. Tauolle mentiin {{firstPeriodResult}}-tilanteessa."])
+  :sv
+  (["Det blev en intensiv första period med hela {{firstPeriodTotalGoals}} skott som nådde mål."])}
+
+ ; Flash start (first goal within 2 minutes)}
+ :flash-start
+ {:fi
+  ; Note that the missing space after firstGoalType:text is NOT a typo
+  (["{{firstGoalTeam}} sai otteluun hyvän alun {{firstGoalPlayer:genitive}} tehdessä {{firstGoalType:text}}1-0 osuman jo ajassa {{firstGoalTime}}."]
+   ["{{firstGoalTeam}} sai otteluun vauhdikkaan alun {{firstGoalPlayer:genitive}} iskiessä {{firstGoalType:text}}1-0 osuman jo ajassa {{firstGoalTime}}."]
+   ["{{firstGoalTeam:genitive}} alku ottelulle oli todella hyvä, kun {{firstGoalPlayer}} aloitti maalinteon jo ajassa {{firstGoalTime}}."]
+   ["{{firstGoalTeam}} aloitti ottelun väkevästi, kun {{firstGoalPlayer}} aloitti maalinteon jo ajassa {{firstGoalTime}}."]
+   ["{{firstGoalTeam}} aloitti ottelun vahvasti, kun {{firstGoalPlayer}} aloitti maalinteon jo ajassa {{firstGoalTime}}."]
+   ["{{firstGoalPlayer}} vei {{firstGoalTeam:accusative}} 1-0 johtoon jo ajassa {{firstGoalTime}}."])
+  :sv
+  (["{{firstGoalTeam}} tog en riktig rivstart då {{firstGoalPlayer}} öppnade målkontot redan då klockan stod på {{firstGoalTime}}."])}
+
+ ; When the first goal happens in second period
+ :first-goal-in-second-period
+ {:fi
+  (["Ottelun ensimmäinen maali antoi odottaa itseään toiseen erään asti. Maalista vastasi {{firstGoalTeam:genitive}} {{firstGoalPlayer}} ajassa {{firstGoalTime}}."]
+   ["Ottelussa edettiin ilman maalia aina {{firstGoalTimeMinutes}}. minuutille asti. Ensimmäisen maalin iski {{firstGoalType:text}}{{firstGoalTeam:genitive}} {{firstGoalPlayer}}."]
+   ["Ottelun ensimmäinen erä päättyi maalittomana. {{firstPeriodGoalieWithMostSavesTeam:genitive}} {{firstPeriodGoalieWithMostSaves}} joutui ensimmäisessä erässä torjuntahommiin {{firstPeriodGoalieWithMostSaves.firstPeriod.saves}} kertaa ja {{firstPeriodGoalieWithSecondMostSaves}} {{firstPeriodGoalieWithSecondMostSavesTeam:genitive}} maalilla keräsi tililleen {{firstPeriodGoalieWithSecondMostSaves.firstPeriod.saves}} torjuntaa. Toisessa erässä {{firstGoalTeam}} meni {{firstGoalPlayer:genitive}} maalilla 1-0 johtoon, kun peliä oli pelattu {{firstGoalTime}}."]
+   ["Ensimmäisessä erässä ei maaleja nähty. {{firstPeriodGoalieWithMostSavesTeam:genitive}} maalilla {{firstPeriodGoalieWithMostSaves}} joutui ensimmäisessä erässä torjuntahommiin {{firstPeriodGoalieWithMostSaves.firstPeriod.saves}} kertaa, kun taas {{firstPeriodGoalieWithSecondMostSavesTeam:genitive}} {{firstPeriodGoalieWithSecondMostSaves}} keräsi tililleen {{firstPeriodGoalieWithSecondMostSaves.firstPeriod.saves}} torjuntaa. Ottelun ensimmäisen maalin iski {{firstGoalType:text}}{{firstGoalTeam:genitive}} {{firstGoalPlayer}} ajassa {{firstGoalTime}}."])
+  :sv
+  (["Det första målet lät vänta på sig till andra period. Då öppnade {{firstGoalTeam:genitive}} {{firstGoalPlayer}} målkontot på tiden {{firstGoalTime}}."])}
+
+ ; Same, but equal amount of saves in first period
+ :first-goal-in-second-period-with-equal-saves-in-first
+ {:fi
+  (["Ottelun ensimmäinen maali antoi odottaa itseään toiseen erään asti. Maalista vastasi {{firstGoalTeam:genitive}} {{firstGoalPlayer}} ajassa {{firstGoalTime}}."]
+   ["Ottelussa edettiin ilman maalia aina {{firstGoalTimeMinutes}}. minuutille asti. Ensimmäisen maalin iski {{firstGoalType:text}}{{firstGoalTeam:genitive}} {{firstGoalPlayer}}."]
+   ["Ottelun ensimmäinen erä päättyi maalittomana. Myös maalivahtien torjuntojen valossa erä oli tasainen: molempien tilille kertyi {{firstPeriodGoalieWithMostSaves.firstPeriod.saves}} torjuntaa ensimmäisessä erässä. Ottelun ensimmäisen maalin iski {{firstGoalType:text}}{{firstGoalTeam:genitive}} {{firstGoalPlayer}} ajassa {{firstGoalTime}}."]
+   ["Ensimmäisessä erässä ei maaleja nähty. Myös maalivahtien torjunnat kertovat tasaisesta kamppailusta: molemmat torjuivat {{firstPeriodGoalieWithMostSaves.firstPeriod.saves}} kertaa ensimmäisen erän aikana. Toisessa erässä {{firstGoalTeam}} meni {{firstGoalPlayer:genitive}} maalilla 1-0 johtoon, kun peliä oli pelattu {{firstGoalTime}}."])
+  :sv
+  (["Första perioden slutade jämnt. Det jämna läget återspeglas också i målvaktsspelet där båda lagen lyckades blockera {{firstPeriodGoalieWithMostSaves.firstPeriod.saves}} gånger. {{firstGoalType:text}}{{firstGoalTeam:genitive}} {{firstGoalPlayer}} spräckte nollspelet med att göra mål då klockan stod på {{firstGoalTime}}."])}
+
+ :tied-after-first-period-with-goals
+ {:fi
+  (["Ottelun ensimmäinen erä päättyi tasan {{firstPeriodResult}}. {{firstPeriodTeamWithMostShots}} kokeili ensimmäisessä erässä maalintekoa {{firstPeriodTeamWithMostShots.firstPeriodTotalShots}} kertaa, kun taas {{firstPeriodTeamWithLessShots}} laukoi {{firstPeriodTeamWithLessShots.firstPeriodTotalShots}} kertaa."]
+   ["Ensimmäinen erä päättyi tasalukemiin {{firstPeriodResult}}. {{firstPeriodTeamWithMostShots}} laukoi ensimmäisessä erässä {{firstPeriodTeamWithMostShots.firstPeriodTotalShots}} kertaa, kun taas {{firstPeriodTeamWithLessShots}} {{firstPeriodTeamWithLessShots.firstPeriodTotalShots}} kertaa."])
+  :sv
+  (["Första perioden slutade jämnt på {{firstPeriodResult}}. {{firstPeriodTeamWithMostShots}} drev starkare på med {{firstPeriodTeamWithMostShots.firstPeriodTotalShots}} skott mot mål, medan {{firstPeriodTeamWithLessShots}} lyckades samla sin attack {{firstPeriodTeamWithLessShots.firstPeriodTotalShots}} gånger."])}
+
+ :tied-after-first-period-with-goals-big-shot-difference
+ {:fi
+  (["Ensimmäinen erä päättyi tasalukemiin {{firstPeriodResult}}. {{firstPeriodTeamWithMostShots}} vei kuitenkin erän laukausten määrässä {{firstPeriodTeamWithMostShots.firstPeriodTotalShots}}-{{firstPeriodTeamWithLessShots.firstPeriodTotalShots}}."])
+  :sv
+  (["Första perioden slutade jämnt på {{firstPeriodResult}}. {{firstPeriodTeamWithMostShots}} dominerade dock i skottstatistiken med {{firstPeriodTeamWithMostShots.firstPeriodTotalShots}}-{{firstPeriodTeamWithLessShots.firstPeriodTotalShots}}."])}
+
+ :tied-after-first-period-with-goals-and-same-shots
+ {:fi
+  (["Ottelun ensimmäinen erä päättyi tasaisissa merkeissä {{firstPeriodResult}}. Myös laukaustilastot kertovat tasaisesta kamppailusta: molemmat joukkueet laukoivat {{home.firstPeriodTotalShots}} kertaa."])
+  :sv
+  (["Första perioden slutade jämnt. Det jämna läget återspeglas också i skottstatistiken där både lag stod för {{home.firstPeriodTotalShots}} skott mot motståndarens mål."])}
+
+ ; When the first goal is not quick
+ :slow-start
+ {:fi
+  (["Ottelu alkoi tasaisesti ja ensimmäinen maali nähtiin vasta ajassa {{firstGoalTime}}. Maalista vastasi {{firstGoalTeam:genitive}} {{firstGoalPlayer}}."]
+   ["Ottelussa edettiin ilman maalia aina {{firstGoalTimeMinutes}} minuutille asti. Ensimmäisen maalin iski {{firstGoalType:text}}{{firstGoalTeam:genitive}} {{firstGoalPlayer}}."]
+   ["Ottelu alkoi tasaisissa merkeissä, {{firstGoalTeam}} avasi ottelun maalihanat vasta ajassa {{firstGoalTime}}. Osuman iski {{firstGoalPlayer}}." {:weight 0.01}])
+  :sv
+  (["Matchen började lugnt och det första målet kom vid {{firstGoalTimeMinutes}} minuter. {{firstGoalType:text}}{{firstGoalTeam:genitive}} {{firstGoalPlayer}} gjorde målet."])}
+
+ ; Fallbacks whenever there are any goals in first period
+ :first-period-default-with-more-than-one-goal
+ {:fi
+  (["Avauserässä nähtiin {{firstPeriodTotalGoals:nominative}} maalia. Maalinteon aloitti {{firstGoalTeam:genitive}} {{firstGoalPlayer}} ajassa {{firstGoalTime}}. Erä päättyi {{firstPeriodWinningTeamHomeOrAway:allative}} {{firstPeriodResult}}."]
+   ["Ottelun ensimmäisessä erässä nähtiin {{firstPeriodTotalGoals:nominative}} maalia. Avausmaalista vastasi {{firstGoalTeam:genitive}} {{firstGoalPlayer}} ajassa {{firstGoalTime}}. Erä päättyi {{firstPeriodWinningTeamHomeOrAway:allative}} {{firstPeriodResult}}."]
+   ["{{firstGoalTeam}} aloitti maalinteon ajassa {{firstGoalTime}}, kun {{firstGoalPlayer}} vei {{firstGoalTeamHomeOrAway:genitive}} johtoon. Ensimmäinen erä päättyi {{firstPeriodWinningTeamHomeOrAway:allative}} {{firstPeriodResult}}." {:weight 0.01}])
+  :sv
+  (["Första perioden bjöd på {{firstPeriodTotalGoals:nominative}} mål. Först ute var {{firstGoalTeam:genitive}} {{firstGoalPlayer}} som öppnade matchens målkonto vid {{firstGoalTime}}. Perioden slutade till förmån för {{firstPeriodWinningTeamHomeOrAway:nominative}} med siffrorna {{firstPeriodResult}}."])}
+
+ :first-period-default-with-one-goal
+ {:fi
+  (["Ottelun ensimmäisessä erässä nähtiin vain yksi maali. Maalista vastasi {{firstGoalTeam:genitive}} {{firstGoalPlayer}} ajassa {{firstGoalTime}}."]
+   ["Avauserässä nähtiin vain yksi maali. Maalista vastasi {{firstGoalTeam:genitive}} {{firstGoalPlayer}} ajassa {{firstGoalTime}}."]
+   ["{{firstGoalTeam}} vastasi avauserän ainoasta maalista. {{firstGoalPlayer}} iski kiekon verkkoon ajassa {{firstGoalTime}}." {:weight 0.01}])
+  :sv
+  (["Första perioden började relativt lugnt med endast ett mål. {{firstGoalTeam:genitive}} {{firstGoalPlayer}} stod för det vid tiden {{firstGoalTime}}."])}
+
+ ; When a team is losing in first period, but overtakes in second
+ :overtake-in-second-period
+ {:fi
+  (["{{firstPeriodLosingTeam}} pääsi vahvasti mukaan peliin toisessa erässä ja tasoitti pelin {{secondPeriodTyingGoalPlayer:genitive}} maalilla. Hyvät otteet jatkuivat ja {{secondPeriodOvertakingGoalPlayer}} iski {{secondPeriodOvertakingTeam:accusative}} johtoon ajassa {{secondPeriodOvertakingGoalTime}}."]
+   ["{{firstPeriodLosingTeam}} käänsi tappioasemansa johdoksi toisessa erässä. Tasoitusmaalista vastasi {{secondPeriodTyingGoalPlayer}} ja {{secondPeriodOvertakingGoalPlayer}} iski {{secondPeriodOvertakingTeam:accusative}} johtoon ajassa {{secondPeriodOvertakingGoalTime}}."]
+   ["{{secondPeriodTyingGoalPlayer}} toi {{firstPeriodLosingTeamHomeOrAway:genitive}} mukaan otteluun tasoittamalla pelin toisessa erässä. Hetkeä myöhemmin {{secondPeriodOvertakingTeam}} siirtyi johtoon, kun {{secondPeriodOvertakingGoalPlayer}} onnistui maalinteossa ajassa {{secondPeriodOvertakingGoalTime}}."])
+  :sv
+  (["{{firstPeriodLosingTeam}} gjorde en stark andra period och {{secondPeriodTyingGoalPlayer}} fick in det utjämnande målet. Den goda formen fortsatte och vid {{secondPeriodOvertakingGoalTime}} sköt {{secondPeriodOvertakingGoalPlayer}} in ett mål som tog {{secondPeriodOvertakingTeam}} till ledning."])}
+
+ ; When a team is losing in first period, but ties the game in second
+ :tied-in-second-period
+ {:fi
+  (["{{firstPeriodLosingTeam}} pääsi hyvin mukaan peliin toisessa erässä ja onnistui tuomaan pelin tasoihin {{secondPeriodTyingGoalPlayer:genitive}} maalilla."]
+   ["{{firstPeriodLeadingTeam:genitive}} johto kuivui kokoon toisessa erässä ja {{firstPeriodLosingTeam}} nousi lopulta tasoihin {{secondPeriodTyingGoalPlayer:genitive}} maalilla."]
+   ["{{firstPeriodLosingTeam}} nousi takaa-ajoasemastaan toisessa erässä. Tasoitusmaalista vastasi {{secondPeriodTyingGoalPlayer}}."])
+  :sv
+  (["{{firstPeriodLosingTeam}} gjorde en stark andra period och {{secondPeriodTyingGoalPlayer}} utjämnade spelet vid {{secondPeriodOvertakingGoalTime}}."])}
+
+ ; When the first period is tied, but one team takes over the game with at least two goals in the second
+ :tied-in-first-period-and-takeover-in-second
+ {:fi
+  (["{{secondPeriodLeadingTeam}} pääsi vauhtiin pelin toisessa erässä ja onnistui kuromaan {{secondPeriodGoalDiff:genitive}} maalin johdon."]
+   ["{{secondPeriodLeadingTeam}} tuli toiseen erään vahvemmin ja pääsi jo {{secondPeriodGoalDiff:genitive}} maalin johtoon."]
+   ["{{secondPeriodLeadingTeam}} tuli kentälle kovalla latauksella tasaisen ensimmäisen erän jälkeen ja karkasi {{secondPeriodGoalDiff:genitive}} maalin johtoon."])
+  :sv
+  (["{{secondPeriodLeadingTeam}} sätter verkligen fart på spelet i andra perioden och lyckas ta sig till en {{secondPeriodGoalDiff}} måls ledning."])}
+
+ :tied-in-first-period-and-takeover-in-second-one-goal-lead
+ {:fi
+  (["Toisessa erässä {{secondPeriodLeadingTeam}} onnistui paremmin ja lähti viimeiseen erään yhden maalin johtoasemassa."]
+   ["Toisessa erässä {{secondPeriodLeadingTeam}} onnistui paremmin ja viimeiseen erään lähdettiin {{secondPeriodResult}}-tilanteesta."]
+   ["{{secondPeriodLeadingTeam}} vei niukasti toisen erän ja kolmanteen lähdettiin {{secondPeriodResult}}-tilanteesta."])
+  :sv
+  (["{{secondPeriodLeadingTeam}} vann den andra perioden med knapp marginal och tredje perioden inleddes från läget {{secondPeriodResult}}."])}
+
+ :tied-in-first-period-and-tied-in-second-period-with-goals
+ {:fi
+  (["Myös toisessa erässä päädyttiin tasalukemiin. Erän viimeisen tasoittavan maalin iski {{secondPeriodLastTyingGoalPlayer}} ajassa {{secondPeriodLastTyingGoalTime}}."])
+  :sv
+  (["Även den andra perioden slutade i jämnt läge. Vid {{secondPeriodLastTyingGoalTime}} fick {{secondPeriodLastTyingGoalPlayer}} in det utjämnande målet."])}
+
+ :tied-in-first-period-and-tied-in-second-period-without-goals
+ {:fi
+  (["Toinen erä päättyi maalitta, joten peli jatkui kolmanteen erään tasatilanteessa."]
+   ["Toisessa erässä ei nähty maaleja, joten peli jatkui kolmanteen erään tasatilanteessa {{secondPeriodResult}}."])
+  :sv
+  (["Den andra perioden lyckades ingendera lagen få in mål, så tredje perioden fortsatte från jämnt läge."]
+   ["Andra perioden förblev utan mål, så kampen fortsatte från jämt läge i tredje perioden."])}
+
+ :loser-catched-up-from-three-goals-to-one
+ {:fi
+  (["{{loser}} taisteli tiukasti loppuun asti ja nousi päätöserässä maalin päähän, mutta jäi ilman sarjapisteitä."]
+   ["{{loser:genitive}} kiri jäi päätöserässä maalin päähän."]
+   ["{{loser}} nousi parhaimmillaan jo maalin päähän, mutta {{winner}} säilytti johtonsa loppuun asti."]
+   ["{{loser}} nousi {{winnerBiggestGoalLead}} maalin takaa-ajoasemasta jo maalin päähän, mutta kiri ei ihan riittänyt."])
+  :sv
+  (["{{loser}} gjorde mål och knappade in på {{winner:genitive}} ledning efter att ha legat {{winnerBiggestGoalLead}} mål bakom. Men trots att de kämpade bra så höll {{winner}} ledningen och tog till slut vinsten med ett måls marginal." {:weight 0.01}]
+   ["{{loser}} gjorde mål och knappade in på {{winner:genitive}} ledning efter att ha legat {{winnerBiggestGoalLead}} mål bakom. Men trots att de kämpade bra så höll {{winner}} ledningen och tog till slut segern med ett måls marginal."])}
+
+ :won-after-a-three-goal-catch-up
+ {:fi
+  (["{{winner:genitive}} ahdinko muuttui kuitenkin riemukkaaksi {{result}}-voitoksi."]
+   ["Päätöserässä kirinyt {{winner}} käänsi ottelun kuitenkin {{result}}-voitoksi."]
+   ["Jännittävässä päätöserässä {{winner}} kiri {{loserGoalDifferenceAfterSecond}} maalin takaa {{loser:genitive}} ohi."])
+  :sv
+  (["{{winner}} lyckades efter en hård kamp i sista perioden vända läget till en vinst med {{result}}, då de som värst legat efter med {{loserGoalDifferenceAfterSecond}} mål i andra perioden." {:weight 0.5}]
+    ["{{winner}} lyckades efter en hård kamp i sista perioden ta segern med resultatet {{result}}, då de som värst legat efter med {{loserGoalDifferenceAfterSecond}} mål i andra perioden."])}
+
+ :won-after-a-three-goal-catch-up-in-additional-period
+ {:fi
+  (["{{loser:genitive}} johto mureni viimeisessä erässä ja {{winner}} vei suuremman pistesaaliin {{lastAdditionalPeriodNumber:ordinalInessive}} jatkoerässä."]
+    ["{{loserTeamHomeOrAway:genitive}} johto mureni viimeisessä erässä ja {{winner}} vei suuremman pistesaaliin {{lastAdditionalPeriodNumber:ordinalInessive}} jatkoerässä." {:weight 0.01}])
+  :sv
+  (["{{winner}} knappade in på {{loser:genitive}} ledning i tredje perioden och tog till slut segern i {{lastAdditionalPeriodNumber:ordinal}} förlängningen."])}
+
+ :won-after-a-three-goal-catch-up-in-overtime
+ {:fi
+  (["{{loser:genitive}} johto mureni viimeisessä erässä ja {{winner}} vei suuremman pistesaaliin jatkoajalla."]
+   ["Parhaimmillaan jo {{loserBiggestGoalLead:genitive}} maalin johdossa olleen {{loser:genitive}} oli kuitenkin tyytyminen vain pisteeseen {{result}}-jatkoaikatappiolla."]
+   ["{{loserTeamHomeOrAway:genitive}} johto mureni viimeisessä erässä ja {{winner}} vei suuremman pistesaaliin jatkoajalla." {:weight 0.01}])
+  :sv
+  (["{{winner}} knappade in på {{loser:genitive}} ledning i tredje perioden och tog till slut segern på förlängning."])}
+
+ :won-after-a-three-goal-catch-up-in-shootout
+ {:fi
+  (["Parhaimmillaan jo {{loserBiggestGoalLead:genitive}} maalin johdossa olleen {{loser:genitive}} oli kuitenkin tyytyminen vain pisteeseen voittolaukauskilpailun jälkeen."]
+   ["{{loser:genitive}} johto mureni viimeisessä erässä ja {{winner}} vei suuremman pistesaaliin voittolaukauskilpailun jälkeen."]
+   ["{{loser}} joutui tyytymään vain pisteeseen voittolaukauskilpailun jälkeen, vaikka johti parhaimmillaan jo {loserBiggestGoalLead:addessive}} maalilla."])
+  :sv
+  (["{{loser}} fick nöja sig med en poäng efter straffläggning trots att laget som bäst ledde med {loserBiggestGoalLead}} mål."])}
+
+ :first-goal-in-additional-period
+ {:fi
+  (["Ottelun ensimmäinen osuma nähtiin vasta {{lastAdditionalPeriodNumber:ordinalInessive}} jatkoerässä, kun {{firstGoalPlayer}} ratkaisi ottelun {{firstGoalType:text}} {{winnerTeamHomeOrAway:dative}}."])
+  :sv
+  (["Matchens första mål kom först i förlängning. {{firstGoalPlayer}} stod för det första och avgörande målet och tog därmed {{firstGoalTeam}} till seger."])}
+
+ :first-goal-in-overtime
+ {:fi
+  (["Ottelussa edettiin ilman maalia aina jatkoajalle asti. Ratkaisumaalin iski {{firstGoalType:text}}{{firstGoalTeam:genitive}} {{firstGoalPlayer}}."]
+   ["Ottelun ensimmäinen osuma nähtiin vasta jatkoajalla, kun {{firstGoalPlayer}} ratkaisi ottelun {{firstGoalType:text}} {{winnerTeamHomeOrAway:dative}}."])
+  :sv
+  (["Matchens första mål kom först i förlängning. {{firstGoalPlayer}} stod för det första och avgörande målet och tog därmed {{firstGoalTeam}} till seger."])}
+
+ :first-goal-in-overtime-with-assist
+ {:fi
+  (["Ottelussa edettiin ilman maalia aina jatkoajalle asti. Ratkaisumaalin iski {{firstGoalType:text}}{{firstGoalTeam:genitive}} {{firstGoalPlayer}} {{firstGoalFirstAssistPlayer:genitive}} syötöstä."]
+  ["{{firstGoalTeam}} ratkaisi ottelun jatkoajalla, kun {{firstGoalFirstAssistPlayer}} tarjoili ja {{firstGoalPlayer}} iski ottelun ainoan osuman." {:weight 0.01}])
+  :sv
+  (["Det dröjde hela vägen till förlängning innan matchens målkonto öppnades. Då stod {{firstGoalType:text}}{{firstGoalTeam:genitive}} {{firstGoalPlayer}} för det avgörande målet med passningspoäng för {{firstGoalFirstAssistPlayer}}."])}
+
+ :first-goal-in-overtime-with-assists
+ {:fi
+  (["Ottelussa edettiin ilman maalia aina jatkoajalle asti. Ratkaisumaalin iski {{firstGoalType:text}}{{firstGoalTeam:genitive}} {{firstGoalPlayer}} {{firstGoalFirstAssistPlayer:genitive}} ja {{firstGoalSecondAssistPlayer:genitive}} syötöistä."]
+  ["{{firstGoalTeam}} ratkaisi ottelun jatkoajalla, kun {{firstGoalFirstAssistPlayer}} osui {{firstGoalType:text}}, syöttäjinä {{firstGoalFirstAssistPlayer}} ja {{firstGoalSecondAssistPlayer}}." {:weight 0.01}])
+  :sv
+  (["Det dröjde hela vägen till förlängning innan matchens målkonto öppnades. Då stod {{firstGoalType:text}}{{firstGoalTeam:genitive}} {{firstGoalPlayer}} för det avgörande målet med passningspoäng för {{firstGoalFirstAssistPlayer}} och {{firstGoalSecondAssistPlayer}}."])}
+
+ :first-goal-in-shootout
+ {:fi
+  (["Ottelussa ei nähty maaleja ennen voittomaalikilpailua, jossa ratkaisevan maalin iski {{firstGoalPlayer}}."])
+  :sv
+  (["Publiken fick vänta på matchens första mål ända till straffarna. {{winner}} var vassare och kunde tack vare en fullträff av {{firstGoalPlayer}} vinna matchen och knipa två poäng."])}
+
+ :loser-tied-in-third-period-and-lost
+ {:fi
+  (["{{lastTyingGoalInThirdPeriodPlayer:genitive}} kolmannessa erässä iskemä tasoitus ei kantanut {{loser:partitive}} voittoon, vaan {{winner}} otti lopulta voiton {{goalDifference:genitive}} maalin erolla."]
+   ["{{lastTyingGoalInThirdPeriodPlayer:genitive}} kolmannessa erässä tekemä tasoitus ei riittänyt voittoon, vaan {{winner}} vei lopulta pisteet. Voittomaalin iski {{winningGoalPlayer}} ajassa {{winningGoalTime}}."]
+   ["{{lastTyingGoalInThirdPeriodPlayer}} iski ottelun tasoihin kolmannessa erässä, mutta lopulta {{winner}} onnistui viemään voiton. Voittomaalin iski {{winningGoalPlayer}} ajassa {{winningGoalTime}}."])
+  :sv
+  (["{{lastTyingGoalInThirdPeriodPlayer}} lyckades jämna läget i tredje period. Men det räckte inte till för {{loser}}, utan {{winner}} tog slutligen segern med {{goalDifference}} måls marginal."])}
+
+ :loser-tied-with-last-goal-in-third-period-and-lost-in-shootout
+ {:fi
+  (["{{lastGoalInThirdPeriodPlayer:genitive}} kolmannessa erässä iskemä tasoitus ei kantanut {{loser:partitive}} voittoon, sillä {{winner}} otti isomman pistepotin voittomaalikilpailussa."]
+   ["{{lastGoalInThirdPeriodPlayer:genitive}} kolmannessa erässä tekemä tasoitus ei riittänyt voittoon, sillä {{winner}} otti isomman pistepotin voittomaalikilpailussa."]
+   ["{{lastGoalInThirdPeriodPlayer}} iski ottelun tasoihin kolmannessa erässä, mutta lopulta {{winner}} vei isomman pistepotin voittomaalikilpailussa."])
+  :sv
+  (["{{lastGoalInThirdPeriodPlayer}} jämnade ut spelet i tredje perioden. Till slut lyckades {{winner}} ta segern på straffläggning."])}
+
+ :loser-tied-with-last-goal-in-third-period-and-lost-in-overtime
+ {:fi
+  (["{{lastGoalInThirdPeriodPlayer:genitive}} kolmannessa erässä tekemä tasoitus ei kantanut {{loser:partitive}} voittoon, sillä {{winner}} vei isomman pistepotin {{winningGoalPlayer:genitive}} jatkoaikamaalilla ajassa {{winningGoalTime}}."]
+   ["{{lastGoalInThirdPeriodPlayer:genitive}} kolmannessa erässä iskemä tasoitus ei riittänyt voittoon, sillä {{winner}} otti isomman pistepotin {{winningGoalPlayer:genitive}} jatkoaikamaalilla ajassa {{winningGoalTime}}."]
+   ["{{lastGoalInThirdPeriodPlayer}} iski ottelun tasoihin kolmannessa erässä, mutta lopulta {{winner}} vei isomman pistepotin jatkoajalla {{winningGoalPlayer:genitive}} maalilla ajassa {{winningGoalTime}}."]
+   ["{{lastGoalInThirdPeriodPlayer}} tasoitti ottelun kolmannessa erässä, mutta lopulta {{winner}} vei isomman pistepotin jatkoajalla, kun {{winningGoalPlayer}} iski kiekon verkkoon ajassa {{winningGoalTime}}."])
+  :sv
+  (["{{lastGoalInThirdPeriodPlayer}} jämnade ut spelet i tredje perioden. Till slut lyckades {{winner}} ta segern på övertid då {{winningGoalPlayer}} manövrerade pucken i mål och stannade klockan på {{winningGoalTime}}."])}
+
+ :loser-tied-with-last-goal-in-third-period-and-lost-in-additional-period
+ {:fi
+  (["{{lastGoalInThirdPeriodPlayer}} tasoitti ottelun kolmannessa erässä, mutta lopulta {{winner}} voitti pelin {{lastAdditionalPeriodNumber:ordinalInessive}} jatkoerässä, kun {{winningGoalPlayer}} iski kiekon verkkoon ajassa {{winningGoalTime}}."])
+  :sv
+  (["{{lastGoalInThirdPeriodPlayer}} jämnade ut spelet i tredje perioden. Till slut lyckades {{winner}} ta segern på övertid då {{winningGoalPlayer}} manövrerade pucken i mål och stannade klockan på {{winningGoalTime}}."])}
+
+ :over-three-goals-to-zero
+ {:fi
+  (["{{loser}} jäi lähtötelineisiin heti ottelun alussa eikä saanut peliään kunnolla käyntiin."]
+   ["{{loser}} ei missään vaiheessa saanut maalihanojaan auki ja {{winner}} meni menojaan."]
+   ["{{loser}} ei missään vaiheessa löytänyt maalintekovirettään ja {{winner}} määräsi ottelun tahdin."])
+  :sv
+  (["{{winner}} dominerade matchen och {{loser}} lyckades aldrig öppna sitt målkonto."])}
+
+ :winner-in-lead-the-whole-game
+ {:fi
+  (["{{loser}} ei missään vaiheessa päässyt tasoihin vaan {{winner}} piti johtoasemansa läpi ottelun."]
+   ["{{loser}} ei missään vaiheessa päässyt tasoittamaan ottelua vaan {{winner}} piti johtonsa loppuun asti."]
+   ["{{winner}} onnistui pitämään johtonsa loppuun asti ja vei täyden pistepotin."]
+   ["{{winner}} pystyi pitämään johtoasemansa loppuun asti ja vei täydet pisteet."]
+   ["{{loser:genitive}} takaa-ajoyritykset eivät tuottaneet tulosta ja {{winner}} pystyi pitämään johtoasemansa loppuun asti."]
+   ["{{loser}} ei onnistunut kirimään ottelua tasoihin vaan {{winner}} pysyi johdossa loppuvihellykseen asti."])
+  :sv
+  (["{{winner}} dominerade hela spelet och gav inte {{loser}} chansen att jämna ut under hela matchens lopp."])}
+
+ :team-tying-in-second-period-loses-in-regulation
+ {:fi
+  (["Kirivaihde ei kuitenkaan riittänyt voittoon asti, vaan {{winner}} vei lopulta voiton. Ratkaisumaalin iski {{winningGoalPlayer}} ajassa {{winningGoalTime}}."]
+   ["Kiri ei kuitenkaan kestänyt voittoon asti, vaan {{winner}} vei lopulta voiton. Ottelun ratkaisumaalin iski {{winningGoalPlayer}} ajassa {{winningGoalTime}}."])
+  :sv
+  (["Utjämningen i andra period räckte dock inte för {{loser}} ända till slut utan {{winner}} knep segern då {{winningGoalPlayer}} satte in det avgörande målet vid tiden {{winningGoalTime}}."])}
+
+ :team-tying-in-second-period-loses-in-overtime
+ {:fi
+  (["Kirivaihde ei kuitenkaan riittänyt voittoon asti, vaan {{winner}} vei lopulta ottelun jatkoajalla. Ratkaisumaalin iski {{winningGoalPlayer}} ajassa {{winningGoalTime}}."]
+   ["Kiri ei kuitenkaan kestänyt voittoon asti, vaan {{winner}} vei isomman pistepotin jatkoajalla. Ottelun ratkaisumaalin iski {{winningGoalPlayer}} ajassa {{winningGoalTime}}."])
+  :sv
+  (["{{loser:genitive}} utjämning i andra period räckte dock inte ända till slut utan {{winner}} knep segern under förlängningen vid tiden {{winningGoalTime}}."])}
+
+ :team-tying-in-second-period-loses-in-shootout
+ {:fi
+  (["Kirivaihde ei kuitenkaan riittänyt voittoon asti vaan {{winner}} vei lopulta ottelun voittolaukauskilpailussa."]
+   ["Kiri ei kuitenkaan kestänyt voittoon asti, vaan {{winner}} vei isomman pistepotin voittolaukauskilpailussa."])
+  :sv
+  (["{{loser:genitive}} utjämning i andra period räckte dock inte ända till slut utan {{winner}} knep segern först på straffläggning."])}
+
+ :team-tying-in-second-period-loses-in-additional-period
+ {:fi
+  (["Kiri ei kuitenkaan kestänyt voittoon asti, vaan {{winner}} voitti ottelun {{lastAdditionalPeriodNumber:ordinalInessive}} jatkoerässä. Ottelun ratkaisumaalin iski {{winningGoalPlayer}} ajassa {{winningGoalTime}}."])
+  :sv
+  (["{{loser:genitive}} utjämning i andra period räckte dock inte ända till slut utan {{winner}} knep segern under förlängningen vid tiden {{winningGoalTime}}."])}
+
+ :team-overtaking-in-second-period-loses-in-regulation
+ {:fi
+  (["Johtoasema ei kuitenkaan pitänyt loppuun asti vaan {{winner}} vei lopulta ottelun. Ratkaisumaalin iski {{winningGoalPlayer}} ajassa {{winningGoalTime}}."]
+   ["Johto ei kuitenkaan kestänyt loppuun asti vaan {{winner}} vei lopulta voiton. Ratkaisumaalin iski {{winningGoalPlayer}} ajassa {{winningGoalTime}}."])
+  :sv
+  (["Ledningen räckte dock inte ända till slut utan {{winner}} knep segern då {{winningGoalPlayer}} satte in det avgörande målet vid tiden {{winningGoalTime}}."])}
+
+ :team-overtaking-in-second-period-loses-in-overtime
+ {:fi
+  (["Johtoasema ei kuitenkaan riittänyt loppuun asti vaan {{winner}} vei isomman pistepotin jatkoajalla. Ratkaisumaalin iski {{winningGoalPlayer}} ajassa {{winningGoalTime}}."]
+   ["Johto ei kuitenkaan riittänyt loppuun asti vaan {{winner}} voitti ottelun jatkoajalla. Ratkaisumaalin iski {{winningGoalPlayer}} ajassa {{winningGoalTime}}."])
+  :sv
+  (["Ledningen räckte dock inte ända till slut utan {{winner}} knep segern under förlängningen. {{winningGoalPlayer}} satte det avgörande målet vid {{winningGoalTime}}."])}
+
+ :team-overtaking-in-second-period-loses-in-shootout
+ {:fi
+  (["Johtoasema ei kuitenkaan riittänyt loppuun asti vaan {{winner}} vei isomman pistepotin voittolaukauskilpailussa."]
+   ["Johto ei kuitenkaan rittänyt loppuun asti vaan {{winner}} vei voiton voittolaukauskilpailussa."])
+  :sv
+  (["Ledningen räckte dock inte till seger utan {{winner}} knep den med straffslag på förlängningen."])}
+
+ :team-overtaking-in-second-period-loses-in-additional-period
+ {:fi
+  (["Johto ei kuitenkaan riittänyt loppuun asti vaan {{winner}} voitti ottelun {{lastAdditionalPeriodNumber:ordinalInessive}} jatkoerässä. Ratkaisumaalin iski {{winningGoalPlayer}} ajassa {{winningGoalTime}}."])
+  :sv
+  (["Ledningen räckte dock inte ända till slut utan {{winner}} knep segern under förlängningen. {{winningGoalPlayer}} satte det avgörande målet vid {{winningGoalTime}}."])}
+
+ :goal-spree-in-third-period
+ {:fi
+  (["Viimeisessä erässä maaleja mätettiin urakalla. Maali-iloittelusta voittajana selvisi {{winner}}. Voittomaaliksi jäi {{winningGoalPlayer:genitive}} maali ajassa {{winningGoalTime}}."])
+  :sv
+  (["Sista peroden blev en riktig målfest. I slutet stod {{winner}} som segrare.{{winningGoalPlayer:genitive}} sköt in det avgörande målet vid {{winningGoalTime}}."])}
+
+
+ :won-in-additional-period
+ {:fi
+  (["Peli päättyi lopulta {{lastAdditionalPeriodNumber:ordinalInessive}} jatkoerässä, kun {{winnerTeamHomeOrAway:genitive}} {{winningGoalPlayer}} teki ratkaisevan maalin ajassa {{winningGoalTime}}."])
+  :sv
+  ([""])}
+
+ ; Helpers
+ :on-powerplay
+ {:fi (["ylivoimalla"])
+  :sv ([" i powerplay"])}
+
+ :on-short-handed
+ {:fi (["alivoimalla"])
+  :sv ([" i boxplay"])}
+
+ :on-penalty-shot
+ {:fi (["rangaistuslaukauksella"])
+  :sv ([" i straffläggning"])}}

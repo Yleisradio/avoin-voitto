@@ -1,0 +1,80 @@
+{
+ ; Best player scores four or more goals
+ :score-over-three-goals
+ {:fi
+  (["{{bestPlayer.last}} tykitti {{bestPlayer.goals}} maalia"]
+   ["{{bestPlayer.last}} tykitti {{bestPlayer.goals}} osumaa"]
+   ["{{bestPlayer.last}} laukoi {{bestPlayer.goals}} osumaa"]
+   ["{{bestPlayer.last}} iski {{bestPlayer.goals}} maalia"]
+   ["{{bestPlayer.last:genitive}} tykki lauloi {{bestPlayer.goals}} kertaa"]
+   ["{{bestPlayer.last:adessive}} {{winningTeamBestPlayer.goals:genitive}} maalin ilta"]
+   ["{{bestPlayer.last:adessive}} superilta" {:weight 0.5}]
+   ["pitelemätön {{bestPlayer.last}} iski {{bestPlayer.goals}} maalia"])
+  :sv
+  (["{{bestPlayer.last}} sköt {{bestPlayer.goals}} mål"]
+   ["{{bestPlayer.goals}} var matchens bästa spelare med {{bestPlayer.last}} mål"]
+   ["{{bestPlayer.goals}} gjorde {{bestPlayer.last}} mål"])}
+
+ ; Best player scores a hatrick
+ :score-hatrick
+ {:fi
+  (["{{bestPlayer.last}} mätti hattutempun"]
+   ["{{bestPlayer.last}} tykitti hattutempun"]
+   ["{{bestPlayer.last}} iski hattutempun"]
+   ["{{bestPlayer.last}} tehtaili hattutempun"]
+   ["{{bestPlayer.last}} täräytti hattutempun" {:weight 0.2}]
+   ["{{bestPlayer.last}} niittasi hattutempun" {:weight 0.2}])
+  :sv
+  (["{{bestPlayer.last}} gjorde hattrick" {:weight 0.5}]
+   ["hattrick och matchens bästa spelare för {{bestPlayer.last}}"]
+   ["{{bestPlayer.last}} var matchens bästa spelare med hattrick"])}
+
+ ; When the winning team's best player has many points and took part in most of the team's goals
+ :key-player
+ {:fi
+  (["voiton arkkitehtina hääri {{winningTeamBestPlayer.last}}"]
+   ["ottelun ratkaisijana hääri {{winningTeamBestPlayer.last}}"]
+   ["kamppailun kapellimestarina hääri {{winningTeamBestPlayer.last}}"]
+   ["{{winner:genitive}} tehomiehenä kunnostautui {{winningTeamBestPlayer.last}}"]
+   ["{{winningTeamBestPlayer.last:adessive}} {{winningTeamBestPlayer.points:genitive}} pisteen ilta" {:weight 0.5}]
+   ["{{winningTeamBestPlayer.last}} hyvässä vireessä" {:weight 0.5}])
+  :sv
+  (["{{winningTeamBestPlayer.last}} var i grym form"]
+   ["{{winningTeamBestPlayer.last}} var matchens bästa spelare"]
+   ["{{winningTeamBestPlayer.last}} var huvudarkitekt till vinsten" {:weight 0.5}]
+   ["{{winningTeamBestPlayer.last}} var den drivande kraften till vinsten" {:weight 0.5}])}
+
+ ; When the winning team's best player has three or more points, but not a :key-player
+ :winning-team-player-three-or-more-points
+ {:fi
+  (["{{winningTeamBestPlayer.last}} iski tehot {{winningTeamBestPlayer.goals}}+{{winningTeamBestPlayer.assists}}"]
+   ["{{winningTeamBestPlayer.last:adessive}} {{winningTeamBestPlayer.points:genitive}} pisteen ilta"]
+   ["{{winningTeamBestPlayer.last}} tehokkaalla pelipäällä"]
+   ["{{winningTeamBestPlayer.last}} pirteällä pelipäällä"]
+   ["{{winningTeamBestPlayer.last}} mainiossa vireessä"])
+  :sv
+  (["{{winningTeamBestPlayer.last}} tog hela {{winningTeamBestPlayer.goals}}+{{winningTeamBestPlayer.assists}} poäng"]
+   ["{{winningTeamBestPlayer.last}} var matchens bästa spelare med {{winningTeamBestPlayer.goals}}+{{winningTeamBestPlayer.assists}} poäng"]
+   ["{{winningTeamBestPlayer.last}} i grym form med {{winningTeamBestPlayer.goals}}+{{winningTeamBestPlayer.assists}} poäng"])}
+
+ ; When the losing team's best player has three or more points, but it's not enough for the win
+ :losing-team-player-three-or-more-points
+ {:fi
+  (["{{loser:genitive}} {{losingTeamBestPlayer.last:genitive}} tehot eivät riittäneet voittoon"]
+   ["{{loser:genitive}} {{losingTeamBestPlayer.last:genitive}} tehopisteet eivät auttaneet voittoon"]
+   ["{{loser:genitive}} {{losingTeamBestPlayer.last:genitive}} tehot laiha lohtu"])
+  :sv
+  (["{{losingTeamBestPlayer.last}} tog {{losingTeamBestPlayer.goals}}+{{losingTeamBestPlayer.assists}} poäng, men det räckte inte till vinst"]
+   ["{{losingTeamBestPlayer.last}} gjorde en fin insats med {{losingTeamBestPlayer.goals}}+{{losingTeamBestPlayer.assists}} poäng, men det räckte inte till vinst"])}
+
+ ; When the winning team's goalie keeps a shutout and has >= 30 saves
+ :goalie-shutout
+ {:fi
+  (["{{winningTeamBestGoalie.last}} piti maalinsa puhtaana"]
+   ["{{winningTeamBestGoalie.last:adessive}} huippuilta"]
+   ["{{winningTeamBestGoalie.last}} huimassa vireessä"]
+   ["{{winningTeamBestGoalie.last}} oli maalillaan ohittamaton"])
+  :sv
+  (["{{winningTeamBestGoalie.last}} höll nollan"]
+   ["{{winningTeamBestGoalie.last}} bevakade buren med bravur och höll nollan" {:weight 1.5}])}}
+

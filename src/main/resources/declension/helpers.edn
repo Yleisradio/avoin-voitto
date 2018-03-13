@@ -1,0 +1,54 @@
+{:home-team
+ {:fi
+   {:nominative "kotijoukkue"
+    :adessive "kotijoukkueella"
+    :genitive "kotijoukkueen"
+    :allative "kotijoukkueelle"
+    :elative "kotijoukkueesta"
+    :dative "kotijoukkueelle"
+    :partitive "kotijoukkuetta"}
+  :sv
+   {:nominative "hemmalag"
+    :definitive "hemmalaget"}}
+ :away-team
+ {:fi
+   {:nominative "vierasjoukkue"
+    :adessive "vierasjoukkueella"
+    :genitive "vierasjoukkueen"
+    :allative "vierasjoukkueelle"
+    :elative "vierasjoukkueesta"
+    :dative "vierasjoukkueelle"
+    :partitive "vierasjoukkuetta"}
+  :sv
+   {:nominative "bortalag"
+    :definitive "bortalaget"}}
+ :home-win
+ {:fi
+   {:nominative "kotivoitto"
+    :adessive "kotivoitolla"
+    :genitive "kotivoiton"
+    :elative "kotivoitosta"}
+  :sv
+   {:nominative "hemmavinst"
+    :definitive "hemmavinsten"}}
+ :away-win
+ {:fi
+   {:nominative "vierasvoitto"
+    :adessive "vierasvoitolla"
+    :genitive "vierasvoiton"
+    :elative "vierasvoitosta"}
+  :sv
+   {:nominative "bortavinst"
+    :definitive "bortavinsten"}}
+ :home
+ {:fi
+   {:nominative "koti"
+    :possuf "kotonaan"}
+  :sv
+   {:nominative "hemma"}}
+ :away
+ {:fi
+   {:nominative "vieras"
+    :possuf "vieraissa"}
+  :sv
+   {:nominative "borta"}}}

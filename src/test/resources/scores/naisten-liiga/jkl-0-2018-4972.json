@@ -1,0 +1,1793 @@
+{
+  "data": [
+    {
+      "id": "icehockey",
+      "isIndividualSport": false,
+      "url": "/v0/sports/icehockey.json?lang=fi&include=all",
+      "name": "Jääkiekko",
+      "series": [
+        {
+          "id": "naisten-liiga",
+          "url": "/v0/sports/icehockey/series/naisten-liiga.json?lang=fi&include=all",
+          "name": "Naisten Liiga",
+          "tags": [
+            "jkl"
+          ],
+          "country": "",
+          "meta": {
+            "images": []
+          },
+          "pollingLevel": "Frequent",
+          "seasons": [
+            {
+              "id": "2017-2018",
+              "name": "2017-2018",
+              "url": "/v0/sports/icehockey/series/naisten-liiga/seasons/2017-2018.json?lang=fi&include=all",
+              "stages": [
+                {
+                  "id": "191",
+                  "name": "Naisten Liiga",
+                  "leagueTableUrl": "/v0/sports/icehockey/series/naisten-liiga/seasons/2017-2018/league-table.json?stageId=191&lang=fi&include=all",
+                  "playerStatsUrl": "/v0/sports/icehockey/series/naisten-liiga/seasons/2017-2018/player-stats.json?stageId=191&lang=fi&include=all",
+                  "goalieStatsUrl": "/v0/sports/icehockey/series/naisten-liiga/seasons/2017-2018/goalie-stats.json?stageId=191&lang=fi&include=all",
+                  "source": {
+                    "extId": "191",
+                    "provider": "jkl",
+                    "s24MatchPlaceholder": false,
+                    "generatedMatchStats": false
+                  },
+                  "matches": [
+                    {
+                      "id": "jkl-0-2018-4972",
+                      "name": "Kuortane - HPK",
+                      "url": "/v0/sports/icehockey/series/naisten-liiga/seasons/2017-2018/matches/jkl-0-2018-4972.json?lang=fi&include=all",
+                      "status": "finished",
+                      "date": "2018-02-04T15:30:00+02:00",
+                      "venue": "79",
+                      "teams": [
+                        {
+                          "id": "jkl-1281984592",
+                          "name": "Kuortane",
+                          "short": "Kuortane",
+                          "abbr": "KUO",
+                          "score": {
+                            "now": 4,
+                            "periods": [
+                              {
+                                "id": "1",
+                                "score": 2
+                              },
+                              {
+                                "id": "2",
+                                "score": 1
+                              },
+                              {
+                                "id": "3",
+                                "score": 1
+                              }
+                            ],
+                            "outcome": {
+                              "wins": 1,
+                              "draws": 0,
+                              "losses": 0,
+                              "otWins": 0,
+                              "otLosses": 0
+                            }
+                          },
+                          "players": [
+                            {
+                              "id": "jkl-31570363",
+                              "name": {
+                                "first": "Tiia",
+                                "last": "Pajarinen"
+                              },
+                              "number": 1,
+                              "position": "g",
+                              "specific": {
+                                "line": "1",
+                                "stats": {
+                                  "total": {
+                                    "plus": 0,
+                                    "plusMinus": 0,
+                                    "minus": 0
+                                  },
+                                  "perPeriod": {}
+                                }
+                              }
+                            },
+                            {
+                              "id": "jkl-31168791",
+                              "name": {
+                                "first": "Sini",
+                                "last": "Karjalainen"
+                              },
+                              "number": 2,
+                              "position": "ld",
+                              "specific": {
+                                "line": "1",
+                                "stats": {
+                                  "total": {
+                                    "saves": 0,
+                                    "minus": 0,
+                                    "faceOffWins": 0,
+                                    "plus": 0,
+                                    "assists": 1,
+                                    "faceOffLosses": 0,
+                                    "missedShots": 0,
+                                    "points": 1,
+                                    "plusMinus": 0,
+                                    "timeOnIce": 0,
+                                    "shotsOnGoal": 0,
+                                    "penaltyMins": 0,
+                                    "goals": 0
+                                  },
+                                  "perPeriod": {
+                                    "2": {
+                                      "assists": 1
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            {
+                              "id": "jkl-31761787",
+                              "name": {
+                                "first": "Neea",
+                                "last": "Lehtimäki"
+                              },
+                              "number": 4,
+                              "position": "rd",
+                              "specific": {
+                                "line": "4",
+                                "stats": {
+                                  "total": {
+                                    "plus": 0,
+                                    "plusMinus": 0,
+                                    "minus": 0
+                                  },
+                                  "perPeriod": {}
+                                }
+                              }
+                            },
+                            {
+                              "id": "jkl-32734315",
+                              "name": {
+                                "first": "Elli",
+                                "last": "Mäkelä"
+                              },
+                              "number": 5,
+                              "position": "ld",
+                              "specific": {
+                                "line": "3",
+                                "stats": {
+                                  "total": {
+                                    "plus": 0,
+                                    "plusMinus": 0,
+                                    "minus": 0
+                                  },
+                                  "perPeriod": {}
+                                }
+                              }
+                            },
+                            {
+                              "id": "jkl-31959735",
+                              "name": {
+                                "first": "Iina",
+                                "last": "Tohila"
+                              },
+                              "number": 6,
+                              "position": "ld",
+                              "specific": {
+                                "line": "2",
+                                "stats": {
+                                  "total": {
+                                    "saves": 0,
+                                    "minus": 0,
+                                    "faceOffWins": 0,
+                                    "plus": 0,
+                                    "assists": 1,
+                                    "faceOffLosses": 0,
+                                    "missedShots": 0,
+                                    "points": 1,
+                                    "plusMinus": 0,
+                                    "timeOnIce": 0,
+                                    "shotsOnGoal": 0,
+                                    "penaltyMins": 0,
+                                    "goals": 0
+                                  },
+                                  "perPeriod": {
+                                    "1": {
+                                      "assists": 1
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            {
+                              "id": "jkl-31924058",
+                              "name": {
+                                "first": "Eve",
+                                "last": "Savander"
+                              },
+                              "number": 7,
+                              "position": "rd",
+                              "specific": {
+                                "line": "1",
+                                "stats": {
+                                  "total": {
+                                    "saves": 0,
+                                    "minus": 0,
+                                    "faceOffWins": 0,
+                                    "plus": 0,
+                                    "assists": 0,
+                                    "faceOffLosses": 0,
+                                    "missedShots": 0,
+                                    "points": 1,
+                                    "plusMinus": 0,
+                                    "timeOnIce": 0,
+                                    "shotsOnGoal": 0,
+                                    "penaltyMins": 2,
+                                    "goals": 1
+                                  },
+                                  "perPeriod": {
+                                    "2": {
+                                      "saves": 0,
+                                      "faceOffWins": 0,
+                                      "assists": 0,
+                                      "faceOffLosses": 0,
+                                      "missedShots": 0,
+                                      "points": 1,
+                                      "timeOnIce": 0,
+                                      "shotsOnGoal": 0,
+                                      "penaltyMins": 2,
+                                      "goals": 1
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            {
+                              "id": "jkl-29454462",
+                              "name": {
+                                "first": "Sanni",
+                                "last": "Rantala"
+                              },
+                              "number": 9,
+                              "position": "rd",
+                              "specific": {
+                                "line": "2",
+                                "stats": {
+                                  "total": {
+                                    "saves": 0,
+                                    "minus": 0,
+                                    "faceOffWins": 0,
+                                    "plus": 0,
+                                    "assists": 0,
+                                    "faceOffLosses": 0,
+                                    "missedShots": 0,
+                                    "points": 0,
+                                    "plusMinus": 0,
+                                    "timeOnIce": 0,
+                                    "shotsOnGoal": 0,
+                                    "penaltyMins": 2,
+                                    "goals": 0
+                                  },
+                                  "perPeriod": {
+                                    "1": {
+                                      "penaltyMins": 2
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            {
+                              "id": "jkl-32677605",
+                              "name": {
+                                "first": "Anna-Lotta",
+                                "last": "Räsänen"
+                              },
+                              "number": 13,
+                              "position": "c",
+                              "specific": {
+                                "line": "2",
+                                "stats": {
+                                  "total": {
+                                    "saves": 0,
+                                    "minus": 0,
+                                    "faceOffWins": 0,
+                                    "plus": 0,
+                                    "assists": 1,
+                                    "faceOffLosses": 0,
+                                    "missedShots": 0,
+                                    "points": 1,
+                                    "plusMinus": 0,
+                                    "timeOnIce": 0,
+                                    "shotsOnGoal": 0,
+                                    "penaltyMins": 0,
+                                    "goals": 0
+                                  },
+                                  "perPeriod": {
+                                    "1": {
+                                      "assists": 1
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            {
+                              "id": "jkl-32660382",
+                              "name": {
+                                "first": "Emilia",
+                                "last": "Vesa"
+                              },
+                              "number": 14,
+                              "position": "rw",
+                              "specific": {
+                                "line": "1",
+                                "stats": {
+                                  "total": {
+                                    "saves": 0,
+                                    "minus": 0,
+                                    "faceOffWins": 0,
+                                    "plus": 0,
+                                    "assists": 2,
+                                    "faceOffLosses": 0,
+                                    "missedShots": 0,
+                                    "points": 2,
+                                    "plusMinus": 0,
+                                    "timeOnIce": 0,
+                                    "shotsOnGoal": 0,
+                                    "penaltyMins": 0,
+                                    "goals": 0
+                                  },
+                                  "perPeriod": {
+                                    "1": {
+                                      "assists": 1
+                                    },
+                                    "3": {
+                                      "assists": 1
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            {
+                              "id": "jkl-32057348",
+                              "name": {
+                                "first": "Jenna",
+                                "last": "Kaila"
+                              },
+                              "number": 15,
+                              "position": "rw",
+                              "specific": {
+                                "line": "3",
+                                "stats": {
+                                  "total": {
+                                    "plus": 0,
+                                    "plusMinus": 0,
+                                    "minus": 0
+                                  },
+                                  "perPeriod": {}
+                                }
+                              }
+                            },
+                            {
+                              "id": "jkl-28849722",
+                              "name": {
+                                "first": "Jenniina",
+                                "last": "Nylund"
+                              },
+                              "number": 18,
+                              "position": "lw",
+                              "specific": {
+                                "line": "1",
+                                "stats": {
+                                  "total": {
+                                    "saves": 0,
+                                    "minus": 0,
+                                    "faceOffWins": 0,
+                                    "plus": 0,
+                                    "assists": 0,
+                                    "faceOffLosses": 0,
+                                    "missedShots": 0,
+                                    "points": 2,
+                                    "plusMinus": 0,
+                                    "timeOnIce": 0,
+                                    "shotsOnGoal": 0,
+                                    "penaltyMins": 0,
+                                    "goals": 2
+                                  },
+                                  "perPeriod": {
+                                    "1": {
+                                      "goals": 1
+                                    },
+                                    "3": {
+                                      "goals": 1
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            {
+                              "id": "jkl-32618855",
+                              "name": {
+                                "first": "Anni",
+                                "last": "Timonen"
+                              },
+                              "number": 19,
+                              "position": "rd",
+                              "specific": {
+                                "line": "3",
+                                "stats": {
+                                  "total": {
+                                    "plus": 0,
+                                    "plusMinus": 0,
+                                    "minus": 0
+                                  },
+                                  "perPeriod": {}
+                                }
+                              }
+                            },
+                            {
+                              "id": "jkl-40035315",
+                              "name": {
+                                "first": "Linnea",
+                                "last": "Melotindos"
+                              },
+                              "number": 20,
+                              "position": "rw",
+                              "specific": {
+                                "line": "2",
+                                "stats": {
+                                  "total": {
+                                    "plus": 0,
+                                    "plusMinus": 0,
+                                    "minus": 0
+                                  },
+                                  "perPeriod": {}
+                                }
+                              }
+                            },
+                            {
+                              "id": "jkl-40055351",
+                              "name": {
+                                "first": "Kiia",
+                                "last": "Simola"
+                              },
+                              "number": 21,
+                              "position": "lw",
+                              "meta": {
+                                "directives": {
+                                  "isRookie": "false",
+                                  "weight": "0 kg",
+                                  "birth": "20.01.2002",
+                                  "height": "0 cm",
+                                  "isAssistCaptain": "false",
+                                  "isCaptain": "false",
+                                  "injured": "false",
+                                  "shoots": ""
+                                },
+                                "images": []
+                              },
+                              "specific": {
+                                "line": "3",
+                                "stats": {
+                                  "total": {
+                                    "plus": 0,
+                                    "plusMinus": 0,
+                                    "minus": 0
+                                  },
+                                  "perPeriod": {}
+                                }
+                              }
+                            },
+                            {
+                              "id": "jkl-30555541",
+                              "name": {
+                                "first": "Piitu-Liina",
+                                "last": "Tervo"
+                              },
+                              "number": 22,
+                              "position": "c",
+                              "specific": {
+                                "line": "3",
+                                "stats": {
+                                  "total": {
+                                    "plus": 0,
+                                    "plusMinus": 0,
+                                    "minus": 0
+                                  },
+                                  "perPeriod": {}
+                                }
+                              }
+                            },
+                            {
+                              "id": "jkl-40049593",
+                              "name": {
+                                "first": "Sanni",
+                                "last": "Huuskonen"
+                              },
+                              "number": 23,
+                              "position": "lw",
+                              "meta": {
+                                "directives": {
+                                  "isRookie": "false",
+                                  "weight": "0 kg",
+                                  "birth": "07.03.2002",
+                                  "height": "0 cm",
+                                  "isAssistCaptain": "false",
+                                  "isCaptain": "false",
+                                  "injured": "false",
+                                  "shoots": ""
+                                },
+                                "images": []
+                              },
+                              "specific": {
+                                "line": "4",
+                                "stats": {
+                                  "total": {
+                                    "plus": 0,
+                                    "plusMinus": 0,
+                                    "minus": 0
+                                  },
+                                  "perPeriod": {}
+                                }
+                              }
+                            },
+                            {
+                              "id": "jkl-33969914",
+                              "name": {
+                                "first": "Viivi",
+                                "last": "Vainikka"
+                              },
+                              "number": 24,
+                              "position": "c",
+                              "specific": {
+                                "line": "1",
+                                "stats": {
+                                  "total": {
+                                    "saves": 0,
+                                    "minus": 0,
+                                    "faceOffWins": 0,
+                                    "plus": 0,
+                                    "assists": 3,
+                                    "faceOffLosses": 0,
+                                    "missedShots": 0,
+                                    "points": 3,
+                                    "plusMinus": 0,
+                                    "timeOnIce": 0,
+                                    "shotsOnGoal": 0,
+                                    "penaltyMins": 0,
+                                    "goals": 0
+                                  },
+                                  "perPeriod": {
+                                    "1": {
+                                      "assists": 1
+                                    },
+                                    "2": {
+                                      "assists": 1
+                                    },
+                                    "3": {
+                                      "assists": 1
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            {
+                              "id": "jkl-31782180",
+                              "name": {
+                                "first": "Kiia",
+                                "last": "Nousiainen"
+                              },
+                              "number": 26,
+                              "position": "lw",
+                              "specific": {
+                                "line": "2",
+                                "stats": {
+                                  "total": {
+                                    "saves": 0,
+                                    "minus": 0,
+                                    "faceOffWins": 0,
+                                    "plus": 0,
+                                    "assists": 0,
+                                    "faceOffLosses": 0,
+                                    "missedShots": 0,
+                                    "points": 1,
+                                    "plusMinus": 0,
+                                    "timeOnIce": 0,
+                                    "shotsOnGoal": 0,
+                                    "penaltyMins": 0,
+                                    "goals": 1
+                                  },
+                                  "perPeriod": {
+                                    "1": {
+                                      "goals": 1
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            {
+                              "id": "jkl-40011083",
+                              "name": {
+                                "first": "Petra",
+                                "last": "Hautaniemi"
+                              },
+                              "number": 27,
+                              "position": "rw",
+                              "specific": {
+                                "line": "4",
+                                "stats": {
+                                  "total": {
+                                    "plus": 0,
+                                    "plusMinus": 0,
+                                    "minus": 0
+                                  },
+                                  "perPeriod": {}
+                                }
+                              }
+                            },
+                            {
+                              "id": "jkl-34435379",
+                              "name": {
+                                "first": "Neea",
+                                "last": "Pohjamo"
+                              },
+                              "number": 32,
+                              "position": "g",
+                              "specific": {
+                                "line": "4",
+                                "stats": {
+                                  "total": {
+                                    "plus": 0,
+                                    "plusMinus": 0,
+                                    "minus": 0
+                                  },
+                                  "perPeriod": {}
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "id": "jkl-1272998034",
+                          "name": "HPK",
+                          "abbr": "HPK",
+                          "score": {
+                            "now": 0,
+                            "periods": [
+                              {
+                                "id": "1",
+                                "score": 0
+                              },
+                              {
+                                "id": "2",
+                                "score": 0
+                              },
+                              {
+                                "id": "3",
+                                "score": 0
+                              }
+                            ],
+                            "outcome": {
+                              "wins": 0,
+                              "draws": 0,
+                              "losses": 1,
+                              "otWins": 0,
+                              "otLosses": 0
+                            }
+                          },
+                          "players": [
+                            {
+                              "id": "jkl-32237236",
+                              "name": {
+                                "first": "Pihla",
+                                "last": "Hämeenniemi"
+                              },
+                              "number": 3,
+                              "position": "lw",
+                              "specific": {
+                                "line": "2",
+                                "stats": {
+                                  "total": {
+                                    "plus": 0,
+                                    "plusMinus": 0,
+                                    "minus": 0
+                                  },
+                                  "perPeriod": {}
+                                }
+                              }
+                            },
+                            {
+                              "id": "jkl-29513620",
+                              "name": {
+                                "first": "Sanni",
+                                "last": "Lilli"
+                              },
+                              "number": 4,
+                              "position": "rd",
+                              "specific": {
+                                "line": "3",
+                                "stats": {
+                                  "total": {
+                                    "plus": 0,
+                                    "plusMinus": 0,
+                                    "minus": 0
+                                  },
+                                  "perPeriod": {}
+                                }
+                              }
+                            },
+                            {
+                              "id": "jkl-31876038",
+                              "name": {
+                                "first": "Josefiina",
+                                "last": "Korpela"
+                              },
+                              "number": 7,
+                              "position": "ld",
+                              "specific": {
+                                "line": "4",
+                                "stats": {
+                                  "total": {
+                                    "plus": 0,
+                                    "plusMinus": 0,
+                                    "minus": 0
+                                  },
+                                  "perPeriod": {}
+                                }
+                              }
+                            },
+                            {
+                              "id": "jkl-33566883",
+                              "name": {
+                                "first": "Heli",
+                                "last": "Allinen"
+                              },
+                              "number": 8,
+                              "position": "rd",
+                              "specific": {
+                                "line": "2",
+                                "stats": {
+                                  "total": {
+                                    "plus": 0,
+                                    "plusMinus": 0,
+                                    "minus": 0
+                                  },
+                                  "perPeriod": {}
+                                }
+                              }
+                            },
+                            {
+                              "id": "jkl-40214555",
+                              "name": {
+                                "first": "Viivi",
+                                "last": "Simola"
+                              },
+                              "number": 14,
+                              "position": "lw",
+                              "specific": {
+                                "line": "4",
+                                "stats": {
+                                  "total": {
+                                    "plus": 0,
+                                    "plusMinus": 0,
+                                    "minus": 0
+                                  },
+                                  "perPeriod": {}
+                                }
+                              }
+                            },
+                            {
+                              "id": "jkl-31106627",
+                              "name": {
+                                "first": "Emma",
+                                "last": "Katajamäki"
+                              },
+                              "number": 15,
+                              "position": "rw",
+                              "specific": {
+                                "line": "2",
+                                "stats": {
+                                  "total": {
+                                    "plus": 0,
+                                    "plusMinus": 0,
+                                    "minus": 0
+                                  },
+                                  "perPeriod": {}
+                                }
+                              }
+                            },
+                            {
+                              "id": "jkl-32675856",
+                              "name": {
+                                "first": "Heta",
+                                "last": "Seikkula"
+                              },
+                              "number": 16,
+                              "position": "ld",
+                              "meta": {
+                                "tags": [
+                                  "teletext1"
+                                ],
+                                "directives": {},
+                                "images": []
+                              },
+                              "specific": {
+                                "line": "2",
+                                "stats": {
+                                  "total": {
+                                    "plus": 0,
+                                    "plusMinus": 0,
+                                    "minus": 0
+                                  },
+                                  "perPeriod": {}
+                                }
+                              }
+                            },
+                            {
+                              "id": "jkl-21770212",
+                              "name": {
+                                "first": "Noora",
+                                "last": "Jaakkola"
+                              },
+                              "number": 18,
+                              "position": "ld",
+                              "specific": {
+                                "line": "3",
+                                "stats": {
+                                  "total": {
+                                    "saves": 0,
+                                    "minus": 0,
+                                    "faceOffWins": 0,
+                                    "plus": 0,
+                                    "assists": 0,
+                                    "faceOffLosses": 0,
+                                    "missedShots": 0,
+                                    "points": 0,
+                                    "plusMinus": 0,
+                                    "timeOnIce": 0,
+                                    "shotsOnGoal": 0,
+                                    "penaltyMins": 2,
+                                    "goals": 0
+                                  },
+                                  "perPeriod": {
+                                    "1": {
+                                      "penaltyMins": 2
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            {
+                              "id": "jkl-27694952",
+                              "name": {
+                                "first": "Anniina",
+                                "last": "Kaitala"
+                              },
+                              "number": 19,
+                              "position": "rw",
+                              "specific": {
+                                "line": "1",
+                                "stats": {
+                                  "total": {
+                                    "plus": 0,
+                                    "plusMinus": 0,
+                                    "minus": 0
+                                  },
+                                  "perPeriod": {}
+                                }
+                              }
+                            },
+                            {
+                              "id": "jkl-23326224",
+                              "name": {
+                                "first": "Jutta",
+                                "last": "Stoltenberg"
+                              },
+                              "number": 22,
+                              "position": "rd",
+                              "specific": {
+                                "line": "1",
+                                "stats": {
+                                  "total": {
+                                    "plus": 0,
+                                    "plusMinus": 0,
+                                    "minus": 0
+                                  },
+                                  "perPeriod": {}
+                                }
+                              }
+                            },
+                            {
+                              "id": "jkl-30531138",
+                              "name": {
+                                "first": "Esteri",
+                                "last": "Kalliomäki"
+                              },
+                              "number": 23,
+                              "position": "lw",
+                              "specific": {
+                                "line": "3",
+                                "stats": {
+                                  "total": {
+                                    "plus": 0,
+                                    "plusMinus": 0,
+                                    "minus": 0
+                                  },
+                                  "perPeriod": {}
+                                }
+                              }
+                            },
+                            {
+                              "id": "jkl-27852338",
+                              "name": {
+                                "first": "Kreetta",
+                                "last": "Kulhua"
+                              },
+                              "number": 24,
+                              "position": "ld",
+                              "specific": {
+                                "line": "1",
+                                "stats": {
+                                  "total": {
+                                    "plus": 0,
+                                    "plusMinus": 0,
+                                    "minus": 0
+                                  },
+                                  "perPeriod": {}
+                                }
+                              }
+                            },
+                            {
+                              "id": "jkl-30834408",
+                              "name": {
+                                "first": "Elina",
+                                "last": "Heikkinen"
+                              },
+                              "number": 27,
+                              "position": "c",
+                              "specific": {
+                                "line": "3",
+                                "stats": {
+                                  "total": {
+                                    "saves": 0,
+                                    "minus": 0,
+                                    "faceOffWins": 0,
+                                    "plus": 0,
+                                    "assists": 0,
+                                    "faceOffLosses": 0,
+                                    "missedShots": 0,
+                                    "points": 0,
+                                    "plusMinus": 0,
+                                    "timeOnIce": 0,
+                                    "shotsOnGoal": 0,
+                                    "penaltyMins": 2,
+                                    "goals": 0
+                                  },
+                                  "perPeriod": {
+                                    "2": {
+                                      "penaltyMins": 2
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            {
+                              "id": "jkl-40016543",
+                              "name": {
+                                "first": "Julia",
+                                "last": "Liikala"
+                              },
+                              "number": 28,
+                              "position": "lw",
+                              "specific": {
+                                "line": "1",
+                                "stats": {
+                                  "total": {
+                                    "plus": 0,
+                                    "plusMinus": 0,
+                                    "minus": 0
+                                  },
+                                  "perPeriod": {}
+                                }
+                              }
+                            },
+                            {
+                              "id": "jkl-24332864",
+                              "name": {
+                                "first": "Maija",
+                                "last": "Hassinen-Sullanmaa"
+                              },
+                              "number": 30,
+                              "position": "g",
+                              "specific": {
+                                "line": "4",
+                                "stats": {
+                                  "total": {
+                                    "plus": 0,
+                                    "plusMinus": 0,
+                                    "minus": 0
+                                  },
+                                  "perPeriod": {}
+                                }
+                              }
+                            },
+                            {
+                              "id": "jkl-31078519",
+                              "name": {
+                                "first": "Essi",
+                                "last": "Määttä"
+                              },
+                              "number": 39,
+                              "position": "rw",
+                              "specific": {
+                                "line": "3",
+                                "stats": {
+                                  "total": {
+                                    "saves": 0,
+                                    "minus": 0,
+                                    "faceOffWins": 0,
+                                    "plus": 0,
+                                    "assists": 0,
+                                    "faceOffLosses": 0,
+                                    "missedShots": 0,
+                                    "points": 0,
+                                    "plusMinus": 0,
+                                    "timeOnIce": 0,
+                                    "shotsOnGoal": 0,
+                                    "penaltyMins": 2,
+                                    "goals": 0
+                                  },
+                                  "perPeriod": {
+                                    "1": {
+                                      "penaltyMins": 2
+                                    },
+                                    "3": {
+                                      "penaltyMins": 0
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            {
+                              "id": "jkl-23844094",
+                              "name": {
+                                "first": "Inka",
+                                "last": "Kuusinen"
+                              },
+                              "number": 42,
+                              "position": "g",
+                              "specific": {
+                                "line": "1",
+                                "stats": {
+                                  "total": {
+                                    "plus": 0,
+                                    "plusMinus": 0,
+                                    "minus": 0
+                                  },
+                                  "perPeriod": {}
+                                }
+                              }
+                            },
+                            {
+                              "id": "jkl-32675885",
+                              "name": {
+                                "first": "Kiti",
+                                "last": "Seikkula"
+                              },
+                              "number": 51,
+                              "position": "c",
+                              "meta": {
+                                "tags": [
+                                  "teletext1"
+                                ],
+                                "directives": {},
+                                "images": []
+                              },
+                              "specific": {
+                                "line": "2",
+                                "stats": {
+                                  "total": {
+                                    "plus": 0,
+                                    "plusMinus": 0,
+                                    "minus": 0
+                                  },
+                                  "perPeriod": {}
+                                }
+                              }
+                            },
+                            {
+                              "id": "jkl-31635745",
+                              "name": {
+                                "first": "Emilia",
+                                "last": "Varpula"
+                              },
+                              "number": 80,
+                              "position": "c",
+                              "specific": {
+                                "line": "1",
+                                "stats": {
+                                  "total": {
+                                    "saves": 0,
+                                    "minus": 0,
+                                    "faceOffWins": 0,
+                                    "plus": 0,
+                                    "assists": 0,
+                                    "faceOffLosses": 0,
+                                    "missedShots": 0,
+                                    "points": 0,
+                                    "plusMinus": 0,
+                                    "timeOnIce": 0,
+                                    "shotsOnGoal": 0,
+                                    "penaltyMins": 2,
+                                    "goals": 0
+                                  },
+                                  "perPeriod": {
+                                    "3": {
+                                      "penaltyMins": 2
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ],
+                      "stats": {
+                        "attendance": 70
+                      },
+                      "feed": [
+                        {
+                          "type": "goalkeeping",
+                          "gameTime": "00:00",
+                          "period": "1",
+                          "team": {
+                            "id": "jkl-1281984592",
+                            "name": "Kuortane",
+                            "short": "Kuortane",
+                            "abbr": "KUO"
+                          },
+                          "player": {
+                            "id": "jkl-31570363",
+                            "name": {
+                              "first": "Tiia",
+                              "last": "Pajarinen"
+                            },
+                            "number": 1,
+                            "position": "g"
+                          },
+                          "beginTime": "00:00",
+                          "endTime": "20:00",
+                          "saves": "10"
+                        },
+                        {
+                          "type": "goalkeeping",
+                          "gameTime": "00:00",
+                          "period": "1",
+                          "team": {
+                            "id": "jkl-1272998034",
+                            "name": "HPK",
+                            "abbr": "HPK"
+                          },
+                          "player": {
+                            "id": "jkl-23844094",
+                            "name": {
+                              "first": "Inka",
+                              "last": "Kuusinen"
+                            },
+                            "number": 42,
+                            "position": "g"
+                          },
+                          "beginTime": "00:00",
+                          "endTime": "20:00",
+                          "saves": "14"
+                        },
+                        {
+                          "type": "score",
+                          "gameTime": "06:58",
+                          "period": "1",
+                          "team": {
+                            "id": "jkl-1281984592",
+                            "name": "Kuortane",
+                            "short": "Kuortane",
+                            "abbr": "KUO"
+                          },
+                          "player": {
+                            "id": "jkl-28849722",
+                            "name": {
+                              "first": "Jenniina",
+                              "last": "Nylund"
+                            },
+                            "number": 18,
+                            "position": "lw"
+                          }
+                        },
+                        {
+                          "type": "assist",
+                          "gameTime": "06:58",
+                          "period": "1",
+                          "team": {
+                            "id": "jkl-1281984592",
+                            "name": "Kuortane",
+                            "short": "Kuortane",
+                            "abbr": "KUO"
+                          },
+                          "player": {
+                            "id": "jkl-33969914",
+                            "name": {
+                              "first": "Viivi",
+                              "last": "Vainikka"
+                            },
+                            "number": 24,
+                            "position": "c"
+                          }
+                        },
+                        {
+                          "type": "assist",
+                          "gameTime": "06:58",
+                          "period": "1",
+                          "team": {
+                            "id": "jkl-1281984592",
+                            "name": "Kuortane",
+                            "short": "Kuortane",
+                            "abbr": "KUO"
+                          },
+                          "player": {
+                            "id": "jkl-32660382",
+                            "name": {
+                              "first": "Emilia",
+                              "last": "Vesa"
+                            },
+                            "number": 14,
+                            "position": "rw"
+                          }
+                        },
+                        {
+                          "type": "penalty",
+                          "gameTime": "08:31",
+                          "period": "1",
+                          "team": {
+                            "id": "jkl-1272998034",
+                            "name": "HPK",
+                            "abbr": "HPK"
+                          },
+                          "player": {
+                            "id": "jkl-31078519",
+                            "name": {
+                              "first": "Essi",
+                              "last": "Määttä"
+                            },
+                            "number": 39,
+                            "position": "rw"
+                          },
+                          "penaltyType": "timePenalty",
+                          "timeInMins": "2",
+                          "startTime": "08:31",
+                          "endTime": "10:31",
+                          "text": "Kampitus"
+                        },
+                        {
+                          "type": "score",
+                          "gameTime": "12:01",
+                          "period": "1",
+                          "team": {
+                            "id": "jkl-1281984592",
+                            "name": "Kuortane",
+                            "short": "Kuortane",
+                            "abbr": "KUO"
+                          },
+                          "player": {
+                            "id": "jkl-31782180",
+                            "name": {
+                              "first": "Kiia",
+                              "last": "Nousiainen"
+                            },
+                            "number": 26,
+                            "position": "lw"
+                          }
+                        },
+                        {
+                          "type": "assist",
+                          "gameTime": "12:01",
+                          "period": "1",
+                          "team": {
+                            "id": "jkl-1281984592",
+                            "name": "Kuortane",
+                            "short": "Kuortane",
+                            "abbr": "KUO"
+                          },
+                          "player": {
+                            "id": "jkl-31959735",
+                            "name": {
+                              "first": "Iina",
+                              "last": "Tohila"
+                            },
+                            "number": 6,
+                            "position": "ld"
+                          }
+                        },
+                        {
+                          "type": "assist",
+                          "gameTime": "12:01",
+                          "period": "1",
+                          "team": {
+                            "id": "jkl-1281984592",
+                            "name": "Kuortane",
+                            "short": "Kuortane",
+                            "abbr": "KUO"
+                          },
+                          "player": {
+                            "id": "jkl-32677605",
+                            "name": {
+                              "first": "Anna-Lotta",
+                              "last": "Räsänen"
+                            },
+                            "number": 13,
+                            "position": "c"
+                          }
+                        },
+                        {
+                          "type": "penalty",
+                          "gameTime": "12:23",
+                          "period": "1",
+                          "team": {
+                            "id": "jkl-1272998034",
+                            "name": "HPK",
+                            "abbr": "HPK"
+                          },
+                          "player": {
+                            "id": "jkl-21770212",
+                            "name": {
+                              "first": "Noora",
+                              "last": "Jaakkola"
+                            },
+                            "number": 18,
+                            "position": "ld"
+                          },
+                          "penaltyType": "timePenalty",
+                          "timeInMins": "2",
+                          "startTime": "12:23",
+                          "endTime": "14:23",
+                          "text": "Koukkaaminen"
+                        },
+                        {
+                          "type": "penalty",
+                          "gameTime": "19:47",
+                          "period": "1",
+                          "team": {
+                            "id": "jkl-1281984592",
+                            "name": "Kuortane",
+                            "short": "Kuortane",
+                            "abbr": "KUO"
+                          },
+                          "player": {
+                            "id": "jkl-29454462",
+                            "name": {
+                              "first": "Sanni",
+                              "last": "Rantala"
+                            },
+                            "number": 9,
+                            "position": "rd"
+                          },
+                          "penaltyType": "timePenalty",
+                          "timeInMins": "2",
+                          "startTime": "19:47",
+                          "endTime": "21:47",
+                          "text": "Kampitus"
+                        },
+                        {
+                          "type": "goalkeeping",
+                          "gameTime": "20:00",
+                          "period": "2",
+                          "team": {
+                            "id": "jkl-1281984592",
+                            "name": "Kuortane",
+                            "short": "Kuortane",
+                            "abbr": "KUO"
+                          },
+                          "player": {
+                            "id": "jkl-31570363",
+                            "name": {
+                              "first": "Tiia",
+                              "last": "Pajarinen"
+                            },
+                            "number": 1,
+                            "position": "g"
+                          },
+                          "beginTime": "20:00",
+                          "endTime": "40:00",
+                          "saves": "17"
+                        },
+                        {
+                          "type": "goalkeeping",
+                          "gameTime": "20:00",
+                          "period": "2",
+                          "team": {
+                            "id": "jkl-1272998034",
+                            "name": "HPK",
+                            "abbr": "HPK"
+                          },
+                          "player": {
+                            "id": "jkl-23844094",
+                            "name": {
+                              "first": "Inka",
+                              "last": "Kuusinen"
+                            },
+                            "number": 42,
+                            "position": "g"
+                          },
+                          "beginTime": "20:00",
+                          "endTime": "33:59",
+                          "saves": "4"
+                        },
+                        {
+                          "type": "penalty",
+                          "gameTime": "22:42",
+                          "period": "2",
+                          "team": {
+                            "id": "jkl-1281984592",
+                            "name": "Kuortane",
+                            "short": "Kuortane",
+                            "abbr": "KUO"
+                          },
+                          "player": {
+                            "id": "jkl-31924058",
+                            "name": {
+                              "first": "Eve",
+                              "last": "Savander"
+                            },
+                            "number": 7,
+                            "position": "rd"
+                          },
+                          "penaltyType": "timePenalty",
+                          "timeInMins": "2",
+                          "startTime": "22:42",
+                          "endTime": "24:42",
+                          "text": "Koukkaaminen"
+                        },
+                        {
+                          "type": "penalty",
+                          "gameTime": "32:32",
+                          "period": "2",
+                          "team": {
+                            "id": "jkl-1272998034",
+                            "name": "HPK",
+                            "abbr": "HPK"
+                          },
+                          "player": {
+                            "id": "jkl-30834408",
+                            "name": {
+                              "first": "Elina",
+                              "last": "Heikkinen"
+                            },
+                            "number": 27,
+                            "position": "c"
+                          },
+                          "penaltyType": "timePenalty",
+                          "timeInMins": "2",
+                          "startTime": "32:32",
+                          "endTime": "33:59",
+                          "text": "Rikkoutunut maila"
+                        },
+                        {
+                          "type": "score",
+                          "gameTime": "33:59",
+                          "period": "2",
+                          "team": {
+                            "id": "jkl-1281984592",
+                            "name": "Kuortane",
+                            "short": "Kuortane",
+                            "abbr": "KUO"
+                          },
+                          "player": {
+                            "id": "jkl-31924058",
+                            "name": {
+                              "first": "Eve",
+                              "last": "Savander"
+                            },
+                            "number": 7,
+                            "position": "rd"
+                          },
+                          "goalType": "YV"
+                        },
+                        {
+                          "type": "assist",
+                          "gameTime": "33:59",
+                          "period": "2",
+                          "team": {
+                            "id": "jkl-1281984592",
+                            "name": "Kuortane",
+                            "short": "Kuortane",
+                            "abbr": "KUO"
+                          },
+                          "player": {
+                            "id": "jkl-33969914",
+                            "name": {
+                              "first": "Viivi",
+                              "last": "Vainikka"
+                            },
+                            "number": 24,
+                            "position": "c"
+                          }
+                        },
+                        {
+                          "type": "assist",
+                          "gameTime": "33:59",
+                          "period": "2",
+                          "team": {
+                            "id": "jkl-1281984592",
+                            "name": "Kuortane",
+                            "short": "Kuortane",
+                            "abbr": "KUO"
+                          },
+                          "player": {
+                            "id": "jkl-31168791",
+                            "name": {
+                              "first": "Sini",
+                              "last": "Karjalainen"
+                            },
+                            "number": 2,
+                            "position": "ld"
+                          }
+                        },
+                        {
+                          "type": "goalkeeping",
+                          "gameTime": "33:59",
+                          "period": "2",
+                          "team": {
+                            "id": "jkl-1272998034",
+                            "name": "HPK",
+                            "abbr": "HPK"
+                          },
+                          "player": {
+                            "id": "jkl-24332864",
+                            "name": {
+                              "first": "Maija",
+                              "last": "Hassinen-Sullanmaa"
+                            },
+                            "number": 30,
+                            "position": "g"
+                          },
+                          "beginTime": "33:59",
+                          "endTime": "40:00",
+                          "saves": "4"
+                        },
+                        {
+                          "type": "goalkeeping",
+                          "gameTime": "40:00",
+                          "period": "3",
+                          "team": {
+                            "id": "jkl-1281984592",
+                            "name": "Kuortane",
+                            "short": "Kuortane",
+                            "abbr": "KUO"
+                          },
+                          "player": {
+                            "id": "jkl-31570363",
+                            "name": {
+                              "first": "Tiia",
+                              "last": "Pajarinen"
+                            },
+                            "number": 1,
+                            "position": "g"
+                          },
+                          "beginTime": "40:00",
+                          "endTime": "60:00",
+                          "saves": "10"
+                        },
+                        {
+                          "type": "goalkeeping",
+                          "gameTime": "40:00",
+                          "period": "3",
+                          "team": {
+                            "id": "jkl-1272998034",
+                            "name": "HPK",
+                            "abbr": "HPK"
+                          },
+                          "player": {
+                            "id": "jkl-24332864",
+                            "name": {
+                              "first": "Maija",
+                              "last": "Hassinen-Sullanmaa"
+                            },
+                            "number": 30,
+                            "position": "g"
+                          },
+                          "beginTime": "40:00",
+                          "endTime": "60:00",
+                          "saves": "6"
+                        },
+                        {
+                          "type": "score",
+                          "gameTime": "49:09",
+                          "period": "3",
+                          "team": {
+                            "id": "jkl-1281984592",
+                            "name": "Kuortane",
+                            "short": "Kuortane",
+                            "abbr": "KUO"
+                          },
+                          "player": {
+                            "id": "jkl-28849722",
+                            "name": {
+                              "first": "Jenniina",
+                              "last": "Nylund"
+                            },
+                            "number": 18,
+                            "position": "lw"
+                          }
+                        },
+                        {
+                          "type": "assist",
+                          "gameTime": "49:09",
+                          "period": "3",
+                          "team": {
+                            "id": "jkl-1281984592",
+                            "name": "Kuortane",
+                            "short": "Kuortane",
+                            "abbr": "KUO"
+                          },
+                          "player": {
+                            "id": "jkl-33969914",
+                            "name": {
+                              "first": "Viivi",
+                              "last": "Vainikka"
+                            },
+                            "number": 24,
+                            "position": "c"
+                          }
+                        },
+                        {
+                          "type": "assist",
+                          "gameTime": "49:09",
+                          "period": "3",
+                          "team": {
+                            "id": "jkl-1281984592",
+                            "name": "Kuortane",
+                            "short": "Kuortane",
+                            "abbr": "KUO"
+                          },
+                          "player": {
+                            "id": "jkl-32660382",
+                            "name": {
+                              "first": "Emilia",
+                              "last": "Vesa"
+                            },
+                            "number": 14,
+                            "position": "rw"
+                          }
+                        },
+                        {
+                          "type": "penalty",
+                          "gameTime": "51:54",
+                          "period": "3",
+                          "penaltyType": "timePenalty",
+                          "timeInMins": "2",
+                          "startTime": "51:54",
+                          "endTime": "53:54",
+                          "text": "Liian monta pelaajaa jäällä"
+                        },
+                        {
+                          "type": "penaltysufferer",
+                          "gameTime": "51:54",
+                          "period": "3",
+                          "team": {
+                            "id": "jkl-1272998034",
+                            "name": "HPK",
+                            "abbr": "HPK"
+                          },
+                          "player": {
+                            "id": "jkl-31078519",
+                            "name": {
+                              "first": "Essi",
+                              "last": "Määttä"
+                            },
+                            "number": 39,
+                            "position": "rw"
+                          }
+                        },
+                        {
+                          "type": "penalty",
+                          "gameTime": "52:23",
+                          "period": "3",
+                          "team": {
+                            "id": "jkl-1272998034",
+                            "name": "HPK",
+                            "abbr": "HPK"
+                          },
+                          "player": {
+                            "id": "jkl-31635745",
+                            "name": {
+                              "first": "Emilia",
+                              "last": "Varpula"
+                            },
+                            "number": 80,
+                            "position": "c"
+                          },
+                          "penaltyType": "timePenalty",
+                          "timeInMins": "2",
+                          "startTime": "52:23",
+                          "endTime": "54:23",
+                          "text": "Kampitus"
+                        },
+                        {
+                          "type": "gameTime",
+                          "gameTime": "60:00"
+                        }
+                      ],
+                      "latestScore": [
+                        {
+                          "type": "score",
+                          "gameTime": "49:09",
+                          "period": "3",
+                          "team": {
+                            "id": "jkl-1281984592",
+                            "name": "Kuortane",
+                            "short": "Kuortane",
+                            "abbr": "KUO"
+                          },
+                          "player": {
+                            "id": "jkl-28849722",
+                            "name": {
+                              "first": "Jenniina",
+                              "last": "Nylund"
+                            },
+                            "number": 18,
+                            "position": "lw"
+                          }
+                        },
+                        {
+                          "type": "assist",
+                          "gameTime": "49:09",
+                          "period": "3",
+                          "team": {
+                            "id": "jkl-1281984592",
+                            "name": "Kuortane",
+                            "short": "Kuortane",
+                            "abbr": "KUO"
+                          },
+                          "player": {
+                            "id": "jkl-33969914",
+                            "name": {
+                              "first": "Viivi",
+                              "last": "Vainikka"
+                            },
+                            "number": 24,
+                            "position": "c"
+                          }
+                        },
+                        {
+                          "type": "assist",
+                          "gameTime": "49:09",
+                          "period": "3",
+                          "team": {
+                            "id": "jkl-1281984592",
+                            "name": "Kuortane",
+                            "short": "Kuortane",
+                            "abbr": "KUO"
+                          },
+                          "player": {
+                            "id": "jkl-32660382",
+                            "name": {
+                              "first": "Emilia",
+                              "last": "Vesa"
+                            },
+                            "number": 14,
+                            "position": "rw"
+                          }
+                        }
+                      ],
+                      "timestamp": "2018-02-05T20:18:16+02:00"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

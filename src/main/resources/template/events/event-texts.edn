@@ -1,0 +1,42 @@
+{
+ :goalie-change
+ {:fi
+  (["{{time}} Maalivahdin vaihto: {{goaltenderOut}} ulos, {{goaltenderIn}} sisään ({{team}})"])
+  :sv
+  (["{{time}} Målvaktsbyte: {{goaltenderOut}} ut, {{goaltenderIn}} in ({{team}})"])}
+
+ :goalie-pull
+ {:fi
+  (["{{time}} Maalivahti ulos: {{goaltenderOut}} ({{team}})"])
+  :sv
+  (["{{time}} Målvakt ut: {{goaltenderOut}} ({{team}})"])}
+
+ :goalie-return
+ {:fi
+  (["{{time}} Maalivahti sisään: {{goaltenderIn}} ({{team}})"])
+  :sv
+  (["{{time}} Målvakt in: {{goaltenderIn}} ({{team}})"])}
+
+ ; Names of different periods used as headings in game event list
+ :period
+ {:fi
+  (["{{periodNumber}}. ERÄ"])
+  :sv
+  (["{{periodNumber:ordinal}} perioden"])}
+
+ :additional-period
+ {:fi
+  (["{{periodNumber}}. JATKOERÄ"])
+  :sv
+  (["{{periodNumber:ordinal}} förlängning"])}
+
+ :overtime
+ {:fi
+  (["JATKOAIKA"])
+  :sv
+  (["Förlängning"])}
+ :shootout
+ {:fi
+  (["VOITTOMAALIKILPAILU"])
+  :sv
+  (["Straffläggning"])}}
