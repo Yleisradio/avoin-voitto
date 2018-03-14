@@ -119,9 +119,9 @@ All declensions are listed in files located in directory: [src/main/resources/de
 
 **N.B. All template strings should have a form without declensions so that articles can be written successfully even if no declension is found for the input.**
 
-## How to contribute
+## Contributing
 
-All code must conform to the code guidelines listed in the following chapter.
+Bug reports and pull requests are welcome on GitHub at [https://github.com/Yleisradio/avoin-voitto](https://github.com/Yleisradio/avoin-voitto). This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
 
 ### Code Guidelines
 
