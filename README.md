@@ -1,6 +1,6 @@
 # Liiga-Voitto
 
-Liiga-Voitto on yksi Ylen kokeiluista automatisoida dataan perustuvaa journalismia. Se kirjoittaa suomen- ja ruotsinkielellä jääkiekon tulos- ja tilastodatasta artikkeleita, joita julkaistaan [Yle Uutisvahdissa](https://yle.fi/uutisvahti/) ja Ylen [verkkosivuilla](http://haku.yle.fi/?q=voitto-robotti&sort=date).
+Liiga-Voitto on yksi Ylen kokeiluista automatisoida dataan perustuvaa journalismia. Se kirjoittaa suomen ja ruotsin kielillä jääkiekon tulos- ja tilastodatasta artikkeleita, joita julkaistaan [Yle Uutisvahdissa](https://yle.fi/uutisvahti/) ja Ylen [verkkosivuilla](http://haku.yle.fi/?q=voitto-robotti&sort=date).
 
 Liiga-Voiton koodi julkaistaan avoimena esimerkkinä automatisoidusta sisällöntuotannosta ja on käytettävissä [MIT-lisenssin](LICENSE) puitteissa.
 
