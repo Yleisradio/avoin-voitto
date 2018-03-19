@@ -4,7 +4,7 @@ Liiga-Voitto on yksi Ylen kokeiluista automatisoida dataan perustuvaa journalism
 
 Liiga-Voiton koodi julkaistaan avoimena esimerkkinä automatisoidusta sisällöntuotannosta ja on käytettävissä [MIT-lisenssin](LICENSE) puitteissa.
 
-* * *
+--
 
 Liiga-Voitto is one of Yle's experiments to automate data-driven journalism. It writes articles in Finnish and Swedish based on ice-hockey scores and statistical data. The articles are published in [Yle Uutisvahti](https://yle.fi/uutisvahti/) and on Yle's [website](http://haku.yle.fi/?q=voitto-robotti&sort=date).
 
