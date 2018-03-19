@@ -1,6 +1,15 @@
 # Liiga-Voitto
 
-Robot journalism API, that creates articles from Scores-API's result and statistics data. Specifically meant for Ice-Hockey.
+Liiga-Voitto on yksi Ylen kokeiluista automatisoida dataan perustuvaa journalismia. Se kirjoittaa suomen- ja ruotsinkielellä jääkiekon tulos- ja tilastodatasta artikkeleita, joita julkaistaan [Yle Uutisvahdissa](https://yle.fi/uutisvahti/) ja Ylen [verkkosivuilla](http://haku.yle.fi/?q=voitto-robotti&sort=date).
+
+Liiga-Voiton koodi julkaistaan avoimena esimerkkinä automatisoidusta sisällöntuotannosta ja on käytettävissä [MIT-lisenssin](LICENSE) puitteissa.
+
+* * *
+
+Liiga-Voitto is one of Yle's experiments to automate data-driven journalism. It writes articles in Finnish and Swedish based on ice-hockey scores and statistical data. The articles are published in [Yle Uutisvahti](https://yle.fi/uutisvahti/) and on Yle's [website](http://haku.yle.fi/?q=voitto-robotti&sort=date).
+
+Liiga-Voitto's code is an example of automated jorunalism and is open source under [MIT License](LICENSE).
+
 
 ## Dependencies
 - [sbt](https://www.scala-sbt.org/)
@@ -99,7 +108,7 @@ Example code where templates are selected and values added to form body text:
 #### Translations
 Translations are written directly into the same template files. A new language is added by adding a new translation to all templates. The keycode (e.g. `:fi` and `:sv`) used in the translation can then be used in the lang-parameter of the API (e.g. `?lang=fi` or `?lang=sv`). 
 
-Example of teplate text translated to both Finnish and Swedish:
+Example of template text translated to both Finnish and Swedish:
 
 ```edn
 :home-team-first-place-win
@@ -108,7 +117,7 @@ Example of teplate text translated to both Finnish and Swedish:
  :sv
  (["I och med segern stärkte {{home}} sin ställning i ledning av ligan"])}`
 ```
-### Declesions
+### Declensions
 
 Attributes can have declensions. These are marked with colon and the name of the declension.
 For example `{{loser:accusative}}` would contain the value ”loser” is in the accusative form. 
@@ -135,5 +144,5 @@ Contact lassi.seppala@yle.fi or jarkko.ryynanen@yle.fi if you have ideas to pitc
 
 ## License
 
-Liiga-Voitto is [MIT Licensed](LICENSE)
+Avoin-Voitto / Liiga-Voitto is [MIT Licensed](LICENSE)
 
