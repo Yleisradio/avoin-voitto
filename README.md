@@ -1,16 +1,16 @@
-# Liiga-Voitto
+# Lätkä-Voitto
 
-Liiga-Voitto on yksi Ylen kokeiluista automatisoida dataan perustuvaa journalismia. Se kirjoittaa suomen ja ruotsin kielillä jääkiekon tulos- ja tilastodatasta artikkeleita, joita julkaistaan [Yle Uutisvahdissa](https://yle.fi/uutisvahti/) ja Ylen [verkkosivuilla](http://haku.yle.fi/?q=voitto-robotti&sort=date).
+Lätkä-Voitto on yksi Ylen kokeiluista automatisoida dataan perustuvaa journalismia. Se kirjoittaa suomen ja ruotsin kielillä jääkiekon tulos- ja tilastodatasta artikkeleita, joita julkaistaan [Yle Uutisvahdissa](https://yle.fi/uutisvahti/) ja Ylen [verkkosivuilla](http://haku.yle.fi/?q=voitto-robotti&sort=date).
 
-Liiga-Voiton koodi julkaistaan avoimena esimerkkinä automatisoidusta sisällöntuotannosta ja on käytettävissä [MIT-lisenssin](LICENSE) puitteissa.
+Lätkä-Voiton koodi julkaistaan avoimena esimerkkinä automatisoidusta sisällöntuotannosta ja on käytettävissä [MIT-lisenssin](LICENSE) puitteissa.
 
 Mestiksen ja Naisten Liigan datan tekijänoikeudet ovat Suomen Jääkiekkoliitolla.
 
 --
 
-Liiga-Voitto is one of Yle's experiments to automate data-driven journalism. It writes articles in Finnish and Swedish based on ice-hockey scores and statistical data. The articles are published in [Yle Uutisvahti](https://yle.fi/uutisvahti/) and on Yle's [website](http://haku.yle.fi/?q=voitto-robotti&sort=date).
+Lätkä-Voitto is one of Yle's experiments to automate data-driven journalism. It writes articles in Finnish and Swedish based on ice-hockey scores and statistical data. The articles are published in [Yle Uutisvahti](https://yle.fi/uutisvahti/) and on Yle's [website](http://haku.yle.fi/?q=voitto-robotti&sort=date).
 
-Liiga-Voitto's code is an example of automated jorunalism and is open source under [MIT License](LICENSE).
+Lätkä-Voitto's code is an example of automated jorunalism and is open source under [MIT License](LICENSE).
 
 Suomen Jääkiekkoliitto owns copyrights to Mestis and Naisten Liiga -data.
 
@@ -76,7 +76,7 @@ PING (check if service is alive, responds ”PONG”):
 
 ## Using local data
 
-Instead of using Scores API, local data can be used. All game data from 2017 - 2018 series of Mestis and Naisten Liiga can be fetched from [here](https://static.cdn.yle.fi/10m/voitto/data_v1.zip). The match ids of the mestis games range from 3648 to 3947. For Naisten Liiga the ids range from 4951 to 5070. You can find ids for specific matches using [Tilastopalvelu](http://www.tilastopalvelu.fi/ih/beta/tilastointi/index.php/etsi#sarjat-ja-tilastot). By default Liiga-Voitto has data for matches 3748 and 3814.
+Instead of using Scores API, local data can be used. All game data from 2017 - 2018 series of Mestis and Naisten Liiga can be fetched from [here](https://static.cdn.yle.fi/10m/voitto/data_v1.zip). The match ids of the mestis games range from 3648 to 3947. For Naisten Liiga the ids range from 4951 to 5070. You can find ids for specific matches using [Tilastopalvelu](http://www.tilastopalvelu.fi/ih/beta/tilastointi/index.php/etsi#sarjat-ja-tilastot). By default Lätkä-Voitto has data for matches 3748 and 3814.
 
 Data should be placed unzipped in the [data folder](data/).
 
@@ -86,15 +86,15 @@ Data should be placed unzipped in the [data folder](data/).
 
 ## Code
 
-Liiga-Voitto is written in Scala and all resources are in .edn format. 
+Lätkä-Voitto is written in Scala and all resources are in .edn format. 
 
-Liiga-Voitto fetches data from statistics and then converts the data into simple values. For example: `wonInOvertime` is `true` if the game was won in overtime. The values are used to determine what is worth mentioning in the article. 
+Lätkä-Voitto fetches data from statistics and then converts the data into simple values. For example: `wonInOvertime` is `true` if the game was won in overtime. The values are used to determine what is worth mentioning in the article. 
 
 Certain template texts are picked, which form the articles title, lead and body texts. Values are then placed in the templates to add details. For example: `firstGoalPlayer`, which is the name of the player who scored the first goal. 
 
 ### Templates
 
-Templates contain all the text that Liiga-Voitto outputs. Templates are lines of texts with attributes and weights. Attributes are used to add values from code to the text templates. These are generally player and team names, times and numbers. Attributes are marked in the templates between double brackets:
+Templates contain all the text that Lätkä-Voitto outputs. Templates are lines of texts with attributes and weights. Attributes are used to add values from code to the text templates. These are generally player and team names, times and numbers. Attributes are marked in the templates between double brackets:
 
 `{{attributeName}}`
 
@@ -149,7 +149,7 @@ Contact lassi.seppala@yle.fi or jarkko.ryynanen@yle.fi if you have ideas to pitc
 
 ## License
 
-Avoin-Voitto / Liiga-Voitto is [MIT Licensed](LICENSE)
+Avoin-Voitto / Lätkä-Voitto is [MIT Licensed](LICENSE)
 
 Mestis and Naisten Liiga -data is property of Suomen Jääkiekkoliitto
 
