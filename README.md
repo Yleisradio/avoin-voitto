@@ -12,6 +12,7 @@ Liiga-Voitto's code is an example of automated jorunalism and is open source und
 
 
 ## Dependencies
+- Java Runtime Environment
 - [sbt](https://www.scala-sbt.org/)
 
 ## Running Locally
