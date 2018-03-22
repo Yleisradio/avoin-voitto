@@ -10,12 +10,13 @@ Mestiksen ja Naisten Liigan datan tekijänoikeudet ovat Suomen Jääkiekkoliitol
 
 Lätkä-Voitto is one of Yle's experiments to automate data-driven journalism. It writes articles in Finnish and Swedish based on ice-hockey scores and statistical data. The articles are published in [Yle Uutisvahti](https://yle.fi/uutisvahti/) and on Yle's [website](http://haku.yle.fi/?q=voitto-robotti&sort=date).
 
-Lätkä-Voitto's code is an example of automated jorunalism and is open source under [MIT License](LICENSE).
+Lätkä-Voitto's code is an example of automated journalism and is open source under [MIT License](LICENSE).
 
-Suomen Jääkiekkoliitto owns copyrights to Mestis and Naisten Liiga -data.
+Suomen Jääkiekkoliitto owns copyrights to Mestis and Naisten Liiga data.
 
 
 ## Dependencies
+
 - Java Runtime Environment
 - [sbt](https://www.scala-sbt.org/)
 
@@ -25,7 +26,7 @@ Starting the server is fairly straightforward:
 
 - Install [sbt](https://www.scala-sbt.org/)
 
-- Run the following command at the root of the git repo:
+- Run the following command at the root of the Git repo:
 
     `sbt run`
     
@@ -33,7 +34,7 @@ Starting the server is fairly straightforward:
 
 - Fetch an article from local test data: http://localhost:45258/localReport/jkl-0-2018-3814
 
-The program can be compiled using
+The program can be compiled using:
 
     sbt compile
 
@@ -51,13 +52,13 @@ To continuously execute a single test during development, e.g. `LiigaJournalistS
 
 ## API Description
 
-Articles are identified using an id string, which is of the form:
+Articles are identified using an ID string, which is of the form:
 
     jkl-0-2018-<match-id>
     
 Where `<match-id>` is the identifying number of the match. These numbers can be found, for example in [Tilastopalvelu](http://www.tilastopalvelu.fi/ih/beta/tilastointi/index.php/etsi#sarjat-ja-tilastot).
 
-To fetch an article 
+To fetch an article:
 
     http://localhost:45258/report/jkl-0-2018-3814
 
@@ -76,7 +77,7 @@ PING (check if service is alive, responds ”PONG”):
 
 ## Using local data
 
-Instead of using Scores API, local data can be used. All game data from 2017 - 2018 series of Mestis and Naisten Liiga can be fetched from [here](https://static.cdn.yle.fi/10m/voitto/data_v1.zip). The match ids of the mestis games range from 3648 to 3947. For Naisten Liiga the ids range from 4951 to 5070. You can find ids for specific matches using [Tilastopalvelu](http://www.tilastopalvelu.fi/ih/beta/tilastointi/index.php/etsi#sarjat-ja-tilastot). By default Lätkä-Voitto has data for matches 3748 and 3814.
+Instead of using Scores API, local data can be used. All game data from the 2017-2018 series of Mestis and Naisten Liiga can be fetched from [here](https://static.cdn.yle.fi/10m/voitto/data_v1.zip). The match IDs of the Mestis games range from 3648 to 3947. For Naisten Liiga the IDs range from 4951 to 5070. You can find IDs for specific matches using [Tilastopalvelu](http://www.tilastopalvelu.fi/ih/beta/tilastointi/index.php/etsi#sarjat-ja-tilastot). By default Lätkä-Voitto has data for matches 3748 and 3814.
 
 Data should be placed unzipped in the [data folder](data/).
 
@@ -111,7 +112,8 @@ Example code where templates are selected and values added to form body text:
 [src/main/scala/liigavoitto/journalist/body/GameProgressTexts.scala](src/main/scala/liigavoitto/journalist/body/GameProgressTexts.scala)
 
 #### Translations
-Translations are written directly into the same template files. A new language is added by adding a new translation to all templates. The keycode (e.g. `:fi` and `:sv`) used in the translation can then be used in the lang-parameter of the API (e.g. `?lang=fi` or `?lang=sv`). 
+
+Translations are written directly into the same template files. A new language is added by adding a new translation to all templates. The keycode (e.g. `:fi` and `:sv`) used in the translation can then be used in the `lang` parameter of the API (e.g. `?lang=fi` or `?lang=sv`). 
 
 Example of template text translated to both Finnish and Swedish:
 
@@ -122,6 +124,7 @@ Example of template text translated to both Finnish and Swedish:
  :sv
  (["I och med segern stärkte {{home}} sin ställning i ledning av ligan"])}`
 ```
+
 ### Declensions
 
 Attributes can have declensions. These are marked with colon and the name of the declension.
@@ -149,7 +152,7 @@ Contact lassi.seppala@yle.fi or jarkko.ryynanen@yle.fi if you have ideas to pitc
 
 ## License
 
-Avoin-Voitto / Lätkä-Voitto is [MIT Licensed](LICENSE)
+Avoin-Voitto / Lätkä-Voitto is [MIT Licensed](LICENSE).
 
-Mestis and Naisten Liiga -data is property of Suomen Jääkiekkoliitto
+Mestis and Naisten Liiga data is the property of Suomen Jääkiekkoliitto.
 
