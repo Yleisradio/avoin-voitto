@@ -148,7 +148,7 @@ Bug reports and pull requests are welcome on GitHub at [https://github.com/Yleis
 
 ## Contact
 
-Contact lassi.seppala@yle.fi or jarkko.ryynanen@yle.fi if you have ideas to pitch to Yle concerning Voitto-robot.
+Contact jarkko.ryynanen@yle.fi if you have ideas to pitch to Yle concerning Voitto-robot.
 
 ## License
 
