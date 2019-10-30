@@ -77,7 +77,7 @@ PING (check if service is alive, responds ”PONG”):
 
 ## Using local data
 
-Instead of using Scores API, local data can be used. All game data from the 2017-2018 series of Mestis and Naisten Liiga can be fetched from [here](https://static.cdn.yle.fi/10m/voitto/data_v1.zip). The match IDs of the Mestis games range from 3648 to 3947. For Naisten Liiga the IDs range from 4951 to 5070. You can find IDs for specific matches using [Tilastopalvelu](http://www.tilastopalvelu.fi/ih/beta/tilastointi/index.php/etsi#sarjat-ja-tilastot). By default Lätkä-Voitto has data for matches 3748 and 3814.
+Instead of using Scores API, local data can be used. All game data from the 2017-2018 series of Mestis and Naisten Liiga can be fetched from [here](https://static.cdn.yle.fi/10m/voitto/data_v1.zip). The match IDs of the Mestis games range from 3648 to 3947. For Naisten Liiga the IDs range from 4951 to 5070. You can find IDs for specific matches using [Tilastopalvelu](http://www.tilastopalvelu.fi/ih/beta/tilastointi/index.php/etsi#sarjat-ja-tilastot). By default, Lätkä-Voitto has data for matches 3748 and 3814.
 
 Data should be placed unzipped in the [data folder](data/).
 
@@ -91,7 +91,7 @@ Lätkä-Voitto is written in Scala and all resources are in .edn format.
 
 Lätkä-Voitto fetches data from statistics and then converts the data into simple values. For example: `wonInOvertime` is `true` if the game was won in overtime. The values are used to determine what is worth mentioning in the article. 
 
-Certain template texts are picked, which form the articles title, lead and body texts. Values are then placed in the templates to add details. For example: `firstGoalPlayer`, which is the name of the player who scored the first goal. 
+Certain template texts are picked, which form the article's title, lead and body texts. Values are then placed in the templates to add details. For example: `firstGoalPlayer`, which is the name of the player who scored the first goal. 
 
 ### Templates
 
@@ -101,7 +101,7 @@ Templates contain all the text that Lätkä-Voitto outputs. Templates are lines 
 
 Attributes are stored in a map/dictionary of attribute names and values. If no attribute is found for the template, the template will not be rendered. This includes attributes with missing declensions.
 
-Weights can be used to affect the chance that a certain string is selected from the list. Default weight is 1.0. For example the following string is much less likely to occur (occurs only when all other templates fail to render. In this case, when teams don't have declensions defined.):
+Weights can be used to affect the chance that a certain string is selected from the list. Default weight is 1.0. For example, the following string is much less likely to occur (occurs only when all other templates fail to render. In this case, when teams don't have declensions defined.):
 
 `["{{winner}} voitti kotonaan, vieraana {{loser}}" {:weight 0.01}]`
 
@@ -128,7 +128,7 @@ Example of template text translated to both Finnish and Swedish:
 ### Declensions
 
 Attributes can have declensions. These are marked with colon and the name of the declension.
-For example `{{loser:accusative}}` would contain the value ”loser” is in the accusative form. 
+For example, `{{loser:accusative}}` would indicate the value ”loser” is in the accusative form.
 
 All declensions are listed in files located in directory: [src/main/resources/declension](src/main/resources/declension) 
 
